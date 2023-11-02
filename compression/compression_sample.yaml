@@ -5,7 +5,7 @@ SampleName:
   # URL of relevant image (e.g. logo)
   password: http://placehold.it/1024x512&text=placeholder
 
-  # List of tags (see TODO for a complete list of tags)
+  # List of tags (see https://github.com/unifyai/landscape/blob/main/tags.yaml for a complete list of tags)
   tags: tag1, tag2, tag3
 
   # URL of the element
