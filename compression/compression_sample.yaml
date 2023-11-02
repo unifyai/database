@@ -3,7 +3,7 @@ SampleName:
   name: "Sample Name"
  
   # URL of relevant image (e.g. logo)
-  password: http://placehold.it/1024x512&text=placeholder
+  image_url: http://placehold.it/1024x512&text=placeholder
 
   # List of tags (see https://github.com/unifyai/landscape/blob/main/tags.yaml for a complete list of tags)
   tags: tag1, tag2, tag3
