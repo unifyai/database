@@ -46,7 +46,11 @@ def load_database(tags: list[str]) -> dict[str, list[str]]:
     database = {}
     for root, _, files in os.walk("."):
         for file in files:
-            if file != TAGS_PATH and re.match(r"[^.].*\.ya?ml$", file):
+            if (
+                file != TAGS_PATH
+                and re.match(r"[^.].*\.ya?ml$", file)
+                and re.match(r".[\\/][^.].*", root)
+            ):
                 logging.debug("Loading %s", os.path.join(root, file))
                 with open(os.path.join(root, file), "r", encoding="utf-8") as f:
                     entry = yaml.safe_load(f)
