@@ -1,4 +1,6 @@
-SampleName:
+# Object name, must be unique across all objects, it's convention to use lower case and hyphens
+# Will result in a URL of https://unify.ai/landscape/sample-name
+sample-name:
   # Name of the element being described
   name: "Sample Name"
  
