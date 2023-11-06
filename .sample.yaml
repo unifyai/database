@@ -6,7 +6,10 @@ SampleName:
   image_url: http://placehold.it/1024x512&text=placeholder
 
   # List of tags (see https://github.com/unifyai/landscape/blob/main/tags.yaml for a complete list of tags)
-  tags: tag1, tag2, tag3
+  tags: 
+    - tag1
+    - tag2
+    - tag3
 
   # URL of the element
   url: https://unify.ai/
