@@ -18,6 +18,7 @@ sample-name:
   url: https://unify.ai/
 
   # Text entry describing the element
+  # Keep in mind that Markdown is supported
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in erat eleifend, facilisis urna nec, interdum dolor.
     Maecenas eget nulla id leo ornare laoreet vitae sed eros. In hac habitasse platea dictumst. Ut vel metus est. Pellentesque in pharetra lacus.
     Duis turpis sapien, pulvinar et lacus ut, accumsan viverra nisl. Cras tempus id quam sed interdum. Aliquam ultrices turpis non enim maximus

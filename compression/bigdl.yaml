@@ -14,10 +14,10 @@ bigdl:
 
   description: "BigDL is a set of toolkits developed by Intel to seamlessly scales data analytics & AI applications to be run easily on both laptops to cloud infrastructures.
   The project introduces the following set of libraries:
-      (LLM)[https://github.com/intel-analytics/BigDL/tree/main/python/llm]: Low-bit (INT3/INT4/INT5/INT8) large language model library for Intel CPU/GPU
-      (Orca)[https://bigdl.readthedocs.io/en/latest/doc/Orca/index.html]: Distributed Big Data & AI (TF & PyTorch) Pipeline on Spark and  Ray
-      (Nano)[https://bigdl.readthedocs.io/en/latest/doc/Nano/index.html]: Transparent Acceleration of Tensorflow & PyTorch Programs on Intel CPU/GPU
-      (DLlib)[https://bigdl.readthedocs.io/en/latest/doc/DLlib/index.html]: “Equivalent of Spark MLlib” for Deep Learning
-      (Chronos)[https://bigdl.readthedocs.io/en/latest/doc/Chronos/index.html]: Scalable Time Series Analysis using AutoML
-      (Friesian)[https://bigdl.readthedocs.io/en/latest/doc/Friesian/index.html]: End-to-End Recommendation Systems
-      (PPML)[https://bigdl.readthedocs.io/en/latest/doc/PPML/index.html]: Secure Big Data and AI (with SGX Hardware Security)"
+      [LLM](https://github.com/intel-analytics/BigDL/tree/main/python/llm): Low-bit (INT3/INT4/INT5/INT8) large language model library for Intel CPU/GPU
+      [Orca](https://bigdl.readthedocs.io/en/latest/doc/Orca/index.html): Distributed Big Data & AI (TF & PyTorch) Pipeline on Spark and  Ray
+      [Nano](https://bigdl.readthedocs.io/en/latest/doc/Nano/index.html): Transparent Acceleration of Tensorflow & PyTorch Programs on Intel CPU/GPU
+      [DLlib](https://bigdl.readthedocs.io/en/latest/doc/DLlib/index.html): “Equivalent of Spark MLlib” for Deep Learning
+      [Chronos](https://bigdl.readthedocs.io/en/latest/doc/Chronos/index.html): Scalable Time Series Analysis using AutoML
+      [Friesian](https://bigdl.readthedocs.io/en/latest/doc/Friesian/index.html): End-to-End Recommendation Systems
+      [PPML](https://bigdl.readthedocs.io/en/latest/doc/PPML/index.html): Secure Big Data and AI (with SGX Hardware Security)"
