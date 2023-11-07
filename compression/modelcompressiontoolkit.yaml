@@ -1,0 +1,22 @@
+modelcompressiontoolkit.yaml:
+
+  name: "Model Compression Toolkit"
+ 
+  image_url: https://avatars.githubusercontent.com/u/8435219?s=48&v=4
+
+  tags: 
+    - Quantization
+    - SONY
+    - Open-Source
+
+  url: https://github.com/sony/model_optimization
+
+  description: "SONY’s Model Compression Toolkit is a model compression tool that focuses on quantization
+  and comes with a suite of features that make it easier to optimise neural networks for efficient deployment,
+  including synthetic image data generation and visualisation tools."
+ 
+  features:
+    - "Synthetic Image Data Generation"
+    - "Power-of-Two Quantization"
+    - "Symmetric Quantization"
+    - "Enhanced Post Training Quantization"

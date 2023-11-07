@@ -1,0 +1,26 @@
+tensorly:
+
+  name: "TensorLy"
+ 
+  image_url: http://tensorly.org/stable/_static/tensorly-logo.png
+
+  tags: 
+    - Tensorization
+    - PyTorch
+    - NumPy
+    - TensorFlow
+    - MxNet
+    - CuPy
+    - Jax
+    - Open-Source
+
+  url: https://github.com/intel/neural-compressor
+
+  description: "TensorLy is a Python library that aims at making tensor learning simple and accessible. It allows simple performing of tensor decomposition,
+  tensor learning and tensor algebra. Its backend system allows to seamlessly perform computation with NumPy,
+  PyTorch, JAX, MXNet, TensorFlow or CuPy, and run methods at scale on CPU or GPU."
+
+  features:
+    - "Tucker Decomposition"
+    - "Canonical Polyadic Decomposition"
+    - "Tensor Train Decomposition"

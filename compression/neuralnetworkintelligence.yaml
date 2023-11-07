@@ -1,0 +1,25 @@
+neuralnetworkintelligence:
+
+  name: "Neural Network Intelligence"
+ 
+  image_url: https://github.com/microsoft/nni/raw/master/docs/img/nni_logo.png
+
+  tags: 
+    - Pruning
+    - Quantization
+    - Microsoft
+    - Open-Source
+
+  url: https://github.com/quic/aimet
+
+  description: "NNI automates feature engineering, neural architecture search, hyperparameter tuning,
+  and model compression for deep learning."
+ 
+  features:
+    - "DoReFa Quantization"
+    - "BNN Quantization"
+    - "LSQ Quantization"
+    - "Ln Norm Pruning"
+    - "Slim Pruning"
+    - "FPGM Pruning"
+    - "AGP Pruning"

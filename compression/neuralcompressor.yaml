@@ -1,0 +1,29 @@
+neuralcompressor:
+
+  name: "Neural Compressor"
+ 
+  # URL of relevant image (e.g. logo)
+  image_url: https://avatars.githubusercontent.com/u/17888862?s=48&v=4
+
+  tags: 
+    - Pruning
+    - Distillation
+    - Quantization
+    - PyTorch
+    - TensorFlow
+    - ONNX
+    - MxNet
+    - Open-Source
+
+  url: https://github.com/intel/neural-compressor
+
+  description: "Intel® Neural Compressor aims to provide popular model compression techniques such
+  as quantization, pruning (sparsity), distillation, and neural architecture search on mainstream frameworks
+  such as TensorFlow, PyTorch, ONNX Runtime, and MXNet, as well as Intel extensions such as Intel Extension
+  for TensorFlow and Intel Extension for PyTorch."
+
+  features:
+    - "Unified scikit-learn-like API"
+    - "Accuracy Aware Tuning"
+    - "AWQ"
+    - "GPTQ"
