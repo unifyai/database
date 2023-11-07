@@ -32,6 +32,7 @@ tags:
   - pytorch
   - quantization
   - serving
+  - tpu
   - sony
   - tensor-library
   - tensorization
