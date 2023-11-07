@@ -2,36 +2,35 @@
 # When possible, a tag that is already listed should be used.
 # Tags must be sorted in alphabetical order.
 tags:
+  - amd
+  - apple-silicon
+  - compilers
   - container
+  - cupy
+  - distillation
+  - edge
+  - frameworks
+  - high-throughput
+  - inference
   - infrastructure
+  - intel
+  - jax
+  - keras
+  - llms
+  - microsoft
   - model-binary
   - model-endpoint
-  - orchestration
-  - pruning
-  - tensorization
-  - quantization
-  - pytorch
-  - tensorflow
+  - mxnet
+  - nvidia
+  - numpy
   - onnx
   - open-source
-  - intel
-  - sony
-  - distillation
-  - mxnet
-  - microsoft
-  - keras
-  - numpy
-  - jax
-  - cupy
-  - inference
-  - compilers
-  - frameworks
-  - llms
-  - high-throughput
+  - orchestration
+  - pruning
+  - pytorch
+  - quantization
   - serving
-  - edge
+  - sony
   - tensor-library
-  - apple-silicon
-  - nvidia
-  - amd
-  
+  - tensorization
+  - tensorflow
