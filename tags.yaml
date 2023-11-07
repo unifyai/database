@@ -7,6 +7,22 @@ tags:
   - model-binary
   - model-endpoint
   - orchestration
+  - pruning
+  - tensorization
+  - quantization
+  - pytorch
+  - tensorflow
+  - onnx
+  - open-source
+  - intel
+  - sony
+  - distillation
+  - mxnet
+  - microsoft
+  - keras
+  - numpy
+  - jax
+  - cupy
   - inference
   - compilers
   - frameworks
@@ -15,7 +31,7 @@ tags:
   - serving
   - edge
   - tensor-library
-  - quantization
   - apple-silicon
   - nvidia
   - amd
+  
