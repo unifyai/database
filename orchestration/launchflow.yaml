@@ -1,0 +1,20 @@
+launchflow:
+  name: "LaunchFlow"
+
+  image_url: https://www.launchflow.com/images/logo.svg
+
+  tags: 
+    - model-endpoint
+
+  url: https://www.launchflow.com/
+
+  description: "LaunchFlow is a versatile platform designed for building and deploying real-time applications directly from your code editor.
+    With its seamless integration into popular code editors like VSCode, it allows users to create and deploy applications in less than 60 seconds.
+    This platform is 100% Python-powered and offers a drag-and-drop editor, preloaded templates, connectors for various cloud providers, and VSCode extensions for both local and remote development.
+    LaunchFlow automates cloud infrastructure provisioning from application code, ensuring serverless operation without the need for server management.
+    It offers ready-to-use templates for real-time IoT, machine learning, and security applications, enabling effortless scaling and efficient data analysis."
+
+  features:
+    - "Efficient Deployment."
+    - "Integrated VSCode Extension."
+    - "Serverless Operation."

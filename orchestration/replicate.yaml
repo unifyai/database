@@ -1,0 +1,19 @@
+replicate:
+  name: "Replicate"
+
+  image_url: https://replicate.com/static/favicon.e390e65c9599.png
+
+  tags: 
+    - model-binary
+
+  url: https://replicate.com/
+
+  description: "Replicate offers a simplified approach to running machine learning models at scale, making it accessible even for those without deep machine learning knowledge.
+    Users can run models with just a few lines of code using Replicate's Python library or query the API directly with their preferred tool. The platform hosts a vast library of machine learning models, including language models, video creation and editing models, super resolution models, image restoration models, and more, contributed by the community.
+    Replicate also introduces Cog, an open-source tool for packaging machine learning models in production-ready containers.
+    It streamlines the deployment process, automatically generating scalable API servers for defined models and offering automatic scaling to handle varying traffic loads."
+
+  features:
+    - "Simplified Machine Learning Deployment."
+    - "Extensive Model Library."
+    - "User is billed only for the time their code is running."
