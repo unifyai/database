@@ -17,7 +17,9 @@ tags:
   - jax
   - keras
   - llms
+  - llvm
   - microsoft
+  - mlir
   - model-binary
   - model-endpoint
   - mxnet
