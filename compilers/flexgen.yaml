@@ -1,0 +1,16 @@
+flexgen:
+  name: "FlexGen"
+
+  image_url: none
+
+  tags:
+    - high-throughput
+    - inference
+    - llms
+
+  url: https://github.com/FMInference/FlexGen
+
+  description: "FlexGen is a recently developed inference engine for LLMs designed to maximize throughput on a single commodity GPU. It uses a linear programming optimizer to navigate through a search space of offloading strategies in search of the most efficient ways to store and load tensors, as well as fine-grained, group-wise quantization to compress the weights and attention cache to 4 bits with negligible accuracy loss. One of FlexGen’s key contributions is the use of a “zig-zag” as opposed to row-by-row block schedule to more efficiently overlap I/O with computation. Through a combination of such strategies, FlexGen achieves significantly higher throughput than other state-of-the-art offloading methods."
+
+  features:
+    - "High throughput on a single GPU"
