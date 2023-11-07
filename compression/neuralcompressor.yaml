@@ -6,14 +6,14 @@ neuralcompressor:
   image_url: https://avatars.githubusercontent.com/u/17888862?s=48&v=4
 
   tags: 
-    - Pruning
-    - Distillation
-    - Quantization
-    - PyTorch
-    - TensorFlow
-    - ONNX
-    - MxNet
-    - Open-Source
+    - pruning
+    - distillation
+    - quantization
+    - pytorch
+    - tensorflow
+    - onnx
+    - mxnet
+    - open-source
 
   url: https://github.com/intel/neural-compressor
 

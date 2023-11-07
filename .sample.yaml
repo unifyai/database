@@ -8,6 +8,7 @@ sample-name:
   image_url: http://placehold.it/1024x512&text=placeholder
 
   # List of tags (see https://github.com/unifyai/landscape/blob/main/tags.yaml for a complete list of tags)
+  # Make sure if you added a new tag to add in tags.yaml. Tags must follow kebab-case.
   tags: 
     - tag1
     - tag2

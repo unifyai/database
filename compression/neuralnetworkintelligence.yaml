@@ -5,10 +5,10 @@ neuralnetworkintelligence:
   image_url: https://github.com/microsoft/nni/raw/master/docs/img/nni_logo.png
 
   tags: 
-    - Pruning
-    - Quantization
-    - Microsoft
-    - Open-Source
+    - pruning
+    - quantization
+    - microsoft
+    - open-source
 
   url: https://github.com/quic/aimet
 

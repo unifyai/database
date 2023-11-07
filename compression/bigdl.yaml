@@ -6,9 +6,9 @@ bigdl:
   image_url: https://www.intel.com/content/dam/www/central-libraries/us/en/images/2022-09/bigdl-logo-dark-rwd.png
 
   tags: 
-    - Intel
-    - PyTorch
-    - Open-Source
+    - intel
+    - pytorch
+    - open-source
 
   url: https://github.com/intel/neural-compressor
 

@@ -5,13 +5,13 @@ sparseml:
   image_url: https://www.pillar.vc/wp-content/uploads/2021/11/Dark-blue-1600x522.png
 
   tags: 
-    - Pruning
-    - Distillation
-    - Quantization
-    - PyTorch
-    - TensorFlow
-    - Keras
-    - Open-Source
+    - pruning
+    - distillation
+    - quantization
+    - pytorch
+    - tensorflow
+    - keras
+    - open-source
 
   url: https://docs.neuralmagic.com/sparseml/
 

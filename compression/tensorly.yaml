@@ -5,14 +5,14 @@ tensorly:
   image_url: http://tensorly.org/stable/_static/tensorly-logo.png
 
   tags: 
-    - Tensorization
-    - PyTorch
-    - NumPy
-    - TensorFlow
-    - MxNet
-    - CuPy
-    - Jax
-    - Open-Source
+    - tensorization
+    - pytorch
+    - numpy
+    - tensorflow
+    - mxnet
+    - cupy
+    - jax
+    - open-source
 
   url: https://github.com/intel/neural-compressor
 

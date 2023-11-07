@@ -5,13 +5,13 @@ aimet:
   image_url: https://www.pillar.vc/wp-content/uploads/2021/11/Dark-blue-1600x522.png
 
   tags: 
-    - Pruning
-    - Tensorization
-    - Quantization
-    - PyTorch
-    - TensorFlow
-    - ONNX
-    - Open-Source
+    - pruning
+    - tensorization
+    - quantization
+    - pytorch
+    - tensorflow
+    - onnx
+    - open-source
 
   url: https://github.com/quic/aimet
 
