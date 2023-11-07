@@ -2,6 +2,8 @@
 # When possible, a tag that is already listed should be used.
 # Tags must be sorted in alphabetical order.
 tags:
-  - tag1
-  - tag2
-  - tag3
+  - container
+  - infrastructure
+  - model-binary
+  - model-endpoint
+  - orchestration
