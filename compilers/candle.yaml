@@ -1,0 +1,18 @@
+candle:
+  name: "Candle"
+
+  image_url: none
+
+  tags:
+    - frameworks
+    - inference
+
+  url: https://github.com/huggingface/candle
+
+  description: "Candle is a Rust-based, minimalist machine learning framework maintained by HuggingFace and designed to offer efficient serverless inference. Though recently developed, Candle already offers excellent support for efficient performance on both GPU and CPU, leveraging compute primitive libraries such as cuDNN for Nvidia GPUs and Intel MKL for CPUs, as well as providing the ability to easily add custom kernels for state-of-the-art algorithms like Flash-Attention. By removing all Python dependencies while retaining an easy to use, torch-like syntax, Candle can greatly improve the efficiency of the production workload and allow for the deployment of lightweight binaries. In addition to this, it also supports WASM, allowing models to be run fully in the browser."
+
+  features:
+    - "WASM support"
+    - "Efficient serverless inference"
+    - "Lightweight binaries"
+    - "Easy integration of HuggingFace model weights"
