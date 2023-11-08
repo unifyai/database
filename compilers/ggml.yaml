@@ -16,6 +16,7 @@ ggml:
 
   features:
     - "Optimized for Apple Silicon"
-    - "Robust quantization support"
+    - "Robust Quantization Support"
+    - "Resource-Friendly"
     - "No third-party dependencies"
-    - "Efficient on-device inference"
+    - "Efficient CPU inference"

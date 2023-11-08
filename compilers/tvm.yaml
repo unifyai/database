@@ -11,4 +11,7 @@ tvm:
   description: "TVM, which stands for Tensor Virtual Machine, is an end-to-end compiler stack for deep learning, aiming to provide a comprehensive set of optimizations for a wide variety of hardware backends, including custom accelerators. It uses the same scheduling language model as that which was first introduced by Halide, allowing an algorithm to be defined separately from its scheduling logic. Unlike most DL compilers, which tend to be graph-based, TVM’s Relay IR is a functional language with full support for common programming constructs such as conditionals and loops, giving it better support for more complex, dynamic models. TVM generates its own low-level, hardware specific code for a diverse set of backends and utilizes an ML-based cost model called AutoTVM which adapts and improves codegen based on continuous data collection. Recently it has been added as a backend of torch.compile."
 
   features:
+    - "Learning-Based Optimization"
+    - "Novel Schedule Primitives"
+    - "End-to-End Compilation Stack"
     - "Supported by TorchDynamo"
