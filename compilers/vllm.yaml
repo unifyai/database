@@ -11,7 +11,7 @@ vllm:
 
   url: https://vllm.ai
 
-  description: "vLLM: vLLM is another recently released LLM inference engine which utilizes a new algorithm called PagedAttention. Based on virtual memory and paging techniques long used in operating systems, this algorithm seeks to minimize the unnecessary growth of the key-value cache in LLMs, a common problem faced in production. By storing contiguous keys and values in a non-contiguous, block-structured memory space, PagedAttention reduces the wasted memory from the usual 60-80% to less than 4%, achieving near optimal utilization. While also attempting to achieve high throughput, vLLM differs from FlexGen in that it is a serving engine more focused on distributed settings rather than optimizing for a single device."
+  description: "vLLM is another recently released LLM inference engine which utilizes a new algorithm called PagedAttention. Based on virtual memory and paging techniques long used in operating systems, this algorithm seeks to minimize the unnecessary growth of the key-value cache in LLMs, a common problem faced in production. By storing contiguous keys and values in a non-contiguous, block-structured memory space, PagedAttention reduces the wasted memory from the usual 60-80% to less than 4%, achieving near optimal utilization. While also attempting to achieve high throughput, vLLM differs from FlexGen in that it is a serving engine more focused on distributed settings rather than optimizing for a single device."
 
   features:
     - "High-throughput serving"
