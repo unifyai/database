@@ -13,4 +13,6 @@ iree:
   description: "IREE, which stands for Intermediate Representation Execution Environment, is an MLIR based compiler and runtime stack specifically designed to be able to scale down to meet the tight constraints of mobile and edge deployment, while still retaining the ability to scale up to more traditional, large scale settings like datacenters and compute clusters. IREE provides an end-to-end compilation pipeline, ranging from high level optimizations similar to XLA, all the way down to a Hardware Abstraction Layer (HAL) which generates device specific code. IREE has taken much inspiration from, and integrates seamlessly with Vulkan, a popular cross-platform GPU API which uses SPIR-V, a standardized binary intermediate language for GPUs. One of IREE’s greatest strengths is the high degree of modularity that it provides due to its utilization of a different MLIR dialect for each layer of abstraction, from tensor-based input dialects such as StableHLO, TOSA and Torch-MLIR, to internal dialects handling low-level tasks such as dataflow analysis, partitioning and scheduling. IREE stands as being the most robust end-to-end compiler/runtime stack built fully around MLIR, providing a concrete example of its utility."
 
   features:
-    - "Low overhead and lightweight binaries"
+    - "Low Overhead and Lightweight Binaries"
+    - "Adaptable Deployment Capabilities"
+    - "Diverse Compiler Targets"

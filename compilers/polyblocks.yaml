@@ -1,0 +1,17 @@
+polyblocks:
+  name: "Polyblocks"
+
+  image_url: https://docs.polymagelabs.com/_static/polyblocks_logo.png
+
+  tags:
+    - compilers
+    - mlir
+
+  url: https://www.polymagelabs.com/technology/
+
+  description: "Though yet to have been fully released, PolyBlocks is a promising MLIR-based compiler engine which utilizes a modular, block-like structure of compiler passes, making it highly extensible and reusable for a variety of hardware architectures. As the name suggests, it specializes in the use of polyhedral optimization techniques, utilizing MLIR’s affine dialect, as well as leveraging high-dimensional data spaces for compilation, supporting both Just-in-Time (JIT) and Ahead-of-Time (AOT) compilation and performing full codegen, making it fully independent of any third-party vendor libraries. Its benchmarks have shown performance which exceeds that of hand-written Nvidia libraries such as CuBLAS, CuDNN and TensorRT on A100 GPUs."
+
+  features:
+    - "Modular Design"
+    - "Advanced Code Generation"
+    - "Simple Integration with Python Frameworks"
