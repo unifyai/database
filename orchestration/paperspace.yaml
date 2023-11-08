@@ -1,0 +1,19 @@
+paperspace:
+  name: "Paperspace"
+
+  image_url: https://assets-global.website-files.com/5db99670374d1d829291af4f/64b57b2ee7f60219960b606b_DOxPS%20Logo%402x.png
+
+  tags:
+    - model-binary
+
+  url: https://www.paperspace.com
+
+  description: "Paperspace, a product by Digital Ocean, plays a pivotal role in the complete machine learning (ML) lifecycle, 
+   covering everything from ML development and training to deployment. Specifically, when it comes to deployment, Paperspace 
+   empowers users to easily transform their machine learning models into API endpoints. Users simply need to provide their 
+   model file and configure parameters, including features like autoscaling, and there is minimal to no extra effort required from the user."
+
+  features:
+    - "Autoscaling"
+    - "Streamlined deployment process with minimal user intervention"
+    - "Supports multiple high level machine learning frameworks"
