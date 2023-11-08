@@ -3,7 +3,7 @@ launchflow:
 
   image_url: https://www.launchflow.com/images/logo.svg
 
-  tags: 
+  tags:
     - model-endpoint
 
   url: https://www.launchflow.com/

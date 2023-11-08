@@ -3,7 +3,7 @@ replicate:
 
   image_url: https://replicate.com/static/favicon.e390e65c9599.png
 
-  tags: 
+  tags:
     - model-binary
 
   url: https://replicate.com/

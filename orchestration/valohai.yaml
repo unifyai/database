@@ -1,0 +1,19 @@
+valohai:
+  name: "Valohai"
+
+  image_url: https://valohai.com/assets/img/valohai-logo.svg
+
+  tags:
+    - model-binary
+
+  url: https://valohai.com/
+
+  description: "Valohai is an MLOps platform designed for ML pioneers, providing the tools needed for a wide range of machine learning applications.
+    It simplifies the training and deployment of machine learning models, whether it's large language models (LLMs), computer vision, or other ML tasks.
+    Users can get started quickly using templates, fine-tune LLMs with their own data, or work on image classification tasks.
+    Valohai supports a flexible approach, allowing users to start from scratch or existing projects without the need to learn a new SDK."
+
+  features:
+    - "Smart Orchestration for Running ML Workloads on Various Cloud Platforms."
+    - "Collaborative Model Lifecycle Management."
+    - "Multi-framework Support."
