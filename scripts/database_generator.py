@@ -69,6 +69,8 @@ def main():
     os.makedirs("build", exist_ok=True)
     with open("build/database.json", "w", encoding="utf-8") as f:
         json.dump(database, f)
+    with open("build/tags.json", "w", encoding="utf-8") as f:
+        json.dump(tags, f)
 
 
 if __name__ == "__main__":
