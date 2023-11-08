@@ -1,0 +1,19 @@
+coreweave:
+  name: "CoreWeave"
+
+  image_url: https://assets-global.website-files.com/62ba1fb86485b6d5029975c4/62bb2bfcbeaf511ae8529f99_logo_coreweave_light%402x.png
+
+  tags:
+    - container
+
+  url: https://www.coreweave.com
+
+  description: "Coreweave is a specialized cloud service for GPU acceleration. It allows users to run jobs on bare metal nodes
+    while fully managing Kubernetes, eliminating the need for users to manage any infrastructure. This combines the ease of use of serverless architectures
+    with the fast performance of Kubernetes. It supports autoscaling and spins up new instances in seconds. All that users need to 
+    provide is a Docker container and Coreweave automates the rest."
+
+  features:
+    - "Hybrid of bare metal and serverless architectures"
+    - "Performance of bare metal setups with ease of use of serverless architectures"
+    - "Supports autoscaling and spins up new instances in seconds"
