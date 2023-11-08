@@ -1,0 +1,20 @@
+WebGPU:
+  name: "WebGPU"
+
+  image_url: https://bevyengine.org/news/bevy-webgpu/webgpu.svg
+
+  tags:
+    - gpu
+    - driver
+    - hardware
+    - web
+
+  url: https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API
+
+  description: "WebGPU is a groundbreaking browser standard set to transform web applications, with the shared goal of significantly boosting their efficiency and performance to rival native applications, all while ensuring compatibility across diverse hardware platforms. WebGPU, building on lower-level graphics APIs, introduces more extensive GPU-accelerated computing capabilities, surpassing its predecessor, WebGL, and enabling web applications to leverage modern graphics hardware for tasks like rendering 3D graphics and data processing. WebAssembly, or WASM, complements this effort by unlocking CPU-based computing capabilities, running near-native code in web applications, improving responsiveness, and is already integrated into most modern web browsers. Visit (https://caniuse.com/?search=webgpu) to see if your browser suppourts WebGPU."
+
+  features:
+    - "GPU Acceleration"
+    - "Cross-Platform Compatibility"
+    - "Near-Native Code Execution"
+    - "Enhanced 3D Graphics"
