@@ -12,8 +12,7 @@ grace-hopper:
   url: https://developer.nvidia.com/blog/nvidia-grace-hopper-superchip-architecture-in-depth/
 
   description: "The Grace Hopper Superchip by NVIDIA is a cutting-edge architectural innovation that merges the remarkable computing power of the NVIDIA Hopper GPU with the adaptability and performance of the NVIDIA Grace CPU. This integration is made possible through the utilization of a high-speed NVIDIA NVLink Chip-2-Chip (C2C) interconnect, facilitating rapid data exchange and shared memory between the GPU and CPU components. This powerful combination along with a large amount of high-bandwidth-memory (HBM)  enables seamless cooperation between these processing units and enhances overall system performance. The NVLink Switch System optimizes data transfers and coordination among various components, thereby further improving the efficiency and speed of data processing within the system.
-
-                The NVIDIA Grace CPU provides up to 512 GB of LPDDR5X memory, which delivers the optimal balance between memory capacity, energy efficiency, and performance. It supplies up to 546 GB/s of LPDDR5X memory bandwidth, which NVLink-C2C makes accessible to the GPU at 900 GB/s total bandwidth."
+The NVIDIA Grace CPU provides up to 512 GB of LPDDR5X memory, which delivers the optimal balance between memory capacity, energy efficiency, and performance. It supplies up to 546 GB/s of LPDDR5X memory bandwidth, which NVLink-C2C makes accessible to the GPU at 900 GB/s total bandwidth."
 
   features:
     - "less energy usage compared to other accelerator chips."
