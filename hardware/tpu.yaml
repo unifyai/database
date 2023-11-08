@@ -1,4 +1,4 @@
-WebGPU:
+tpu:
   name: "tpu"
 
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Tensor_Processing_Unit_3.0.jpg/1280px-Tensor_Processing_Unit_3.0.jpg
