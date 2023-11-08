@@ -6,7 +6,7 @@ xla:
   tags:
     - compilers
     - mlir
-    - -tpu
+    - tpu
 
   url: https://www.tensorflow.org/xla
 
