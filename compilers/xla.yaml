@@ -1,7 +1,7 @@
 xla:
   name: "XLA"
 
-  image_url: https://www.tensorflow.org/xla/images/xlalogo.png
+  image_url: https://pbs.twimg.com/profile_images/1579659734386360326/RyfjERXi_400x400.jpg
 
   tags:
     - compilers
