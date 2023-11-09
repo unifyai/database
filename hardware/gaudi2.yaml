@@ -1,0 +1,18 @@
+gaudi2:
+  name: "gaudi2"
+
+  image_url: https://www.intel.com/content/dam/developer/articles/technical/habana-gaudi2-processor-for-deep-learning/f1-gaudi2-architecture.png
+
+  tags:
+    - hardware
+    - intel
+
+  url: https://habana.ai/products/gaudi2/
+
+  description: "The Gaudi acceleration platform was conceived and designed to cater to the training and inference requirements of large-scale artificial intelligence applications, providing enterprises and organizations with efficient and high-performance deep learning computing capabilities. The Gaudi chip is equipped with a powerful GEMM engine, serving as a robust computational unit. This engine collaborates with an array of tiles, each featuring dedicated local scratchpad memory and a Tensor Processing Core (TPC). These TPCs are equipped with vector computation units capable of handling operations with 8-bit, 16-bit, or 32-bit precision. Communication between TPCs and GEMM Engines is facilitated through DMA and shared memory, while they are connected to the host processor via PCIe."
+
+  features:
+    - "Designed for efficient scalability."
+    - "Can port CUDA to device."
+    - "Optimal for training and inference."
+    - "First class suppourt for both TensorFlow and Torch."
