@@ -1,0 +1,16 @@
+mlgo:
+  name: "MLGO"
+
+  image_url: none
+
+  tags:
+    - compilers
+
+  url: https://github.com/google/ml-compiler-opt
+
+  description: "MLGO is a framework designed to optimize compiler processes within LLVM using machine learning techniques, specifically Policy Gradient and Evolution Strategies. It is distinctive for embedding machine learning models directly into the compiler to make key decisions during code compilation, educing the overhead typically associated with such runtime decisions without relying on heuristics. Its design is not only targeted but also expandable, allowing for future enhancements and broader applications in compiler optimization. MLGO exemplifies the innovative intersection of machine learning and compiler technology."
+
+  features:
+    - "Embedded Policy for Compilation Decisions"
+    - "Improvement on Register Allocation"
+    - "Extensible Framework"
