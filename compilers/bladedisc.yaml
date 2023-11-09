@@ -1,0 +1,17 @@
+bladedisc:
+  name: "BladeDISC"
+
+  image_url: https://avatars.githubusercontent.com/u/1961952?s=48&v=4
+
+  tags:
+    - compilers
+    - mlir
+
+  url: https://github.com/alibaba/BladeDISC
+
+  description: "BladeDISC, developed by Alibaba, is an open-sourced dynamic shape compiler designed to overcome the challenges associated with the static shape limitations of previous deep learning compilers. Leveraging MLIR, BladeDISC allows for dynamic shape semantics, providing a flexible and robust solution for AI computing tasks that require diverse input shapes and sizes."
+
+  features:
+    - "Specializes in Dynamic Shape Support"
+    - "Lightweight API"
+    - "Plugin Mode inside TensorFlow/PyTorch Runtime"

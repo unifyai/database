@@ -1,0 +1,16 @@
+taco:
+  name: "TACO"
+
+  image_url: http://tensor-compiler.org/images/machine-learning.png
+
+  tags:
+    - compilers
+
+  url: http://tensor-compiler.org
+
+  description: "TACO, which stands for Tensor Algebra Compiler, is a library and compiler, specializing in its support for a wide range of tensor computations and storage formats. It automates the generation of efficient kernels which can compete with hand-written ones, and, uniquely at the time of its inception, its operands may be either fully dense, fully sparse, or a mix of the two."
+
+  features:
+    - "Extensive Tensor Format Support"
+    - "Able to Mix Dense and Sparse Representations"
+    - "OpenMP for Portable Parallelism"
