@@ -4,7 +4,7 @@ apex:
   image_url: https://upload.wikimedia.org/wikipedia/sco/thumb/2/21/Nvidia_logo.svg/1280px-Nvidia_logo.svg.png
 
   tags:
-    - Nvidia
+    - nvidia
 
   url: https://github.com/NVIDIA/apex
 
