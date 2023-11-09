@@ -1,0 +1,18 @@
+tenstorrent:
+  name: "tenstorrent"
+
+  image_url: https://tenstorrent.com/app/uploads/2022/10/image-1.png
+
+  tags:
+    - Tenstorrent
+    - hardware
+
+  url: https://tenstorrent.com/
+
+  description: "Tenstorrent is an innovative hardware manufacturer focused on developing processors featuring a unique grid architecture called Tensix cores. These Tensix cores consist of a sophisticated combination of components, including five RISC processors, an array math unit dedicated to tensor operations, a SIMD (Single Input Multiple Data) unit for efficient vector operations, specialized hardware for accelerating network packet processing and compression/decompression tasks, and a generous cache of 1-2 megabytes of SRAM memory. The unique thing about Tenstorrent boards is that they can be used similar to a GPU and can be inserted into any Gen4 x16 PCIe slot on the motherboard."
+
+  features:
+    - "Similar to a GPU in abstraction."
+    - "Capable of executing large tensor computations efficiently."
+    - "Capable of interfacing to other frameworks via ONNX."
+    - "Dynamic sparsification (enabled in the software layer) are able to provide much higher throughput as compared to a GPU."
