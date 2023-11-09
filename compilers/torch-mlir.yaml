@@ -1,0 +1,16 @@
+torch-mlir:
+  name: "Torch-MLIR"
+
+  image_url: https://repository-images.githubusercontent.com/283871761/b91ba05d-d031-4e4f-b370-5dbfd989a3d7
+
+  tags:
+    - compilers
+    - mlir
+
+  url: https://github.com/llvm/torch-mlir
+
+  description: "Torch-MLIR is a project that seeks to bridge PyTorch with the MLIR (Multi-Level Intermediate Representation) ecosystem. As part of the LLVM Incubator process, Torch-MLIR is not yet an official part of LLVM releases but serves as a compiler support path from PyTorch to MLIR. Torch-MLIR enables hardware vendors to efficiently map PyTorch and other frameworks into MLIR, allowing for easier targeting of hardware-specific optimizations. The project supports several paths for lowering models to the Torch MLIR Dialect and then to existing MLIR dialects. On the PyTorch frontend, this includes TorchScript and LazyTensorCore, with the addition of support for TorchDynamo/PyTorch 2.0 in progress. On the backend, a variety of different lowering paths are supported for different use cases, the core ones being StableHLO, TOSA and Linalg (+ arith, tensor, etc)."
+
+  features:
+    - "Seamless PyTorch-MLIR Integration"
+    - "Multiple Lowering Paths"
