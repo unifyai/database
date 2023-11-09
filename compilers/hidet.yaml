@@ -1,0 +1,16 @@
+hidet:
+  name: "Hidet"
+
+  image_url: https://docs.hidet.org/stable/_static/logo.svg
+
+  tags:
+    - compilers
+    - pytorch
+
+  url: https://github.com/hidet-org/hidet
+
+  description: "Hidet is an open-source deep learning compiler, primarily written in Python, designed for end-to-end compilation of deep neural network (DNN) models from frameworks like PyTorch and ONNX into efficient CUDA kernels, specifically optimized for NVIDIA GPUs. It focuses on providing high performance through graph-level optimizations and operator-level kernel tuning. Hidet is characterized by its ease of use, allowing for easy integration of DNN models for inference, and its extensibility, enabling users to add new operators and fusion patterns to suit their specific needs."
+
+  features:
+    - "End-to-End Model Compilation"
+    - "Python-Centric Development"
