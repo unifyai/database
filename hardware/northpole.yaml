@@ -1,0 +1,16 @@
+northpole:
+  name: "northpole"
+
+  image_url: https://d1bqvdqmynqyrb.cloudfront.net/_next/image?url=http%3A%2F%2Fresearch-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud%2FIBM_NP_PC_Ie_PCB_Rear_7f3bf223d7.png&w=1080&q=85
+
+  tags:
+    - IBM
+    - hardware
+
+  url: https://research.ibm.com/blog/northpole-ibm-ai-chip
+
+  description: "NorthPole signifies a pioneering advancement in chip architecture, delivering substantial enhancements in energy, space, and time efficiency. Employing the ResNet-50 model as a benchmark, NorthPole showcases significantly superior efficiency compared to typical 12-nm GPUs and 14-nm CPUs. Notably, NorthPole itself is constructed using 12 nm node processing technology. In both cases, NorthPole exhibits a remarkable 25-fold improvement in energy efficiency, measured in terms of frames processed per joule of power consumed. Furthermore, NorthPole excels in terms of latency and computational footprint, specifically in frames processed per second per billion transistors utilized. It is important to highlight that, on the ResNet-50 model, NorthPole outperforms all major contemporary architectures, even those utilizing more advanced technology processes, such as a GPU built on a 4 nm process."
+
+  features:
+    - "Energy efficient."
+    - "Excels in terms of latency and computational footprint"
