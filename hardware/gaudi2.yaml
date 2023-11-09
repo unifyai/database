@@ -1,7 +1,7 @@
 gaudi2:
   name: "gaudi2"
 
-  image_url: https://www.intel.com/content/dam/developer/articles/technical/habana-gaudi2-processor-for-deep-learning/f1-gaudi2-architecture.png
+  image_url: https://cdn.mos.cms.futurecdn.net/xBKk54oNQqUS4RAREGwDxn-970-80.png
 
   tags:
     - hardware
