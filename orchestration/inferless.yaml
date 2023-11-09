@@ -1,0 +1,20 @@
+inferless:
+  name: "Inferless"
+
+  image_url: https://assets-global.website-files.com/640eae2485ab876a9c047cb2/640eb15f24ccc7295ffa2f76_Component%20logo.svg
+
+  tags:
+    - serverless
+    - gpu-inference
+    - cloud-deployment
+
+  url: https://www.inferless.com/
+
+  description: "Inferless is a cutting-edge machine learning service that specializes in serverless GPU inference to streamline the deployment of machine learning models. It offers a developer-friendly platform that removes the complexities of hardware management and scales automatically for a smooth experience. Inferless supports model imports from major platforms like Huggingface, AWS SageMaker, and Google Vertex AI, facilitating a seamless integration into existing workflows."
+
+  features:
+    - "Serverless GPU Inference: Simplifies ML model deployment, allowing developers to focus on model development and customer experience enhancement."
+    - "Autoscaling Capabilities: Provides a seamless experience by managing hardware complexities and enabling effortless scalability."
+    - "Integration Friendly: Supports imports from Huggingface, AWS SageMaker, and Google Vertex AI, and offers simple endpoints for any Frontend or Backend service consumption."
+    - "Cost-Effective: A more economical approach to deploy machine learning models, suitable for non-latency-critical workloads."
+    - "Enterprise-Level Infrastructure: Utilizes advanced infrastructure optimization techniques for deploying and scaling complex and custom models with ease."
