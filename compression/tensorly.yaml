@@ -21,6 +21,8 @@ tensorly:
   PyTorch, JAX, MXNet, TensorFlow or CuPy, and run methods at scale on CPU or GPU."
 
   features:
+    - "Tensor Algebra"
     - "Tucker Decomposition"
     - "Canonical Polyadic Decomposition"
     - "Tensor Train Decomposition"
+    - "Parafac Decomposition"
