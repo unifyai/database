@@ -14,7 +14,7 @@ tensorly:
     - jax
     - open-source
 
-  url: https://github.com/intel/neural-compressor
+  url: https://github.com/tensorly/tensorly
 
   description: "TensorLy is a Python library that aims at making tensor learning simple and accessible. It allows simple performing of tensor decomposition,
   tensor learning and tensor algebra. Its backend system allows to seamlessly perform computation with NumPy,
