@@ -1,0 +1,23 @@
+modal:
+  name: "Modal"
+
+  image_url: https://modal.com/_app/immutable/assets/logotype.afd3fe89.svg
+
+  tags:
+    - generative-ai
+    - batch-jobs
+    - gpu-containers
+
+  url: https://modal.com/
+
+  description: "Modal is a platform designed to run generative AI models, large-scale batch jobs, and job queues, among others. It emphasizes infrastructure management for large-scale workloads, allowing users to scale to hundreds of GPUs. It supports deploying functions to the cloud rapidly without the need for YAML configurations, expressing container images and hardware specifications directly in code."
+
+  features:
+    - "Built-in Container System: Developed from scratch in Rust for rapid scaling and optimized cold-start times."
+    - "YAML-Free Deployment: Deploy cloud functions quickly with custom container images and without writing YAML."
+    - "Comprehensive Environments: Offers network volumes, key-value stores, and queues that integrate with Python code for ease of use."
+    - "Efficient Job Scheduling: Enables easy conversion of functions into cron jobs and the execution of compute-intensive jobs without backend blocking."
+    - "Web Endpoint Serving: Functions can be served as HTTPS endpoints, with support for custom domains."
+    - "Real-Time Observability: Provides monitoring of executions, logs, and metrics, alongside interactive debugging with modal shell."
+    - "Security and Compliance: Ensures workload security with gVisor runtime and maintains SOC 2 compliance."
+    - "Cost-Effective Scaling: Allows scaling of nodes according to use, charging only for actual compute by the CPU cycle and offering $30 of compute credit monthly."
