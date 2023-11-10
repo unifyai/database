@@ -1,0 +1,17 @@
+smoothquant:
+
+  name: "SmoothQuant"
+ 
+  image_url: https://github.com/mit-han-lab/smoothquant/blob/main/figures/quantization_flow.png
+
+  tags: 
+    - quantization
+    - pytorch
+    - open-source
+
+  url: https://github.com/mit-han-lab/smoothquant
+
+  description: "8 bit Weight and Activation Quantization for LLMs"
+
+  features:
+    - "8 bit weight and activation quantization for LLMs"
