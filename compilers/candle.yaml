@@ -1,7 +1,7 @@
 candle:
   name: "Candle"
 
-  image_url: none
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Emoji_u1f56f.svg/1200px-Emoji_u1f56f.svg.png
 
   tags:
     - frameworks
