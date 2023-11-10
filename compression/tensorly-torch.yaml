@@ -1,0 +1,21 @@
+
+tensorly-torch:
+
+  name: "TensorLy-Torch"
+ 
+  image_url: https://tensorly.org/torch/dev/_images/tensorly-torch-pyramid.png
+
+  tags: 
+    - tensorization
+    - pytorch
+
+  url: https://github.com/tensorly/torch
+
+  description: "TensorLy-Torch is a Python library for deep tensor networks that builds on top of TensorLy and PyTorch.
+               It allows to easily leverage tensor methods in a deep learning setting and comes with all batteries included."
+
+  features:
+    - "Tensorized/Factorized Layers"
+    - "Tensor Regression and Contraction"
+    - "Tensor Dropout"
+    - "Tensor Hooks"
