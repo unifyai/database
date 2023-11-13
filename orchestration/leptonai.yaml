@@ -1,0 +1,16 @@
+Leptonai:
+  name: "Lepton AI"
+
+  image_url: https://media.licdn.com/dms/image/D560BAQGKj1Bf7y_YJA/company-logo_200_200/0/1692305589992/lepton_ai_logo?e=2147483647&v=beta&t=XRNqm2KbcdVMxaPtKm_Ou3DjbgtzyqGL9socGBFCoDQ
+
+  tags:
+    - model-binary
+
+  url: https://www.lepton.ai
+
+  description: "Lepton AI is a serverless GPU cloud platform for model deployment. They allow model deployment with any direct use of Kubernetes, reduce the
+  infrastructure burden and allow the user to deploy with a single command. Deployments also autoscale on demand."
+
+  features:
+    - "Autoscaling"
+    - "Flexible and easy deployment"
