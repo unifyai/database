@@ -1,0 +1,17 @@
+beamcloud:
+  name: "Beam Cloud"
+
+  image_url: https://www.beam.cloud/static/media/beam-logo.2759c43b.svg
+
+  tags:
+    - model-binary
+
+  url: https://www.beam.cloud
+
+  description: "Beam Cloud is a serverless GPU platform for deploying ML models without managing the infrastructure burden. Along with autoscaling,
+    it comes with a coldstart time of 1.21s and a web-based dashboard apart from a simple API"
+
+  features:
+    - "Low cold start time"
+    - "Autoscaling"
+    - "Web-based dashboard"
