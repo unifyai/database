@@ -3,18 +3,16 @@ inferless:
 
   image_url: https://assets-global.website-files.com/640eae2485ab876a9c047cb2/640eb15f24ccc7295ffa2f76_Component%20logo.svg
 
-  tags:
-    - serverless
-    - gpu-inference
-    - cloud-deployment
+  tags: 
+    - model-endpoint
+    - orchestration
 
   url: https://www.inferless.com/
 
-  description: "Inferless is a cutting-edge machine learning service that specializes in serverless GPU inference to streamline the deployment of machine learning models. It offers a developer-friendly platform that removes the complexities of hardware management and scales automatically for a smooth experience. Inferless supports model imports from major platforms like Huggingface, AWS SageMaker, and Google Vertex AI, facilitating a seamless integration into existing workflows."
+  description: "Inferless offers a serverless GPU solution for scaling machine learning inference without the complexities of server management. It enables rapid model deployment and customization, focusing on reducing infrastructure costs and enhancing user flexibility. Inferless streamlines the deployment process, handling scalability and operational challenges."
 
   features:
-    - "Serverless GPU Inference: Simplifies ML model deployment, allowing developers to focus on model development and customer experience enhancement."
-    - "Autoscaling Capabilities: Provides a seamless experience by managing hardware complexities and enabling effortless scalability."
-    - "Integration Friendly: Supports imports from Huggingface, AWS SageMaker, and Google Vertex AI, and offers simple endpoints for any Frontend or Backend service consumption."
-    - "Cost-Effective: A more economical approach to deploy machine learning models, suitable for non-latency-critical workloads."
-    - "Enterprise-Level Infrastructure: Utilizes advanced infrastructure optimization techniques for deploying and scaling complex and custom models with ease."
+    - "Serverless GPU Inference: Deploy ML models seamlessly with serverless GPUs, offering ease of scaling and deployment."
+    - "Infrastructure Cost Optimization: Save up to 80% on infrastructure costs with transparent billing and efficient resource utilization."
+    - "Seamless Autoscaling: In-house built load balancer for efficient service scaling with minimal overhead."
+    - "GPU Virtualization: Facilitates the deployment of multiple models on a single GPU instance, catering to customized requirements."
