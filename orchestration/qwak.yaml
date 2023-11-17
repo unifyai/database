@@ -1,0 +1,18 @@
+qwak:
+  name: "Qwak"
+
+  image_url: https://assets-global.website-files.com/64b3ee21cac9398c75e5d3ab/64ba70657e77798c55767242_logo%20for%20side%20bar.svg
+
+  tags: 
+    - model-binary
+    - model-endpoint
+
+  url: https://www.qwak.com/
+
+  description: "Qwak simplifies the ML development lifecycle, offering a single platform that streamlines the process from prototype to production. It's designed to reduce the complexities of MLOps, allowing teams to focus on building ML projects without infrastructure worries. Qwak is recognized by leading ML teams worldwide for its comprehensive and efficient ML solutions."
+
+  features:
+    - "Streamlined ML Development: A centralized platform for building ML projects at any scale."
+    - "End-to-End Platform: Covers everything from model training, serving, to monitoring."
+    - "Productivity-Focused: Designed to maximize focus on business value and minimize infrastructure concerns."
+    - "Comprehensive Product Suite: Includes managed notebooks, feature and vector pipelines, feature store, and more."
