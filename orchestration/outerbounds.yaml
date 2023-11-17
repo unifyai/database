@@ -1,0 +1,18 @@
+outerbounds:
+  name: "Outerbounds"
+
+  image_url: https://images.crunchbase.com/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/ncreltqzlrcpmxzbsgnj
+
+  tags: 
+    - infrastructure
+    - orchestration
+
+  url: https://outerbounds.com/
+
+  description: "Outerbounds offers a unified platform for data science, ML, and AI projects, featuring the open-source Metaflow for application design and development. It provides modern cloud workstations, easy APIs, and secure, scalable deployment options. Outerbounds is designed for efficient compute and flexible integration, ensuring high availability and SOC2-compliant security for all data and ML applications."
+
+  features:
+    - "Human-Friendly Design: Open-source Metaflow for intuitive ML and AI development."
+    - "Secure Cloud Workstations: Development environments based on VSCode and Jupyter, running on your cloud account."
+    - "Efficient and Flexible: Low-cost compute instances and flexible integration with existing systems."
+    - "High Availability: Managed services with guaranteed SLAs and minimal engineering resources required."
