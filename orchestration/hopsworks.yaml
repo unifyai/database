@@ -5,7 +5,6 @@ hopsworks:
 
   tags: 
     - orchestration
-    - Data Engineering
 
   url: https://www.hopsworks.ai/
 
