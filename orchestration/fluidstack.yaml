@@ -1,0 +1,18 @@
+fluidstack:
+  name: "FluidStack"
+
+  image_url: https://assets-global.website-files.com/64e49a6c77bc12449a05e6a2/64e5d95b262a9c688a989187_FluidStack-logo.svg
+
+  tags: 
+    - gpu-containers
+    - orchestration
+
+  url: https://www.fluidstack.io/
+
+  description: "FluidStack offers a large-scale GPU cloud for AI and LLM training, featuring access to over 50,000 GPUs and thousands of data centers across more than 50 countries. It provides instant access to interconnected NVIDIA A100s and H100s, emphasizing rapid deployment and cost-effective solutions for training and inference."
+
+  features:
+    - "Large GPU Cloud: Over 50,000 GPUs for scalable AI and LLM training."
+    - "Global Data Centers: 1000+ data centers worldwide for extensive coverage."
+    - "Rapid Deployment: Deploy thousands of GPUs in minutes for immediate scaling."
+    - "Cost Efficiency: Competitive pricing with significant savings on cloud expenses."
