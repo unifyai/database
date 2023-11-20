@@ -7,7 +7,7 @@ optimum:
   tags: 
     - quantization
     - pruning
-    - knowledge distillation
+    - knowledge-distillation
     - pytorch
     - open-source
 

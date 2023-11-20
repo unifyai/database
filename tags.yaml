@@ -48,3 +48,5 @@ tags:
   - graphcore
   - Tenstorrent
   - IBM
+  - knowledge-distillation
+  - gpu-containers
