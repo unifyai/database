@@ -48,7 +48,7 @@ def load_database(tags: list[str]) -> dict[str, list[str]]:
         for file in files:
             if (
                 file != TAGS_PATH
-                and re.match(r"[^.].*\.ya?ml$", file)
+                and re.match(r"[^._].*\.ya?ml$", file)
                 and re.match(r".[\\/][^.].*", root)
             ):
                 logging.debug("Loading %s", os.path.join(root, file))
