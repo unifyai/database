@@ -9,6 +9,7 @@ tags:
   - cupy
   - distillation
   - edge
+  - endpoints
   - frameworks
   - high-throughput
   - inference
