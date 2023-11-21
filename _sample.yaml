@@ -1,23 +1,27 @@
 # Object name, must be unique across all objects, it's convention to use lower case and hyphens
 # Will result in a URL of https://unify.ai/landscape/sample-name
 sample-name:
-  # Name of the element being described
+  # Name of the element being described. (Required*)
   name: "Sample Name"
  
-  # URL of relevant image (e.g. logo)
+  # URL of relevant image (e.g. logo). (Optional)
   image_url: http://placehold.it/1024x512&text=placeholder
 
-  # List of tags (see https://github.com/unifyai/landscape/blob/main/tags.yaml for a complete list of tags)
+  # List of tags. (Optional)
+  # see https://github.com/unifyai/landscape/blob/main/tags.yaml for a complete list of tags.
   # Make sure if you added a new tag to add in tags.yaml. Tags must follow kebab-case.
   tags: 
     - tag1
     - tag2
     - tag3
 
-  # URL of the element
+  # URL of the element. (Optional)
   url: https://unify.ai/
 
-  # Text entry describing the element
+  # Guest blog post URL. (Optional)
+  blog_url: https://unify.ai/blog/some-tool
+
+  # Text entry describing the element. (Optional)
   # Keep in mind that Markdown is supported
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in erat eleifend, facilisis urna nec, interdum dolor.
     Maecenas eget nulla id leo ornare laoreet vitae sed eros. In hac habitasse platea dictumst. Ut vel metus est. Pellentesque in pharetra lacus.
@@ -30,7 +34,7 @@ sample-name:
     In hac habitasse platea dictumst. In arcu nisl, tempor sed maximus sit amet, fermentum nec orci. Suspendisse sit amet tincidunt magna.
     Nulla ac risus ante."
  
-  # Optional list of features to be listed as bullet points
+  # List of features to be listed as bullet points. (Optional)
   features:
     - "This is the first feature that will be displayed as a bullet point"
     - "This is the second feature that will be displayed as a bullet point"
