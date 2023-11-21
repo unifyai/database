@@ -1,0 +1,16 @@
+zenml:
+  name: "ZenML"
+
+  image_url: https://assets-global.website-files.com/64a817a2e7e2208272d1ce30/652559300366c8455e5c6ba5_Vectors-Wrapper.svg
+
+  tags: 
+    - orchestration
+
+  url: https://www.zenml.io/
+
+  description: "ZenML is an open-source MLOps framework designed for creating simplified machine learning workflows. It facilitates easy pipeline creation and execution using standard Python code without requiring special infrastructure or software."
+
+  features:
+    - "Python-based: Simple decorator to enhance Python functions for ML."
+    - "Cloud Integration: Efficiently manages cloud costs and establishes pipeline lineage."
+    - "Extensibility: Offers over 50 integrations with popular cloud and open-source tools."
