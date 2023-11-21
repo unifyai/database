@@ -5,6 +5,7 @@ mystic:
 
   tags:
     - model-binary
+    - endpoints
 
   url: https://mystic.ai/
 
