@@ -4,7 +4,6 @@ outerbounds:
   image_url: https://images.crunchbase.com/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/ncreltqzlrcpmxzbsgnj
 
   tags: 
-    - infrastructure
     - orchestration
 
   url: https://outerbounds.com/
