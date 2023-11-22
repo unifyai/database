@@ -4,8 +4,7 @@ inferless:
   image_url: https://assets-global.website-files.com/640eae2485ab876a9c047cb2/640eb15f24ccc7295ffa2f76_Component%20logo.svg
 
   tags: 
-    - model-endpoint
-    - orchestration
+    - container
 
   url: https://www.inferless.com/
 
