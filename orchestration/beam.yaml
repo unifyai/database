@@ -1,5 +1,5 @@
-beamcloud:
-  name: "Beam Cloud"
+beam:
+  name: "Beam"
 
   image_url: https://www.beam.cloud/static/media/beam-logo.2759c43b.svg
 
