@@ -4,8 +4,7 @@ fluidstack:
   image_url: https://assets-global.website-files.com/64e49a6c77bc12449a05e6a2/64e5d95b262a9c688a989187_FluidStack-logo.svg
 
   tags: 
-    - gpu-containers
-    - orchestration
+    - infrastructure
 
   url: https://www.fluidstack.io/
 
