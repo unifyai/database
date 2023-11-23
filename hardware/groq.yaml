@@ -1,0 +1,19 @@
+groq:
+  name: "groq"
+
+  image_url: https://imgs.search.brave.com/Li7OgkDn9kO6d8HkQ158TgPabBqyuSU7F-jkKMPXUnU/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/Yml0dHdhcmUuY29t/L2ZpbGVzL0dyb3FD/YXJkLWZsYXQtdHJh/bnNwYXJlbnQtMTIw/MHB4LnN2Zw.svg
+
+  tags:
+    - training
+    - hardware
+    - high-throughput
+    - infrastructure
+    - cluster
+
+  url: https://groq.com/
+
+  description: "Groq specializes in developing hardware for artificial intelligence (AI) applications. Groq has designed a tensor processing unit (TPU) called the Groq Tensor Streaming Processor (TSP), which is aimed at accelerating machine learning workloads."
+
+  features:
+    - "Ultra-fast, Enterprise-scale Inference AI Solutions."
+    - "Great performance at batch-size 1."
