@@ -1,0 +1,18 @@
+hailo:
+  name: "hailo"
+
+  image_url: https://hailo.ai/wp-content/uploads/2023/09/DFC_Diagram.png
+
+  tags:
+    - hardware
+    - edge
+    - vision
+
+  url: https://hailo.ai/
+
+  description: "Hailo is a hardware vendor that offers SOTA AI accelerators and vision processors uniquely designed to accelerate embedded deep learning applications on edge devices. Hailo employs a revolutionary architecture, representing a clean-slate approach to the design of a specialized technology stack. The company has created a domain-specific processor that significantly outperforms the Von Neumann architecture for deep learning tasks."
+
+  features:
+    - "Hailo devices are accompanied by a comprehensive dataflow compiler."
+    - "Power efficient."
+    - "Optimal for Vision models."
