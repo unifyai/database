@@ -1,0 +1,16 @@
+ampere:
+  name: "ampere"
+
+  image_url: https://amperecomputing.com/_next/image?url=https%3A%2F%2Fuawartifacts.blob.core.windows.net%2Fupload-files%2Faltra_ampere_lg_e74fd94e39.png&w=384&q=75
+
+  tags:
+    - hardware
+    - edge
+    - low-latency
+
+  url: https://amperecomputing.com/
+
+  description: "Ampere is a pioneering semiconductor design firm poised for the next generation, shaping the future of computing through a groundbreaking strategy in CPU design that prioritizes high performance, energy efficiency, and sustainable cloud computing."
+
+  features:
+    - "Most efficient product family for modern compute environments from the edge to on-premise and to the cloud."
