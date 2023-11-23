@@ -1,0 +1,20 @@
+sambanova:
+  name: "sambanova"
+
+  image_url: https://sambanova.ai/wp-content/uploads/2022/09/Subscription_Blog_Image.png
+
+  tags:
+    - training
+    - hardware
+    - high-throughput
+    - infrastructure
+    - frameworks
+
+  url: https://sambanova.ai/
+
+  description: "SambaNova is a company that is constructing an advanced, integrated, and secure AI system for multiple applications. The company addresses the challenges posed by the demands of large models, lagging performance, scarcity, and the high cost of legacy compute systems, which have limited access to scaled AI. SambaNova provides dedicated hardware that is always available, reliable, and predictable. They offer services ranging from purpose-built chips to the most powerful models, all of which are available at a lower cost to build and run."
+
+  features:
+    - "Secure, open and explainable."
+    - "Optimized for training and inference."
+    - "Own your model no hidden tracking."
