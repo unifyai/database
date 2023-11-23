@@ -1,0 +1,18 @@
+trainium:
+  name: "trainium"
+
+  image_url: https://awsdocs-neuron.readthedocs-hosted.com/en/latest/_images/trainium-neurondevice.png
+
+  tags:
+    - hardware
+    - aws
+    - training
+
+  url: https://awsdocs-neuron.readthedocs-hosted.com/en/latest/general/arch/neuron-hardware/trainium.html#trainium-arch
+
+  description: "The AWS Trainium is very similar to Inferentia in architecture, being a composition of multiple different accelerator engines such as ScalarEngine for scalar computations, VectorEngine for vector computations, and TensorEngine for tensor operations. The notable and major difference is that Trainium hardware features NeuronLink-v2 instead of v1."
+
+  features:
+    - "Easy to deploy via aws cloud services."
+    - "Suppourt for multiple diffrent frameworks MXNet , TensorFlow and PyTorch."
+    - "Great for training tasks."

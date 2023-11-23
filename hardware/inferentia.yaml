@@ -1,0 +1,18 @@
+inferentia:
+  name: "inferentia"
+
+  image_url: https://awsdocs-neuron.readthedocs-hosted.com/en/latest/_images/inferentia2.jpg
+
+  tags:
+    - hardware
+    - aws
+    - inference
+
+  url: https://awsdocs-neuron.readthedocs-hosted.com/en/latest/general/quick-start/docs-quicklinks.html
+
+  description: "AWS Inferentia, developed by AWS, is a specialized machine learning chip crafted for delivering top-tier inference with remarkable performance. Essentially in architecture the Infertia devices are just a composition of multiple different accelerator engines like ScalarEngine for scalar-computations , VectorEngine for Vector computations , TensorEngine for tensor operations in design it’s very complex but very similar to the systolic array architecture in Google TPU’s. AWS Inferentia 2 is very similar to Inferentia 1 in architecture the notable difference  being it has 4 times more memory capacity, 16.4 times higher memory bandwidth along with higher generation PCIE for faster data exchange."
+
+  features:
+    - "Easy to deploy via aws cloud services."
+    - "Suppourt for multiple diffrent frameworks MXNet , TensorFlow and PyTorch."
+    - "Great for inference tasks."
