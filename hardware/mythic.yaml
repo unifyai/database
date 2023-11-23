@@ -1,0 +1,17 @@
+mythic:
+  name: "mythic"
+
+  image_url: https://sima.ai/wp-content/uploads/2022/08/SiMaMLSoC-min.png
+
+  tags:
+    - hardware
+    - analog
+
+  url: https://mythic.ai/technology/
+
+  description: "Mythic goes beyond conventional digital architectures, memory, and calculation elements and features the Mythic Analog Matrix Processors (Mythic AMP™), which offers significant advantages in power, performance, and cost. Mythic’s unique analog compute architecture performs trillions of operations required for AI inference inside dense flash-memory arrays."
+
+  features:
+    - "Power-efficient: Best-in-class TOPS/W."
+    - "Analog Matrix Processor."
+    - "Trained neural networks to ease deployment in edge devices."

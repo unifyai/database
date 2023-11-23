@@ -1,0 +1,16 @@
+kneron:
+  name: "kneron"
+
+  image_url: https://www.kneron.com/_upload/image/tech/large/101635b2a372dbea.png
+
+  tags:
+    - hardware
+    - edge
+
+  url: https://www.kneron.com/
+
+  description: "Kneron produces AI SoC processors that offer the ideal balance of performance, power saving, and cost for hardware makers that are looking to benefit from on-device edge  AI. Powered by Kneron’s proprietary NPU that accelerates neural network models, Kneron SoC make possible endless AI applications for smart devices."
+
+  features:
+    - "Offers efficiency for the latest CNN network architectures but also performs well in transformer applications."
+    - "Power efficient."

@@ -1,0 +1,17 @@
+sima:
+  name: "sima"
+
+  image_url: https://sima.ai/wp-content/uploads/2022/08/SiMaMLSoC-min.png
+
+  tags:
+    - hardware
+    - infrastructure
+    - compilers
+
+  url: https://sima.ai/palette-software/
+
+  description: "Sima is building an ultra low-power software and chip solution for machine learning at the edge."
+
+  features:
+    - "Compile and evaluate Any ML model, from framework to silicon without coding."
+    - "Customize embedded Linux run-time environment for hosting edge ML applications."
