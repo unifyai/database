@@ -6,7 +6,7 @@ octoai:
   tags:
     - model-endpoint
 
-  url: https://octoai.cloud/
+  url: https://octoml.ai/
 
   description: "OctoAI offers an efficient and user-friendly platform for GenAI app development, featuring an Image Generation solution and a Compute Service.
     Users can leverage pre-optimized endpoints for open source models or fine-tune models for their specific needs.

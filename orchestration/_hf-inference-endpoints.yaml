@@ -1,0 +1,12 @@
+hf-inference-endpoints:
+  name: "HF Inference Endpoints"
+
+  image_url:
+
+  tags:
+
+  url: https://huggingface.co/inference-endpoints
+
+  description:
+
+  features:

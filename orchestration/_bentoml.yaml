@@ -1,0 +1,12 @@
+bentoml:
+  name: "BentoML"
+
+  image_url:
+
+  tags:
+
+  url: https://www.bentoml.com/
+
+  description:
+
+  features:
