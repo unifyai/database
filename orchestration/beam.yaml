@@ -1,7 +1,7 @@
 beam:
   name: "Beam"
 
-  image_url: https://www.beam.cloud/static/media/beam-logo.2759c43b.svg
+  image_url: https://www.beam.cloud/meta-hero.png
 
   tags:
     - model-binary
