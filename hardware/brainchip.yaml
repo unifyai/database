@@ -1,0 +1,18 @@
+brainchip:
+  name: "brainchip"
+
+  image_url: https://brainchip.com/wp-content/uploads/2023/02/BrainChip_Chip-and-Neuron-Fabric_NBG.png
+
+  tags:
+    - hardware
+    - edge
+
+  url: https://brainchip.com/
+
+  description: "BrainChip is a vendor focusing on making AI ubiquitous through innovation that accelerates personalized artificial intelligence everywhere. They've developed Akida technology which is inspired by the brain, the most efficient cognitive processor that we know of. It is the result of more than 15 years of AI architecture research."
+
+  features:
+    - "Easy deployment target."
+    - "CNNs, DNNs, RNNs, Vision Transformers (ViT), and more, are integrated directly in the hardware, with minimal CPU intervention."
+    - "Akida significantly reduces memory movement using cost-effective, scalable, standard RAMs."
+    - "Runtime manages all operation of neural processing."
