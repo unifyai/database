@@ -1,7 +1,7 @@
 paperspace:
   name: "Paperspace"
 
-  image_url: https://assets-global.website-files.com/5db99670374d1d829291af4f/64b57b2ee7f60219960b606b_DOxPS%20Logo%402x.png
+  image_url: https://raw.github.com/Paperspace/cli/main/.assets/Paperspace.svg
 
   tags:
     - model-binary
