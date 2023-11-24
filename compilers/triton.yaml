@@ -1,7 +1,7 @@
 triton:
   name: "Triton"
 
-  image-url: https://camo.githubusercontent.com/d30790fb651e2aec76b1875851248120292678e4d390c8126868781d6836a64f/68747470733a2f2f63646e2e6f70656e61692e636f6d2f747269746f6e2f6173736574732f747269746f6e2d6c6f676f2e706e67
+  image-url: https://cdn.openai.com/triton/assets/triton-logo.png
 
   tags:
     - compilers
