@@ -4,8 +4,13 @@ sample-name:
   # Name of the element being described. (Required*)
   name: "Sample Name"
  
-  # URL of relevant image (e.g. logo). (Optional)
-  image_url: http://placehold.it/1024x512&text=placeholder
+  # URL of relevant image (e.g. logo). (Optional, Deprecated)
+  # Filename of relevant image in Unify CDN. (Optional)
+  # You will need to upload the logo to this bucket (https://console.cloud.google.com/storage/browser/ivy-database-images) (Not available to the public*)
+  # and only add the filename here.
+  # Make sure that the images are not pixelated
+  # Deprecation warning: The previous URL linking will be removed, it's now only available for backward compatibility.
+  image_url: placeholder.png
 
   # List of tags. (Optional)
   # see https://github.com/unifyai/landscape/blob/main/tags.yaml for a complete list of tags.
