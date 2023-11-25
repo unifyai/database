@@ -75,9 +75,22 @@ def load_database(tags: list[str]) -> dict[str, list[str]]:
     return database
 
 
+def sort_tags(tags: list[str], database: dict[str, list[str]]) -> list[str]:
+    tags_count = {tag: 0 for tag in tags}
+    for entry in database.values():
+        for tag in entry["tags"]:
+            tags_count[tag] += 1
+
+    tags = sorted(tags, key=lambda tag: tags_count[tag], reverse=True)
+
+    logging.info("Sorted tags")
+    return tags
+
+
 def main():
     tags = load_tags()
     database = load_database(tags)
+    tags = sort_tags(tags, database)
 
     os.makedirs("build", exist_ok=True)
     with open("build/database.json", "w", encoding="utf-8") as f:
