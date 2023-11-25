@@ -1,0 +1,17 @@
+dojo:
+  name: "dojo"
+
+  image_url: https://tesla-cdn.thron.com/delivery/public/image/tesla/eff52824-2cd2-41b7-913c-c2e47a2aa4e6/bvlatuR/std/0x0/eff52824-2cd2-41b7-913c-c2e47a2aa4e6
+
+  tags:
+    - hardware
+    - tesla
+
+  url: https://www.tesla.com/AI
+
+  description: "Tesla Dojo is a supercomputer designed and built by Tesla for computer vision video processing and recognition. It will be utilized to train Tesla's machine learning models, enhancing its Full Self-Driving (FSD) advanced driver-assistance system. Dojo operates using its own arithmetic formats and methods. This standard defines Tesla's arithmetic formats and methods for the new 8-bit and 16-bit binary floating-point arithmetic in computer programming environments for deep learning neural network training."
+
+  features:
+    - "Dojo operates using its own arithmetic formats and methods."
+    - "Dojo is architected to accelerate itself and not have some outboard device do it."
+    - "Dojo runs PyTorch. Nothing as low level as C or C++, nothing remotely like CUDA."
