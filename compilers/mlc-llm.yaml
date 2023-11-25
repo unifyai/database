@@ -1,7 +1,7 @@
 mlc-llm:
   name: "MLC-LLM"
 
-  image_url: https://llm.mlc.ai/assets/img/logo/mlc-logo-with-text-landscape.svg
+  image_url: mlc-llm.svg
 
   tags:
     - compilers
