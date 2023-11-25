@@ -1,7 +1,7 @@
 flexgen:
   name: "FlexGen"
 
-  image_url: none
+  # image_url: none
 
   tags:
     - high-throughput

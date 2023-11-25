@@ -42,6 +42,15 @@ def check_tags(tags: list[str], entry_tags: list[str]):
             log_warning(f"Tag {tag} not found", ValueError)
 
 
+def fix_entry_image(entry: dict[str, list[str]]):
+    key = list(entry.keys())[0]
+    image_url = entry[key]["image_url"]
+    if not image_url.startswith("http") and not image_url.startswith("data:image"):
+        image_url = "https://cdn.saas.unify.ai/" + image_url
+
+    entry[key]["image_url"] = image_url
+
+
 def load_database(tags: list[str]) -> dict[str, list[str]]:
     database = {}
     for root, _, files in os.walk("."):
@@ -55,6 +64,7 @@ def load_database(tags: list[str]) -> dict[str, list[str]]:
                 with open(os.path.join(root, file), "r", encoding="utf-8") as f:
                     entry = yaml.safe_load(f)
                     check_tags(tags, list(entry.values())[0]["tags"])
+                    fix_entry_image(entry)
 
                     database.update(entry)
 

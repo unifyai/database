@@ -1,7 +1,7 @@
 ggml:
   name: "GGML"
 
-  image_url: none
+  # image_url: none
 
   tags:
     - inference

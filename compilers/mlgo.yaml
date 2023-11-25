@@ -1,7 +1,7 @@
 mlgo:
   name: "MLGO"
 
-  image_url: none
+  # image_url: none
 
   tags:
     - compilers
