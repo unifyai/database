@@ -44,6 +44,9 @@ def check_tags(tags: list[str], entry_tags: list[str]):
 
 def fix_entry_image(entry: dict[str, list[str]]):
     key = list(entry.keys())[0]
+    if "image_url" not in entry[key]:
+        return
+
     image_url = entry[key]["image_url"]
     if not image_url.startswith("http") and not image_url.startswith("data:image"):
         image_url = "https://cdn.saas.unify.ai/" + image_url
