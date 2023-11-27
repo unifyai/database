@@ -8,7 +8,10 @@ sample-name:
   # Filename of relevant image in Unify CDN. (Optional)
   # You will need to upload the logo to this bucket (https://console.cloud.google.com/storage/browser/ivy-database-images) (Not available to the public*)
   # and only add the filename here.
-  # Make sure that the images are not pixelated
+  # The image should be:
+  #   - At least 75px in height
+  #   - The ratio can be anything from 1:1 to 52:15 (260px x 75px)
+  #   - Have no padding (white or transparent borders)
   # Deprecation warning: The previous URL linking will be removed, it's now only available for backward compatibility.
   image_url: placeholder.png
 
