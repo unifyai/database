@@ -2,7 +2,7 @@ aimet:
 
   name: "AIMET"
  
-  image_url: https://www.pillar.vc/wp-content/uploads/2021/11/Dark-blue-1600x522.png
+  image_url: https://quic.github.io/aimet-pages/releases/latest/_static/brain_logo.png
 
   tags: 
     - pruning
