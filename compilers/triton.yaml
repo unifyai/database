@@ -1,7 +1,7 @@
 triton:
   name: "Triton"
 
-  image-url: triton.png
+  image_url: triton.png
 
   tags:
     - compilers
