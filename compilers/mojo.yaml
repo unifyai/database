@@ -1,7 +1,7 @@
 mojo:
   name: "Mojo"
 
-  image-url: mojo.png
+  image_url: mojo.png
 
   tags:
     - compilers
