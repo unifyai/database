@@ -1,7 +1,7 @@
 taco:
   name: "TACO"
 
-  image_url: http://tensor-compiler.org/images/machine-learning.png
+  image_url: taco.png
 
   tags:
     - compilers
