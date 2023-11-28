@@ -1,7 +1,7 @@
 tenstorrent:
   name: "tenstorrent"
 
-  image_url: https://tenstorrent.com/app/uploads/2022/10/image-1.png
+  image_url: tenstorrent.svg
 
   tags:
     - Tenstorrent

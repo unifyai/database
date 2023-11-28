@@ -1,7 +1,7 @@
 xilinx:
   name: "xilinx"
 
-  image_url: https://www.xilinx.com/content/xilinx/en/products/silicon-devices/acap/versal/_jcr_content/root/parsystop/xilinxflexibleslab_1/xilinxflexibleslab-parsys/xilinxcolumns/childParsys-0/xilinximage.img.png/1674770813809.png
+  image_url: xilinx.svg
 
   tags:
     - amd

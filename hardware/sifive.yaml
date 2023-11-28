@@ -1,7 +1,7 @@
 sifive:
   name: "sifive"
 
-  image_url: https://imgs.search.brave.com/YwEWcVrX7lNyT1zWLNubRaN8J1n_jYKPmYtf_dhddPw/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/dGVjaHNwb3QuY29t/L2ltYWdlczIvbmV3/cy9iaWdpbWFnZS8y/MDIzLzEwLzIwMjMt/MTAtMjItaW1hZ2Uu/anBn
+  image_url: sifive.svg
 
   tags:
     - hardware

@@ -1,7 +1,7 @@
 ampere:
   name: "ampere"
 
-  image_url: https://amperecomputing.com/_next/image?url=https%3A%2F%2Fuawartifacts.blob.core.windows.net%2Fupload-files%2Faltra_ampere_lg_e74fd94e39.png&w=384&q=75
+  image_url: https://amperecomputing.com/_next/image?url=%2Ficons%2Fampere-nav.png&w=1920&q=75
 
   tags:
     - hardware

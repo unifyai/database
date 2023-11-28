@@ -1,7 +1,7 @@
 groq:
   name: "groq"
 
-  image_url: https://imgs.search.brave.com/Li7OgkDn9kO6d8HkQ158TgPabBqyuSU7F-jkKMPXUnU/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/Yml0dHdhcmUuY29t/L2ZpbGVzL0dyb3FD/YXJkLWZsYXQtdHJh/bnNwYXJlbnQtMTIw/MHB4LnN2Zw.svg
+  image_url: https://groq.com/wp-content/uploads/2021/04/groq_logo.svg
 
   tags:
     - training

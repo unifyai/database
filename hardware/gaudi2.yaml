@@ -1,7 +1,7 @@
 gaudi2:
   name: "gaudi2"
 
-  image_url: https://cdn.mos.cms.futurecdn.net/xBKk54oNQqUS4RAREGwDxn-970-80.png
+  image_url: https://habana.ai/wp-content/uploads/2020/04/Habana_intel-r-Blue.svg
 
   tags:
     - hardware

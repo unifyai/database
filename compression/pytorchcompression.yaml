@@ -3,7 +3,7 @@ pytorchcompression:
 
   name: "Built In Pytorch Compression"
  
-  image_url: https://pytorch.org/assets/images/quantization-practice/quantization-flowchart2.png
+  image_url: https://raw.githubusercontent.com/pytorch/pytorch/main/docs/source/_static/img/pytorch-logo-dark.png
 
   tags: 
     - quantization

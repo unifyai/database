@@ -1,7 +1,7 @@
 trainium:
   name: "trainium"
 
-  image_url: https://awsdocs-neuron.readthedocs-hosted.com/en/latest/_images/trainium-neurondevice.png
+  image_url: https://awsdocs-neuron.readthedocs-hosted.com/en/latest/_static/Site-Merch_Neuron-ML-SDK_Editorial.png
 
   tags:
     - hardware

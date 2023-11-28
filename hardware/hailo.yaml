@@ -1,7 +1,7 @@
 hailo:
   name: "hailo"
 
-  image_url: https://hailo.ai/wp-content/uploads/2023/09/DFC_Diagram.png
+  image_url: https://hailo.ai/wp-content/uploads/2023/08/Symbols.svg
 
   tags:
     - hardware
