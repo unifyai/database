@@ -6,7 +6,7 @@ tiramisu:
   tags:
     - compilers
 
-  url: http://tiramisu-compiler.org
+  url: https://tiramisu-compiler.org
 
   description: "Tiramisu is a polyhedral compiler designed to handle both dense and sparse deep learning and other data parallel algorithms. Its defining features include its flexible representation based on the polyhedral model, a rich scheduling language for precise control of optimizations, and a four-level intermediate representation that separates algorithms, loop transformations, data layouts, and communication. Tiramisu’s polyhedral model allows it to stand out particularly in its optimization of RNNs and sparse nets, which are areas not typically as thoroughly addressed by other deep learning compilers."
 
