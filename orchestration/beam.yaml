@@ -1,7 +1,7 @@
 beam:
   name: "Beam"
 
-  image_url: https://www.beam.cloud/meta-hero.png
+  image_url: https://mintlify.s3-us-west-1.amazonaws.com/slai-beam/logo/beam-logo-dark.svg
 
   tags:
     - model-binary

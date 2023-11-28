@@ -1,7 +1,7 @@
 genesiscloud:
   name: "Genesis Cloud"
 
-  image_url: https://media.licdn.com/dms/image/C4D12AQFa3sXfSG_zHA/article-cover_image-shrink_720_1280/0/1600267123297?e=2147483647&v=beta&t=AQYc0czz4SJjXHQdibNXdUJxRYZNz3dPBihOeqbv0pQ
+  image_url: genesis-cloud.svg
 
   tags:
     - infrastructure
