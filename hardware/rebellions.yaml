@@ -1,7 +1,7 @@
 rebellions:
   name: "rebellions"
 
-  image_url: https://rebellions.ai/wp-content/uploads/2023/09/ion_quick-960x640.png
+  image_url: rebellions.svg
 
   tags:
     - hardware

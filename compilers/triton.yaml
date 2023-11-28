@@ -1,7 +1,7 @@
 triton:
   name: "Triton"
 
-  image-url: https://cdn.openai.com/triton/assets/triton-logo.png
+  image-url: triton.png
 
   tags:
     - compilers

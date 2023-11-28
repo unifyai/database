@@ -1,7 +1,7 @@
 crusoecloud:
   name: "CrusoeCloud"
 
-  image_url: https://crusoecloud.com/meta/crusoecloud.png
+  image_url: https://docs.crusoecloud.com/img/crusoecloud.png
 
   tags:
     - infrastructure

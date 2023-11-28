@@ -1,7 +1,7 @@
 mojo:
   name: "Mojo"
 
-  image-url: https://assets-global.website-files.com/63f9f100025c058594957cca/644c98b52c78b418f48de3dc_Mojo%20White%20Background%20(2).png
+  image-url: mojo.png
 
   tags:
     - compilers
