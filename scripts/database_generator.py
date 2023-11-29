@@ -9,6 +9,8 @@ TAGS_PATH = "tags.yaml"
 # Index file is used to specify tags for all entries in a directory,
 # unless they are specified in the entry file
 DEFAULT_FILE_NAME = "__default.yaml"
+# Special entry that is used to link to the github file of the entry.
+URL_ENTRY_NAME = "__url"
 strict = False
 
 
@@ -87,6 +89,14 @@ def load_database(tags: list[str]) -> dict[str, list[str]]:
                     fix_entry_image(entry)
                     entry_key = list(entry.keys())[0]
                     entry[entry_key] = {**defaults, **entry[entry_key]}
+
+                    # Add url entry
+                    url = "https://github.com/unifyai/database/blob/" \
+                        f"main/{os.path.join(root, file)}"
+                    url = url.replace("\\", "/")
+                    if './' in url:
+                        url = url.replace("./", "")
+                    entry[entry_key][URL_ENTRY_NAME] = url
 
                     database.update(entry)
 
