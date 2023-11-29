@@ -1,7 +1,7 @@
 sparseml:
   name: "SparseML"
 
-  image_url: https://www.pillar.vc/wp-content/uploads/2021/11/Dark-blue-1600x522.png
+  image_url: sparseml.png
 
   tags:
     - pruning

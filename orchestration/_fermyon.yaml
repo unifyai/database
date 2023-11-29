@@ -1,7 +1,7 @@
 fermyon:
   name: "Fermyon"
 
-  image_url: https://design.fermyon.dev/up_/image/fermyon.png
+  image_url: fermyon.png
 
   tags:
     - model-binary

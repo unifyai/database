@@ -1,7 +1,7 @@
 llm-awq:
   name: "llm-awq"
 
-  image_url: https://raw.github.com/mit-han-lab/llm-awq/main/figures/overview.png
+  image_url: llm-awq.png
 
   tags:
     - quantization

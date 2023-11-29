@@ -1,7 +1,7 @@
 lightmatter:
   name: "lightmatter"
 
-  image_url: https://lightmatter.co/wp-content/uploads/2022/08/logo-lm.svg
+  image_url: lightmatter.svg
 
   tags:
     - hardware

@@ -1,7 +1,7 @@
 Runpod:
   name: "RunPod"
 
-  image_url: runpod.png
+  image_url: Runpod.png
 
   tags:
     - model-binary

@@ -2,7 +2,7 @@ neuralcompressor:
   name: "Neural Compressor"
 
   # URL of relevant image (e.g. logo)
-  image_url: https://avatars.githubusercontent.com/u/17888862?s=48&v=4
+  image_url: neuralcompressor.png
 
   tags:
     - pruning

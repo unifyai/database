@@ -2,7 +2,7 @@ bigdl:
   name: "BigDL"
 
   # URL of relevant image (e.g. logo)
-  image_url: https://www.intel.com/content/dam/www/central-libraries/us/en/images/2022-09/bigdl-logo-dark-rwd.png
+  image_url: bigdl.png
 
   tags:
     - intel

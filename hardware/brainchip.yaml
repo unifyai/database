@@ -1,7 +1,7 @@
 brainchip:
   name: "brainchip"
 
-  image_url: https://brainchip.com/wp-content/uploads/2022/04/Brainchip_Logo_Blk_RGB-400x106.png
+  image_url: brainchip.png
 
   tags:
     - hardware

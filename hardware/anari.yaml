@@ -1,7 +1,7 @@
 anari:
   name: "anari"
 
-  image_url: https://anari.ai/wp-content/uploads/2023/04/Chip.png.webp
+  image_url: anari.webp
 
   tags:
     - hardware

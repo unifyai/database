@@ -1,7 +1,7 @@
 northpole:
   name: "northpole"
 
-  image_url: https://d1bqvdqmynqyrb.cloudfront.net/_next/image?url=http%3A%2F%2Fresearch-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud%2FIBM_NP_PC_Ie_PCB_Rear_7f3bf223d7.png&w=1080&q=85
+  image_url: northpole.png
 
   tags:
     - IBM

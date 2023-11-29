@@ -1,7 +1,7 @@
 google-vertexai:
   name: "Google Vertex AI"
 
-  image_url: https://techcrunch.com/wp-content/uploads/2021/05/VertexAI-512-color.png
+  image_url: google-vertexai.png
 
   tags:
     - model-binary

@@ -1,7 +1,7 @@
 tiramisu:
   name: "Tiramisu"
 
-  image_url: https://avatars.githubusercontent.com/u/40035113?s=280&v=4
+  image_url: tiramisu.png
 
   tags:
     - compilers

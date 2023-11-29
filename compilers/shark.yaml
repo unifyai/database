@@ -1,7 +1,7 @@
 shark:
   name: "SHARK"
 
-  image_url: https://avatars.githubusercontent.com/u/105611245?s=200&v=4
+  image_url: shark.png
 
   tags:
     - compilers

@@ -1,7 +1,7 @@
 flex-logix:
   name: "flex-logix"
 
-  image_url: https://flex-logix.com/wp-content/uploads/2023/01/flex-logix_logo.svg
+  image_url: flex-logix.svg
 
   tags:
     - hardware

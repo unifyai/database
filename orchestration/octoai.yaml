@@ -1,7 +1,7 @@
 octoai:
   name: "OctoAI"
 
-  image_url: https://www.datocms-assets.com/45680/1684527033-octoml_logo.svg
+  image_url: octoai.svg
 
   tags:
     - model-endpoint

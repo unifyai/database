@@ -1,7 +1,7 @@
 smoothquant:
   name: "SmoothQuant"
 
-  image_url: https://raw.github.com/mit-han-lab/smoothquant/main/figures/quantization_flow.png
+  image_url: smoothquant.png
 
   tags:
     - quantization

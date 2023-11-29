@@ -1,7 +1,7 @@
 launchflow:
   name: "LaunchFlow"
 
-  image_url: https://www.launchflow.com/images/logo.svg
+  image_url: launchflow.png
 
   tags:
     - model-endpoint

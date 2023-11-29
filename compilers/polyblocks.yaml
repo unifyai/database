@@ -1,7 +1,7 @@
 polyblocks:
   name: "Polyblocks"
 
-  image_url: https://docs.polymagelabs.com/_static/polyblocks_logo.png
+  image_url: polyblocks.png
 
   tags:
     - compilers

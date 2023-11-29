@@ -1,7 +1,7 @@
 executorch:
   name: "ExecuTorch"
 
-  image_url: https://pytorch.org/assets/images/executorch-arrows.svg
+  image_url: executorch.svg
 
   tags:
     - pytorch

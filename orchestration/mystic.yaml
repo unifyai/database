@@ -1,7 +1,7 @@
 mystic:
   name: "mystic"
 
-  image_url: https://pbs.twimg.com/media/F83zwnAWMAA1E3R?format=jpg&name=4096x4096
+  image_url: mystic.jpg
 
   tags:
     - model-binary

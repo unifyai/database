@@ -1,7 +1,7 @@
 squeezellm:
   name: "SqueezeLLM"
 
-  image_url: https://raw.github.com/SqueezeAILab/SqueezeLLM/main/figs/thumbnail.png
+  image_url: squeezellm.png
 
   tags:
     - quantization

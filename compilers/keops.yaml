@@ -1,7 +1,7 @@
 keops:
   name: "KeOps"
 
-  image_url: https://www.kernel-operations.io/keops/_static/logo.png
+  image_url: keops.png
 
   tags:
     - gpu

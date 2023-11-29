@@ -1,7 +1,7 @@
 bitsandbytes:
   name: "bitsandbytes"
 
-  image_url: https://huggingface.co/blog/assets/96_hf_bitsandbytes_integration/Thumbnail_blue.png
+  image_url: bitsandbytes.png
 
   tags:
     - quantization

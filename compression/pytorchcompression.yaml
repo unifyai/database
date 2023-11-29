@@ -1,7 +1,7 @@
 pytorchcompression:
   name: "Built In Pytorch Compression"
 
-  image_url: https://raw.githubusercontent.com/pytorch/pytorch/main/docs/source/_static/img/pytorch-logo-dark.png
+  image_url: pytorchcompression.png
 
   tags:
     - quantization

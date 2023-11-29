@@ -1,7 +1,7 @@
 pi:
   name: "PI"
 
-  image_url: https://user-images.githubusercontent.com/5657668/205545845-544fe701-79d5-43c1-beec-09763f22cc85.png
+  image_url: pi.png
 
   tags:
     - compilers

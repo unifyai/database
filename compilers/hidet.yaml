@@ -1,7 +1,7 @@
 hidet:
   name: "Hidet"
 
-  image_url: https://docs.hidet.org/stable/_static/logo.svg
+  image_url: hidet.svg
 
   tags:
     - compilers

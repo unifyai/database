@@ -1,7 +1,7 @@
 blackwell:
   name: "blackwell"
 
-  image_url: https://imgs.search.brave.com/I4yAOOlk98eZWzW541VpEMvyNMdKyOJkSRv9plE-BnQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/bm90ZWJvb2tjaGVj/ay5uZXQvZmlsZWFk/bWluL19wcm9jZXNz/ZWRfLzYvOS9jc21f/bnZpZGlhX3J0eF81/MF9ibGFja3dlbGxf/cGVyZm9ybWFuY2Vf/Z2IxMDJfZ2IxMDBf/ZWIyMDhjMzBkMy5q/cGc
+  image_url: blackwell.jpg
 
   tags:
     - hardware

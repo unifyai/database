@@ -1,7 +1,7 @@
 tiramisu:
   name: "Tiramisu"
 
-  image_url: https://github.com/facebookresearch/TensorComprehensions/raw/master/docs/source/_static/img/tc-logo-full-color-with-text-2.png
+  image_url: tiramisu.png
 
   tags:
     - compilers

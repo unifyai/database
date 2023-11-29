@@ -1,7 +1,7 @@
 torch-mlir:
   name: "Torch-MLIR"
 
-  image_url: https://repository-images.githubusercontent.com/283871761/b91ba05d-d031-4e4f-b370-5dbfd989a3d7
+  image_url: torch-mlir.png
 
   tags:
     - compilers

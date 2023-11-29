@@ -1,7 +1,7 @@
 ipu:
   name: "ipu"
 
-  image_url: https://www.graphcore.ai/hubfs/assets/logo/GC_no_padding.svg
+  image_url: ipu.svg
 
   tags:
     - hardware

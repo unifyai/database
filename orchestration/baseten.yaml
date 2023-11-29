@@ -1,7 +1,7 @@
 baseten:
   name: "Baseten"
 
-  image_url: https://assets.website-files.com/624d043f1ad625286cc14f25/6257300d3296d266ba1bde0d_BasetenLogoCentered.png
+  image_url: baseten.png
 
   tags:
     - model-binary

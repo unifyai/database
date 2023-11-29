@@ -1,7 +1,7 @@
 amazon-sagemaker:
   name: "Amazon SageMaker"
 
-  image_url: https://d1.awsstatic.com/product-marketing/IronMan/AWS-service-icon_sagemaker.5ccec16f16a04ed56cb1d7f02dcdada8de261923.png
+  image_url: amazon-sagemaker.png
 
   tags:
     - model-binary

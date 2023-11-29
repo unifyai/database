@@ -1,7 +1,7 @@
 oneapi:
   name: "oneAPI"
 
-  image_url: https://www.intel.com/content/dam/develop/public/us/en/images/logos/logo-oneapi-rwd.png
+  image_url: oneapi.png
 
   tags:
     - intel

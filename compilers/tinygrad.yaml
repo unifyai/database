@@ -1,7 +1,7 @@
 tinygrad:
   name: "tinygrad"
 
-  image_url: https://raw.githubusercontent.com/tinygrad/tinygrad/master/docs/logo.png
+  image_url: tinygrad.png
 
   tags:
     - frameworks

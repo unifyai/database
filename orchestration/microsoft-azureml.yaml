@@ -1,7 +1,7 @@
 microsoft-azureml:
   name: "Microsoft Azure Machine Learning"
 
-  image_url: https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-ai/0.39.2023111009/1699608271523/Microsoft.VisualStudio.Services.Icons.Default
+  image_url: microsoft-azureml.png
 
   tags:
     - model-binary

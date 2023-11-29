@@ -1,7 +1,7 @@
 optimum:
   name: "hugginface/optimum"
 
-  image_url: https://huggingface.co/front/thumbnails/docs/optimum.png
+  image_url: optimum.png
 
   tags:
     - quantization

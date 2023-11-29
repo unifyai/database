@@ -1,7 +1,7 @@
 genesiscloud:
   name: "Genesis Cloud"
 
-  image_url: genesis-cloud.svg
+  image_url: genesiscloud.svg
 
   tags:
     - infrastructure

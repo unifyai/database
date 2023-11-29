@@ -1,7 +1,7 @@
 vllm:
   name: "vLLM"
 
-  image_url: https://vllm.readthedocs.io/en/latest/_images/vllm-logo-text-light.png
+  image_url: vllm.png
 
   tags:
     - inference

@@ -1,7 +1,7 @@
 paperspace:
   name: "Paperspace"
 
-  image_url: https://raw.github.com/Paperspace/cli/main/.assets/Paperspace.svg
+  image_url: paperspace.svg
 
   tags:
     - model-binary

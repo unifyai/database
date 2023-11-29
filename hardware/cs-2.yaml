@@ -1,7 +1,7 @@
 cs-2:
   name: "cs-2"
 
-  image_url: cerebras.jpg
+  image_url: cs-2.jpg
 
   tags:
     - cerebras

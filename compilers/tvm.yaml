@@ -1,7 +1,7 @@
 tvm:
   name: "TVM"
 
-  image_url: https://tvm.apache.org/assets/images/logo.svg
+  image_url: tvm.svg
 
   tags:
     - compilers

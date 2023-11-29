@@ -1,7 +1,7 @@
 cerebrium:
   name: "Cerebrium"
 
-  image_url: https://uploads-ssl.webflow.com/63f3d4a9e05fc85e733e1610/63f40e88b105ee11832e827c_full-logo-colour-white-transparent.svg
+  image_url: cerebrium.svg
 
   tags:
     - model-binary

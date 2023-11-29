@@ -1,7 +1,7 @@
 glow:
   name: "Glow"
 
-  image_url: https://github.com/pytorch/glow/raw/master/docs/logo.svg
+  image_url: glow.svg
 
   tags:
     - compilers

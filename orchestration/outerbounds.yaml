@@ -1,7 +1,7 @@
 outerbounds:
   name: "Outerbounds"
 
-  image_url: https://images.crunchbase.com/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/ncreltqzlrcpmxzbsgnj
+  image_url: outerbounds.png
 
   tags:
     - orchestration

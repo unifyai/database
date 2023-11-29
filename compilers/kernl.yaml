@@ -1,7 +1,7 @@
 kernl:
   name: "Kernl"
 
-  image_url: https://github.com/ELS-RD/kernl/raw/main/resources/images/logo-readme.svg
+  image_url: kernl.svg
 
   tags:
     - compilers

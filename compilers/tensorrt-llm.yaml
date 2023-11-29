@@ -1,7 +1,7 @@
 tensorrt-llm:
   name: "TensorRT-LLM"
 
-  image_url: https://developer-blogs.nvidia.com/wp-content/uploads/2023/09/inference-visual-tensor-rt-llm-2048x1152.png
+  image_url: tensorrt-llm.png
 
   tags:
     - compilers

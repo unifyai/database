@@ -1,7 +1,7 @@
 corsair:
   name: "corsair"
 
-  image_url: https://www.d-matrix.ai/wp-content/uploads/2023/08/product-hero-spot@2x.png
+  image_url: corsair.png
 
   tags:
     - hardware

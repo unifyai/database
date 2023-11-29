@@ -1,7 +1,7 @@
 banana:
   name: "Banana"
 
-  image_url: https://www.banana.dev/lib_zOkYpJoyYVcAamDf/x2p804nk9qvjb1vg.svg
+  image_url: banana.svg
 
   tags:
     - container

@@ -1,7 +1,7 @@
 tensorly-torch:
   name: "TensorLy-Torch"
 
-  image_url: https://tensorly.org/stable/_static/logo_tensorly.png
+  image_url: tensorly-torch.png
 
   tags:
     - tensorization

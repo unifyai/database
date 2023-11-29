@@ -1,7 +1,7 @@
 WebGPU:
   name: "WebGPU"
 
-  image_url: https://bevyengine.org/news/bevy-webgpu/webgpu.svg
+  image_url: WebGPU.svg
 
   tags:
     - gpu

@@ -1,7 +1,7 @@
 movidius:
   name: "movidius"
 
-  image_url: https://www.intel.com/content/dam/www/global/badges/movidius-vpus-framed-badge-rwd.jpg.rendition.intel.web.480.270.jpg
+  image_url: movidius.jpg
 
   tags:
     - hardware

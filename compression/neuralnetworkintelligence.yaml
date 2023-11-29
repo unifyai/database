@@ -1,7 +1,7 @@
 neuralnetworkintelligence:
   name: "Neural Network Intelligence"
 
-  image_url: https://github.com/microsoft/nni/raw/master/docs/img/nni_logo.png
+  image_url: neuralnetworkintelligence.png
 
   tags:
     - pruning

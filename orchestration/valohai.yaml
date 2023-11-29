@@ -1,7 +1,7 @@
 valohai:
   name: "Valohai"
 
-  image_url: https://valohai.com/assets/img/valohai-logo.svg
+  image_url: valohai.svg
 
   tags:
     - model-binary

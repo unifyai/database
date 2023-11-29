@@ -1,7 +1,7 @@
 aimet:
   name: "AIMET"
 
-  image_url: https://quic.github.io/aimet-pages/releases/latest/_static/brain_logo.png
+  image_url: aimet.png
 
   tags:
     - pruning

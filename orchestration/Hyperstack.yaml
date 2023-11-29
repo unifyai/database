@@ -1,7 +1,7 @@
 hyperstack:
   name: "Hyperstack"
 
-  image_url: https://pbs.twimg.com/profile_images/1668566707177156608/Ju7xs-Ts_400x400.jpg
+  image_url: hyperstack.jpg
 
   tags:
     - infrastructure

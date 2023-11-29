@@ -1,7 +1,7 @@
 grace-hopper:
   name: "grace-hopper"
 
-  image_url: https://developer-blogs.nvidia.com/wp-content/uploads/2022/11/grace-hopper-overview-1024x521.png
+  image_url: grace-hopper.png
 
   tags:
     - gpu
