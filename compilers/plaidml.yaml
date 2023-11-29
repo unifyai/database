@@ -10,7 +10,14 @@ plaidml:
 
   url: https://plaidml.github.io/plaidml/
 
-  description: "PlaidML is a tensor compiler, developed by Intel, specializing in running deep learning models on devices which are not typically well supported for such workloads, such as laptops and embedded devices. It is even able to generate Nvidia GPU code matching the performance of native libraries without having to go through CUDA. Recently it has adopted MLIR for the purpose of better extensibility and integration into the ever-growing MLIR ecosystem. PlaidML is also part of Intel's wider suite of deep learning tools, nGraph."
+  description: |
+    PlaidML is a tensor compiler, developed by Intel, specializing in running deep
+    learning models on devices which are not typically well supported for such
+    workloads, such as laptops and embedded devices. It is even able to generate Nvidia
+    GPU code matching the performance of native libraries without having to go through
+    CUDA. Recently it has adopted MLIR for the purpose of better extensibility and
+    integration into the ever-growing MLIR ecosystem. PlaidML is also part of Intel's
+    wider suite of deep learning tools, nGraph.
 
   features:
     - "Portable Tensor Compiler"

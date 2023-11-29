@@ -1,10 +1,9 @@
 optimum:
-
   name: "hugginface/optimum"
- 
+
   image_url: https://huggingface.co/front/thumbnails/docs/optimum.png
 
-  tags: 
+  tags:
     - quantization
     - pruning
     - knowledge-distillation
@@ -13,9 +12,10 @@ optimum:
 
   url: https://github.com/huggingface/optimum
 
-  description: "🤗 Optimum is an extension of 🤗 Transformers and Diffusers, providing a set of optimization
-                   tools enabling maximum efficiency to train and run models on targeted hardware, while
-                   keeping things easy to use."
+  description: |
+    🤗 Optimum is an extension of 🤗 Transformers and Diffusers, providing a set of optimization
+    tools enabling maximum efficiency to train and run models on targeted hardware, while
+    keeping things easy to use.
 
   features:
     - "Post training dynamic quantization"

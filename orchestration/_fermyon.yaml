@@ -8,9 +8,10 @@ fermyon:
 
   url: https://www.fermyon.com/
 
-  description: "Fermyon is a general purpose framework for managing web applications and allows you to quickly deploy serverless applications. 
+  description: |
+    Fermyon is a general purpose framework for managing web applications and allows you to quickly deploy serverless applications.
     Fermyon Serverless AI is their specialized AI inference product with a cold start time of just 51 ms, however this is a new product in testing.
-    Users simply need to provide their model file and configure parameters, and there is minimal to no effort required from the user."
+    Users simply need to provide their model file and configure parameters, and there is minimal to no effort required from the user.
 
   features:
     - "Low cold start time of 51 ms."

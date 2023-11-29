@@ -10,7 +10,22 @@ triton:
 
   url: https://openai.com/research/triton
 
-  description: "Triton is an open-source programming language and compiler designed for the purpose of expressing and compiling tiled computations within neural networks into highly efficient machine code. Triton demonstrates how just a few control-flow and data handling extensions to LLVM-IR could enable various optimization routes for a neural network. Designed to provide the same kernel-level control as CUDA, Triton introduces a new, block-based rather than thread-based programming model for GPUs, offering a higher, more user-friendly abstraction. The compilation pipeline consists of writing a GPU kernel in a simple, Python or C-like format, which is then lowered into the originally LLVM-based, now MLIR-based, Triton-IR, Triton-JIT then performs a series of platform-independent, followed by platform-specific, tile-level optimization passes before generating the final LLVM/PTX code. Triton's auto-generated kernels have been shown to match or even outperform the performance of handwritten cuDNN and cuBLAS ones, however currently Triton only supports Nvidia GPUs. It has recently become the main building block behind the most efficient Torch backend for GPUs, called TorchInductor, showcasing Triton’s utility."
+  description: |
+    Triton is an open-source programming language and compiler designed for the purpose
+    of expressing and compiling tiled computations within neural networks into highly
+    efficient machine code. Triton demonstrates how just a few control-flow and data
+    handling extensions to LLVM-IR could enable various optimization routes for a neural
+    network. Designed to provide the same kernel-level control as CUDA, Triton
+    introduces a new, block-based rather than thread-based programming model for GPUs,
+    offering a higher, more user-friendly abstraction. The compilation pipeline consists
+    of writing a GPU kernel in a simple, Python or C-like format, which is then lowered
+    into the originally LLVM-based, now MLIR-based, Triton-IR, Triton-JIT then performs
+    a series of platform-independent, followed by platform-specific, tile-level
+    optimization passes before generating the final LLVM/PTX code. Triton's
+    auto-generated kernels have been shown to match or even outperform the performance
+    of handwritten cuDNN and cuBLAS ones, however currently Triton only supports Nvidia
+    GPUs. It has recently become the main building block behind the most efficient Torch
+    backend for GPUs, called TorchInductor, showcasing Triton’s utility.
 
   features:
     - "Accessible High-Performance GPU Programming"

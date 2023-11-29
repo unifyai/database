@@ -9,7 +9,11 @@ brainchip:
 
   url: https://brainchip.com/
 
-  description: "BrainChip is a vendor focusing on making AI ubiquitous through innovation that accelerates personalized artificial intelligence everywhere. They've developed Akida technology which is inspired by the brain, the most efficient cognitive processor that we know of. It is the result of more than 15 years of AI architecture research."
+  description: |
+    BrainChip is a vendor focusing on making AI ubiquitous through innovation that
+    accelerates personalized artificial intelligence everywhere. They've developed Akida
+    technology which is inspired by the brain, the most efficient cognitive processor
+    that we know of. It is the result of more than 15 years of AI architecture research.
 
   features:
     - "Easy deployment target."

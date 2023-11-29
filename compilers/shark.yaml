@@ -10,7 +10,15 @@ shark:
 
   url: https://github.com/nod-ai/SHARK/tree/main
 
-  description: "SHARK is a high performance ML compiler and runtime, developed by Nod.ai, a performance focused AI startup recently acquired by AMD, specifically for accelerating PyTorch code. It is built using components from IREE and Torch-MLIR, an MLIR dialect for representing PyTorch operations, as well as an in-house, ML-based autotuner. SHARK has shown a number of promising features and results, including TorchDynamo integration, a hardware-agnostic implementation of the seminal Flash-Attention algorithm, and even exceeding the performance of OpenAI Triton while running Flash-Attention 2 on an A100 GPU."
+  description: |
+    SHARK is a high performance ML compiler and runtime, developed by Nod.ai, a
+    performance focused AI startup recently acquired by AMD, specifically for
+    accelerating PyTorch code. It is built using components from IREE and Torch-MLIR, an
+    MLIR dialect for representing PyTorch operations, as well as an in-house, ML-based
+    autotuner. SHARK has shown a number of promising features and results, including
+    TorchDynamo integration, a hardware-agnostic implementation of the seminal
+    Flash-Attention algorithm, and even exceeding the performance of OpenAI Triton while
+    running Flash-Attention 2 on an A100 GPU.
 
   features:
     - "TorchDynamo Integration"

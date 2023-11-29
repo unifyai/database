@@ -8,9 +8,12 @@ microsoft-azureml:
 
   url: https://azure.microsoft.com/en-us/products/machine-learning
 
-  description: "Microsoft Azure Machine Learning is a platform that provides a suite of tools for building, training and deploying ML models. It covers
-   the whole lifecycle - from data preprocessing to model deployment and monitoring. Azure ML provides different deployment options such as Azure Kubernetes
-    Service (AKS), Azure App Service and Azure Functions"
+  description: |
+    Microsoft Azure Machine Learning is a platform that provides a suite of tools for
+    building, training and deploying ML models. It covers the whole lifecycle - from
+    data preprocessing to model deployment and monitoring. Azure ML provides different
+    deployment options such as Azure Kubernetes Service (AKS), Azure App Service and
+    Azure Functions
 
   features:
     - "Seamless end to end integration."

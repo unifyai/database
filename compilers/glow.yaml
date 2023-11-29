@@ -8,7 +8,22 @@ glow:
 
   url: https://ai.meta.com/tools/glow/
 
-  description: "Glow, which is an abbreviation for Graph-Lowering, consists of a strongly typed, two-phase Intermediate Representation, splitting optimizations up between the high level and low level respectively. Glow’s compilation pipeline seeks to solve the issue of targeting a large number of opcodes for different hardware backends by decomposing all higher level operations into a finite set of simpler, more universally supported ones, hence eliminating the need to implement any new layer or activation as a custom op for every hardware backend.  Like TVM and IREE, Glow generates its own machine-specific code rather than offloading to third-party compute primitive libraries. The low level side of its IR uses an instruction-based, address-only format, allowing it to excel at memory-related optimizations such as memory-allocation and instruction scheduling, however, due to the strong typing, Glow does not support dynamic shapes such as some of the other compilers (XLA, TVM, IREE) do. Despite being developed by Meta directly under the PyTorch umbrella, direct support for Glow has yet to have been added to the PyTorch API, as any PyTorch code must first be converted to ONNX before being passed in."
+  description: |
+    Glow, which is an abbreviation for Graph-Lowering, consists of a strongly typed,
+    two-phase Intermediate Representation, splitting optimizations up between the high
+    level and low level respectively. Glow’s compilation pipeline seeks to solve the
+    issue of targeting a large number of opcodes for different hardware backends by
+    decomposing all higher level operations into a finite set of simpler, more
+    universally supported ones, hence eliminating the need to implement any new layer or
+    activation as a custom op for every hardware backend. Like TVM and IREE, Glow
+    generates its own machine-specific code rather than offloading to third-party
+    compute primitive libraries. The low level side of its IR uses an instruction-based,
+    address-only format, allowing it to excel at memory-related optimizations such as
+    memory-allocation and instruction scheduling, however, due to the strong typing,
+    Glow does not support dynamic shapes such as some of the other compilers (XLA, TVM,
+    IREE) do. Despite being developed by Meta directly under the PyTorch umbrella,
+    direct support for Glow has yet to have been added to the PyTorch API, as any
+    PyTorch code must first be converted to ONNX before being passed in.
 
   features:
     - "Graph-Lowering for Simplified Backend Support"

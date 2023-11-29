@@ -3,12 +3,15 @@ anyscale:
 
   image_url: https://i2.wp.com/events.venturebeat.com/wp-content/uploads/2022/11/Anyscale-logo-vertical.png?ssl=1
 
-  tags: 
+  tags:
     - model-binary
 
   url: https://www.anyscale.com/
 
-  description: "AnyScale provides an AI Application Platform for developing, running, and scaling AI workloads, leveraging Ray, a popular open-source framework. It is designed for high-performance computing, offering significant throughput and cost advantages."
+  description: |
+    AnyScale provides an AI Application Platform for developing, running, and scaling AI
+    workloads, leveraging Ray, a popular open-source framework. It is designed for
+    high-performance computing, offering significant throughput and cost advantages.
 
   features:
     - "High Performance: 23x higher throughput, 75% lower cost, rapid scaling."

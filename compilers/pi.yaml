@@ -10,7 +10,10 @@ pi:
 
   url: https://github.com/nod-ai/PI#installing
 
-  description: "PI is a lightweight Python frontend for MLIR, specializing in converting PyTorch modules into their corresponding Torch-MLIR format, without any having any dependencies on PyTorch itself."
+  description: |
+    PI is a lightweight Python frontend for MLIR, specializing in converting PyTorch
+    modules into their corresponding Torch-MLIR format, without any having any
+    dependencies on PyTorch itself.
 
   features:
     - "Easy PyTorch to MLIR conversion"

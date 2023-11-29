@@ -12,8 +12,8 @@ cs-2:
   url: https://www.cerebras.net/product-system/
 
   description: |
-    The CS-2 system represents a holistic solution encompassing innovations in three fundamental domains. First, it features the second-generation Cerebras Wafer Scale Engine (WSE-2), setting a new standard as the industry's largest and only processor with multi-trillion transistors. Secondly, The CS-2 incorporates the Cerebras software platform, Working well with all of the tools Cerebras SDK has to offer. 
-    
+    The CS-2 system represents a holistic solution encompassing innovations in three fundamental domains. First, it features the second-generation Cerebras Wafer Scale Engine (WSE-2), setting a new standard as the industry's largest and only processor with multi-trillion transistors. Secondly, The CS-2 incorporates the Cerebras software platform, Working well with all of the tools Cerebras SDK has to offer.
+
     Compared to clusters of GPUs — which can take weeks or months to set up, require extensive parameter tuning to get functioning correctly, occupy dozens of datacenter racks and require proprietary InfiniBand to cluster — the CS-2 takes minutes to set up. Simply plug in the standardsbased 100 Gigabit Ethernet links to a switch, and you you can start training your models.
 
   features:

@@ -9,7 +9,20 @@ ipu:
 
   url: https://www.graphcore.ai/bow-processors
 
-  description: "Graphcore's IPU (Intelligence Processing Unit) is a type of specialized hardware accelerator designed for machine learning workloads. The IPU is optimized for highly parallelized and computationally intensive deep learning tasks, making it well-suited for training and inference in neural networks. Graphcore's IPU has a unique architecture, which is specifically designed to handle the irregular and sparse data patterns often encountered in deep learning models where traditional GPUs fall short. The IPU comes in different generations, such as the IPU-M2000 and IPU-POD, each offering various levels of performance and scalability for AI applications.  The IPU is built around a tile architecture, which consists of multiple processing nodes connected in a two-dimensional grid. Each tile includes a number of processor cores, a local memory, and a router for communication between tiles."
+  description: |
+    Graphcore's IPU (Intelligence Processing Unit) is a type of specialized hardware
+    accelerator designed for machine learning workloads. The IPU is optimized for highly
+    parallelized and computationally intensive deep learning tasks, making it
+    well-suited for training and inference in neural networks. Graphcore's IPU has a
+    unique architecture, which is specifically designed to handle the irregular and
+    sparse data patterns often encountered in deep learning models where traditional
+    GPUs fall short. The IPU comes in different generations, such as the IPU-M2000 and
+    IPU-POD, each offering various levels of performance and scalability for AI
+    applications.
+
+    The IPU is built around a tile architecture, which consists of multiple processing
+    nodes connected in a two-dimensional grid. Each tile includes a number of processor
+    cores, a local memory, and a router for communication between tiles.
 
   features:
     - "Easy to deploy via IPU cloud services."

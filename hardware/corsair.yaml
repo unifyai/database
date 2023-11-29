@@ -9,7 +9,15 @@ corsair:
 
   url: https://www.d-matrix.ai/technology/
 
-  description: "Corsair hardware involves a groundbreaking technique that shifts computational tasks into Static Random Access Memory (SRAM), fundamentally transforming the interaction between memory and computing. Corsair utilizes a distinctive DIMC engine, consisting of tailored digital circuits, to seamlessly integrate computing functionalities within programmable memory. Corsair achieves this by introducing a multiplying component through the incorporation of four additional transistors into a 6T SRAM bit cell. The most important part of the chip design is the DIMC engine which is a digital version of in-memory compute."
+  description: |
+    Corsair hardware involves a groundbreaking technique that shifts computational tasks
+    into Static Random Access Memory (SRAM), fundamentally transforming the interaction
+    between memory and computing. Corsair utilizes a distinctive DIMC engine, consisting
+    of tailored digital circuits, to seamlessly integrate computing functionalities
+    within programmable memory. Corsair achieves this by introducing a multiplying
+    component through the incorporation of four additional transistors into a 6T SRAM
+    bit cell. The most important part of the chip design is the DIMC engine which is a
+    digital version of in-memory compute.
 
   features:
     - "Optimized for generative inference."

@@ -3,12 +3,17 @@ hopsworks:
 
   image_url: https://assets-global.website-files.com/5f6353590bb01cacbcecfbac/62bcc94c0babe746f7156b64_hopsworks-logo%202022.svg
 
-  tags: 
+  tags:
     - orchestration
 
   url: https://www.hopsworks.ai/
 
-  description: "Hopsworks is a collaborative machine learning platform for both batch and real-time data, enabling the design and operation of feature, training, and inference pipelines. It supports a Python-centric environment for feature engineering at scale and offers role-based access control for collaborative projects. Hopsworks is adaptable to any cloud infrastructure and delivers high-performance data processing."
+  description: |
+    Hopsworks is a collaborative machine learning platform for both batch and real-time
+    data, enabling the design and operation of feature, training, and inference pipelines.
+    It supports a Python-centric environment for feature engineering at scale and offers
+    role-based access control for collaborative projects. Hopsworks is adaptable to any
+    cloud infrastructure and delivers high-performance data processing.
 
   features:
     - "ML Pipelines: Supports the creation and operation of feature, training, and inference pipelines."

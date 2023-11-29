@@ -9,7 +9,14 @@ dojo:
 
   url: https://www.tesla.com/AI
 
-  description: "Tesla Dojo is a supercomputer designed and built by Tesla for computer vision video processing and recognition. It will be utilized to train Tesla's machine learning models, enhancing its Full Self-Driving (FSD) advanced driver-assistance system. Dojo operates using its own arithmetic formats and methods. This standard defines Tesla's arithmetic formats and methods for the new 8-bit and 16-bit binary floating-point arithmetic in computer programming environments for deep learning neural network training."
+  description: |
+    Tesla Dojo is a supercomputer designed and built by Tesla for computer vision video
+    processing and recognition. It will be utilized to train Tesla's machine learning
+    models, enhancing its Full Self-Driving (FSD) advanced driver-assistance system.
+    Dojo operates using its own arithmetic formats and methods. This standard defines
+    Tesla's arithmetic formats and methods for the new 8-bit and 16-bit binary
+    floating-point arithmetic in computer programming environments for deep learning
+    neural network training.
 
   features:
     - "Dojo operates using its own arithmetic formats and methods."

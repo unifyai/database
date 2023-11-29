@@ -9,7 +9,16 @@ oneapi:
 
   url: https://www.oneapi.io
 
-  description: "OneAPI is Intel's comprehensive toolkit for developing and optimizing applications across diverse computing architectures such as CPUs, GPUs, and FPGAs. It's built around a unified programming model that aims to future-proof software development by allowing a single codebase to span multiple types of hardware. The toolkit includes advanced compilers, powerful libraries, and migration tools that facilitate the transition from proprietary code (like CUDA) to an open, standards-based workflow. OneAPI stands out for its emphasis on ease of use, performance optimization, and its broad support for heterogeneous computing, making it a versatile choice for developers targeting Intel's hardware ecosystems."
+  description: |
+    OneAPI is Intel's comprehensive toolkit for developing and optimizing applications
+    across diverse computing architectures such as CPUs, GPUs, and FPGAs. It's built
+    around a unified programming model that aims to future-proof software development by
+    allowing a single codebase to span multiple types of hardware. The toolkit includes
+    advanced compilers, powerful libraries, and migration tools that facilitate the
+    transition from proprietary code (like CUDA) to an open, standards-based workflow.
+    OneAPI stands out for its emphasis on ease of use, performance optimization, and its
+    broad support for heterogeneous computing, making it a versatile choice for
+    developers targeting Intel's hardware ecosystems.
 
   features:
     - "Efficient Parallelism"

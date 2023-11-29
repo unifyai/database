@@ -9,7 +9,11 @@ kernl:
 
   url: https://www.kernl.ai
 
-  description: "Kernl is an open source, PyTorch-based inference engine built using OpenAI Triton, CUDA graphs and TorchDynamo. Kernl aims to minimize the GPU memory bandwidth bottleneck with kernel fusion while also making sure that such kernels are easy to understand and customize, being each under 200 lines of code."
+  description: |
+    Kernl is an open source, PyTorch-based inference engine built using OpenAI Triton,
+    CUDA graphs and TorchDynamo. Kernl aims to minimize the GPU memory bandwidth
+    bottleneck with kernel fusion while also making sure that such kernels are easy to
+    understand and customize, being each under 200 lines of code.
 
   features:
     - "PyTorch Model Optimization Without Rewriting"

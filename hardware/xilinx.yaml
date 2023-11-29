@@ -9,7 +9,16 @@ xilinx:
 
   url: https://www.xilinx.com/products/silicon-devices/acap/versal.html
 
-  description: "Xilinx which was acquired by AMD and is a company that specializes in the design and development of field-programmable gate arrays (FPGAs), programmable logic devices (PLDs), and adaptive SoC architecture. One of the most popular hardware they’ve manufactured is the VCK5000 which is built on the AMD 7nm Versal adaptive system-on-chip architecture. The Versal adaptive SOC is a disruptive 7 nm architecture that combines heterogeneous compute engines with a breadth of hardened memory and interfacing technologies for superior performance/watt over competing 10 nm FPGAs . In this context VCK5000 is ideal for CNN, RNN, and NLP acceleration for your cloud and edge applications."
+  description: |
+    Xilinx which was acquired by AMD and is a company that specializes in the design and
+    development of field-programmable gate arrays (FPGAs), programmable logic devices
+    (PLDs), and adaptive SoC architecture. One of the most popular hardware they’ve
+    manufactured is the VCK5000 which is built on the AMD 7nm Versal adaptive
+    system-on-chip architecture. The Versal adaptive SOC is a disruptive 7 nm
+    architecture that combines heterogeneous compute engines with a breadth of hardened
+    memory and interfacing technologies for superior performance/watt over competing 10
+    nm FPGAs . In this context VCK5000 is ideal for CNN, RNN, and NLP acceleration for
+    your cloud and edge applications.
 
   features:
     - "Power efficient."

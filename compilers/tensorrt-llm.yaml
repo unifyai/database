@@ -11,7 +11,16 @@ tensorrt-llm:
 
   url: https://github.com/NVIDIA/TensorRT-LLM
 
-  description: "TensorRT-LLM is an advanced library from NVIDIA designed to accelerate the inference process for large language models NVIDIA GPUs. It offers a streamlined, high-performance solution for developers, encapsulating state-of-the-art optimizations within an accessible Python API. This tool simplifies the complexity traditionally associated with deploying LLMs by providing pre-optimized computational kernels and a suite of tools for performance enhancement, including a backend for Triton server integration. It comes with several popular models prebuilt and includes a wide range of configurations for both single-GPU and multi-GPU settings."
+  description: |
+    TensorRT-LLM is an advanced library from NVIDIA designed to accelerate the inference
+    process for large language models NVIDIA GPUs. It offers a streamlined,
+    high-performance solution for developers, encapsulating state-of-the-art
+    optimizations within an accessible Python API. This tool simplifies the complexity
+    traditionally associated with deploying LLMs by providing pre-optimized
+    computational kernels and a suite of tools for performance enhancement, including a
+    backend for Triton server integration. It comes with several popular models prebuilt
+    and includes a wide range of configurations for both single-GPU and multi-GPU
+    settings.
 
   features:
     - "Comprehensive LLM Optimization"

@@ -8,7 +8,15 @@ keops:
 
   url: https://www.kernel-operations.io/keops/index.html
 
-  description: "KeOps (Kernel Operations) is a library designed to boost tensor computations by leveraging mathematical structure common in machine learning and applied mathematics, like distance matrices, kernel matrices, and point cloud convolutions. It utilizes symbolic tensors, which are efficient mathematical formulations, supporting operations with CPU and GPU integration. KeOps is memory-efficient, offering significant speed-ups to GPU programs, supports automatic differentiation, and has a linear memory footprint. It integrates well with standard packages and supports multi-GPU configurations."
+  description: |
+    KeOps (Kernel Operations) is a library designed to boost tensor computations by
+    leveraging mathematical structure common in machine learning and applied
+    mathematics, like distance matrices, kernel matrices, and point cloud convolutions.
+    It utilizes symbolic tensors, which are efficient mathematical formulations,
+    supporting operations with CPU and GPU integration. KeOps is memory-efficient,
+    offering significant speed-ups to GPU programs, supports automatic differentiation,
+    and has a linear memory footprint. It integrates well with standard packages and
+    supports multi-GPU configurations.
 
   features:
     - "Reduction of Large Arrays"

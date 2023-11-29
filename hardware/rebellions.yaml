@@ -9,7 +9,14 @@ rebellions:
 
   url: https://rebellions.ai/
 
-  description: "Rebellions is a pioneering AI semiconductor startup that aims to accelerate the development of a next-generation AI chip, capitalizing on the increasing interest in the hardware required for running artificial intelligence services. They have announced a strategic partnership with Samsung Electronics to co-develop their next-generation AI chip, Rebel. The chip will be manufactured using Samsung’s cutting-edge 4-nanometer fabrication process and will incorporate Samsung Electronics’ HBM3E memory technology."
+  description: |
+    Rebellions is a pioneering AI semiconductor startup that aims to accelerate the
+    development of a next-generation AI chip, capitalizing on the increasing interest in
+    the hardware required for running artificial intelligence services. They have
+    announced a strategic partnership with Samsung Electronics to co-develop their
+    next-generation AI chip, Rebel. The chip will be manufactured using Samsung’s
+    cutting-edge 4-nanometer fabrication process and will incorporate Samsung
+    Electronics’ HBM3E memory technology.
 
   features:
     - "delivers uncompromised inference performance across different types of ML tasks, computer vision, NLP , etc."

@@ -1,10 +1,9 @@
 llm-awq:
-
   name: "llm-awq"
- 
+
   image_url: https://raw.github.com/mit-han-lab/llm-awq/main/figures/overview.png
 
-  tags: 
+  tags:
     - quantization
     - pytorch
     - llms
@@ -12,7 +11,9 @@ llm-awq:
 
   url: https://github.com/mit-han-lab/llm-awq
 
-  description: "Efficient and accurate low-bit weight quantization (INT3/4) for LLMs, supporting instruction-tuned models and multi-modal LMs."
+  description: |
+    Efficient and accurate low-bit weight quantization (INT3/4) for LLMs, supporting
+    instruction-tuned models and multi-modal LMs.
 
   features:
     - "INT 3/4 Weight Quantization for LLMs"

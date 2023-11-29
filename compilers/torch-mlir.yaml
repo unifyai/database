@@ -9,7 +9,18 @@ torch-mlir:
 
   url: https://github.com/llvm/torch-mlir
 
-  description: "Torch-MLIR is a project that seeks to bridge PyTorch with the MLIR (Multi-Level Intermediate Representation) ecosystem. As part of the LLVM Incubator process, Torch-MLIR is not yet an official part of LLVM releases but serves as a compiler support path from PyTorch to MLIR. Torch-MLIR enables hardware vendors to efficiently map PyTorch and other frameworks into MLIR, allowing for easier targeting of hardware-specific optimizations. The project supports several paths for lowering models to the Torch MLIR Dialect and then to existing MLIR dialects. On the PyTorch frontend, this includes TorchScript and LazyTensorCore, with the addition of support for TorchDynamo/PyTorch 2.0 in progress. On the backend, a variety of different lowering paths are supported for different use cases, the core ones being StableHLO, TOSA and Linalg (+ arith, tensor, etc)."
+  description: |
+    Torch-MLIR is a project that seeks to bridge PyTorch with the MLIR (Multi-Level
+    Intermediate Representation) ecosystem. As part of the LLVM Incubator process,
+    Torch-MLIR is not yet an official part of LLVM releases but serves as a compiler
+    support path from PyTorch to MLIR. Torch-MLIR enables hardware vendors to
+    efficiently map PyTorch and other frameworks into MLIR, allowing for easier
+    targeting of hardware-specific optimizations. The project supports several paths for
+    lowering models to the Torch MLIR Dialect and then to existing MLIR dialects. On the
+    PyTorch frontend, this includes TorchScript and LazyTensorCore, with the addition of
+    support for TorchDynamo/PyTorch 2.0 in progress. On the backend, a variety of
+    different lowering paths are supported for different use cases, the core ones being
+    StableHLO, TOSA and Linalg (+ arith, tensor, etc).
 
   features:
     - "Seamless PyTorch-MLIR Integration"

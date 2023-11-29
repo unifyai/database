@@ -8,8 +8,10 @@ Runpod:
 
   url: https://www.runpod.io/
 
-  description: "Runpod is a provider of serverless GPU compute for AI training and inference. Apart support for autoscaling and a coldstart time of less than half a second,
-    they also charge by the second."
+  description: |
+    Runpod is a provider of serverless GPU compute for AI training and inference.
+    Apart support for autoscaling and a coldstart time of less than half a second,
+    they also charge by the second.
 
   features:
     - "Autoscaling"

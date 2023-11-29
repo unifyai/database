@@ -8,8 +8,12 @@ google-vertexai:
 
   url: https://cloud.google.com/vertex-ai
 
-  description: "Google Vertex AI is a managed machine learning service and is an end-to-end machine learning platform for building, training and deploying ML models.
-    For deployment, Vertex AI allows users to upload their model to their model registry and easily deploy the container image to a production environment."
+  description: |
+    Google Vertex AI is a managed machine learning service and is an end-to-end machine
+    learning platform for building, training and deploying ML models.
+
+    For deployment, Vertex AI allows users to upload their model to their model registry
+    and easily deploy the container image to a production environment.
 
   features:
     - "Seamless end to end integration."

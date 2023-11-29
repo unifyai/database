@@ -10,7 +10,25 @@ mlir:
 
   url: https://mlir.llvm.org
 
-  description: "MLIR, which stands for Multi-Level Intermediate Representation, is a compiler infrastructure, originally developed at Google but now maintained by the LLVM foundation, which is designed to be a flexible and extensible framework for representing and optimizing programs and data structures across various stages of compilation and execution, particularly in the context of high-performance computing, machine learning, and domain-specific languages. One of the core contributions of its model is a unified IR syntax which can support this wide range of representations, from high level tensor ops with value semantics all the way down to assembly instructions, it does this through the usage of dialects, which, as the name suggests, are essentially sub-languages for these different levels of abstraction. Some examples of dialects include the affine dialect for polyhedral transformations, the arith dialect for elementary arithmetic operations, and the scf dialect for structured control flow. On the hardware-specific side, there are unique dialects for different architectures like x86 and Arm, as well as for standardized device representations such as SPIR-V for GPUs. Though initially born out of the XLA project with deep learning applications in mind, MLIR is in fact a general purpose compiler infrastructure which can be used for a wide range of domain specific tasks such as quantum computing and even circuit design."
+  description: |
+    MLIR, which stands for Multi-Level Intermediate Representation, is a compiler
+    infrastructure, originally developed at Google but now maintained by the LLVM
+    foundation, which is designed to be a flexible and extensible framework for
+    representing and optimizing programs and data structures across various stages of
+    compilation and execution, particularly in the context of high-performance
+    computing, machine learning, and domain-specific languages. One of the core
+    contributions of its model is a unified IR syntax which can support this wide range
+    of representations, from high level tensor ops with value semantics all the way down
+    to assembly instructions, it does this through the usage of dialects, which, as the
+    name suggests, are essentially sub-languages for these different levels of
+    abstraction. Some examples of dialects include the affine dialect for polyhedral
+    transformations, the arith dialect for elementary arithmetic operations, and the scf
+    dialect for structured control flow. On the hardware-specific side, there are unique
+    dialects for different architectures like x86 and Arm, as well as for standardized
+    device representations such as SPIR-V for GPUs. Though initially born out of the XLA
+    project with deep learning applications in mind, MLIR is in fact a general purpose
+    compiler infrastructure which can be used for a wide range of domain specific tasks
+    such as quantum computing and even circuit design.
 
   features:
     - "Extensible Compiler Infrastructure"

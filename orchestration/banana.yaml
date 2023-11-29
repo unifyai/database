@@ -8,10 +8,17 @@ banana:
 
   url: https://www.banana.dev/
 
-  description: "Banana is a serverless GPU service tailored for AI applications.
-    It allows users to quickly deploy AI models using custom Python framework, connect to data stores, and run inference efficiently.
-    Banana offers built-in CI/CD support, facilitating Docker image creation and deployment on their serverless GPU infrastructure.
-    The service excels in autoscaling applications, minimizing cold boot times to ensure rapid response to changing traffic patterns."
+  description: |
+    Banana is a serverless GPU service tailored for AI applications.
+
+    It allows users to quickly deploy AI models using custom Python framework, connect
+    to data stores, and run inference efficiently.
+
+    Banana offers built-in CI/CD support, facilitating Docker image creation and
+    deployment on their serverless GPU infrastructure.
+
+    The service excels in autoscaling applications, minimizing cold boot times to ensure
+    rapid response to changing traffic patterns.
 
   features:
     - "Efficient GPU Resource Billing."

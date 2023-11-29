@@ -10,7 +10,12 @@ anari:
 
   url: https://anari.ai/
 
-  description: "Anari excels in developing innovative solutions that leverage advanced cloud and hardware technologies to achieve superior vector search performance in data-intensive applications. They have an platform which provides an unparalleled foundation for fast and scalable vector search, revolutionizing business data analysis."
+  description: |
+    Anari excels in developing innovative solutions that leverage advanced cloud and
+    hardware technologies to achieve superior vector search performance in
+    data-intensive applications. They have an platform which provides an unparalleled
+    foundation for fast and scalable vector search, revolutionizing business data
+    analysis.
 
   features:
     - "Has a unique approach which involves harnessing the power of FPGA technology on the AWS/Azure platforms."

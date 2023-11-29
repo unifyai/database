@@ -8,9 +8,15 @@ octoai:
 
   url: https://octoml.ai/
 
-  description: "OctoAI offers an efficient and user-friendly platform for GenAI app development, featuring an Image Generation solution and a Compute Service.
-    Users can leverage pre-optimized endpoints for open source models or fine-tune models for their specific needs.
-    The platform provides autoscaling and ample compute capacity, ensuring reliability and scalability."
+  description: |
+    OctoAI offers an efficient and user-friendly platform for GenAI app development,
+    featuring an Image Generation solution and a Compute Service.
+
+    Users can leverage pre-optimized endpoints for open source models or fine-tune
+    models for their specific needs.
+
+    The platform provides autoscaling and ample compute capacity, ensuring reliability
+    and scalability.
 
   features:
     - "Pre-Optimized Endpoints."

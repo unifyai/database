@@ -1,10 +1,9 @@
 aimet:
-
   name: "AIMET"
- 
+
   image_url: https://quic.github.io/aimet-pages/releases/latest/_static/brain_logo.png
 
-  tags: 
+  tags:
     - pruning
     - tensorization
     - quantization
@@ -15,10 +14,12 @@ aimet:
 
   url: https://github.com/quic/aimet
 
-  description: "AIMET is a library that provides advanced model quantization and compression techniques for
-  trained neural network models. It provides features that have been proven to improve run-time performance of deep learning
-  neural network models with lower compute and memory requirements and minimal impact to task accuracy."
- 
+  description: |
+    AIMET is a library that provides advanced model quantization and compression
+    techniques for trained neural network models. It provides features that have been
+    proven to improve run-time performance of deep learning neural network models with
+    lower compute and memory requirements and minimal impact to task accuracy.
+
   features:
     - "Batch-Norm Folding"
     - "Cross-Layer Equalization"

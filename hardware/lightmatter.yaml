@@ -8,7 +8,14 @@ lightmatter:
 
   url: https://lightmatter.co/products/passage/
 
-  description: "Lightmatter is delivering a new paradigm in semiconductor chip architecture and the next transition for large-scale computing. The company has developed photonic processors that are faster, more efficient and cooler than any conventional processors in existence today and is answering the call for increased compute speed, low energy density, and reduced chip heating. Lightmatter is set to enable the continued rapid growth of artificial intelligence computing while minimizing its well-known and growing impact on the environment."
+  description: |
+    Lightmatter is delivering a new paradigm in semiconductor chip architecture and the
+    next transition for large-scale computing. The company has developed photonic
+    processors that are faster, more efficient and cooler than any conventional
+    processors in existence today and is answering the call for increased compute speed,
+    low energy density, and reduced chip heating. Lightmatter is set to enable the
+    continued rapid growth of artificial intelligence computing while minimizing its
+    well-known and growing impact on the environment.
 
   features:
     - "A general-purpose machine learning accelerator that combines photonics and transistor-based systems."

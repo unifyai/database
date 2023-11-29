@@ -1,10 +1,9 @@
 pruna-ai:
-
   name: "Pruna-AI"
- 
+
   image_url: https://assets-global.website-files.com/646b351987a8d8ce158d1940/64ec9e96b4334c0e1ac41504_Logo%20with%20white%20text.svg
 
-  tags: 
+  tags:
     - pytorch
     - pruning
     - distillation
@@ -12,8 +11,9 @@ pruna-ai:
 
   url: https://github.com/PrunaAI
 
-  description: "Pruna AI makes, in one line of code, any AI model faster, cheaper, smaller, greener on any hardware.
-   It covers CV, NLP, audio, graphs for predictive and generative AI"
+  description: |
+    Pruna AI makes, in one line of code, any AI model faster, cheaper, smaller, greener on any hardware.
+    It covers CV, NLP, audio, graphs for predictive and generative AI
 
   features:
     - "quantization"

@@ -12,7 +12,11 @@ groq:
 
   url: https://groq.com/
 
-  description: "Groq specializes in developing hardware for artificial intelligence (AI) applications. Groq has designed a tensor processing unit (TPU) called the Groq Tensor Streaming Processor (TSP), which is aimed at accelerating machine learning workloads."
+  description: |
+    Groq specializes in developing hardware for artificial intelligence (AI)
+    applications. Groq has designed a tensor processing unit (TPU) called the Groq
+    Tensor Streaming Processor (TSP), which is aimed at accelerating machine learning
+    workloads.
 
   features:
     - "Ultra-fast, Enterprise-scale Inference AI Solutions."

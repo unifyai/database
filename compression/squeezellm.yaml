@@ -1,19 +1,18 @@
-
 squeezellm:
-
   name: "SqueezeLLM"
- 
+
   image_url: https://raw.github.com/SqueezeAILab/SqueezeLLM/main/figs/thumbnail.png
 
-  tags: 
+  tags:
     - quantization
     - pytorch
     - open-source
 
   url: https://github.com/SqueezeAILab/SqueezeLLM
 
-  description: "SqueezeLLM is a post-training quantization framework that incorporates a new method called
-                 Dense-and-Sparse Quantization to enable efficient LLM serving."
+  description: |
+    SqueezeLLM is a post-training quantization framework that incorporates a new method called
+    Dense-and-Sparse Quantization to enable efficient LLM serving."
 
   features:
     - "3/4 bit weight quantization for LLMs"

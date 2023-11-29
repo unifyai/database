@@ -9,7 +9,11 @@ flex-logix:
 
   url: https://flex-logix.com/
 
-  description: "Flex Logix Technologies is a semiconductor startup designing reconfigurable AI accelerator chips. They offer EFLX eFPGA, providing a customized array with precisely the resources you need, eliminating wastage. Additionally, certain portions of an FPGA design are fixed, allowing them to be hardwired into your SoC."
+  description: |
+    Flex Logix Technologies is a semiconductor startup designing reconfigurable AI
+    accelerator chips. They offer EFLX eFPGA, providing a customized array with
+    precisely the resources you need, eliminating wastage. Additionally, certain
+    portions of an FPGA design are fixed, allowing them to be hardwired into your SoC.
 
   features:
     - "Keep the flexibility and programmability of your FPGA while cutting power and cost 5-10x."

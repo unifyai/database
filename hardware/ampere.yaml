@@ -10,7 +10,10 @@ ampere:
 
   url: https://amperecomputing.com/
 
-  description: "Ampere is a pioneering semiconductor design firm poised for the next generation, shaping the future of computing through a groundbreaking strategy in CPU design that prioritizes high performance, energy efficiency, and sustainable cloud computing."
+  description: |
+    Ampere is a pioneering semiconductor design firm poised for the next generation,
+    shaping the future of computing through a groundbreaking strategy in CPU design that
+    prioritizes high performance, energy efficiency, and sustainable cloud computing.
 
   features:
     - "Most efficient product family for modern compute environments from the edge to on-premise and to the cloud."

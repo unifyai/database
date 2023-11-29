@@ -3,13 +3,17 @@ modal:
 
   image_url: https://modal.com/_app/immutable/assets/logotype.afd3fe89.svg
 
-  tags: 
+  tags:
     - container
     - model-endpoint
 
   url: https://modal.com/
 
-  description: "Modal specializes in running generative AI models and large-scale batch jobs. It offers a custom-built container system and infrastructure management, allowing scaling to hundreds of GPUs. Modal emphasizes rapid deployment without YAML, integrating container images and hardware specifications directly in code."
+  description: |
+    Modal specializes in running generative AI models and large-scale batch jobs. It
+    offers a custom-built container system and infrastructure management, allowing
+    scaling to hundreds of GPUs. Modal emphasizes rapid deployment without YAML,
+    integrating container images and hardware specifications directly in code.
 
   features:
     - "Custom Container System: Built-in Rust for rapid scaling and quick cold-start times."

@@ -8,7 +8,19 @@ tiramisu:
 
   url: https://github.com/facebookresearch/TensorComprehensions
 
-  description: "Tensor Comprehensions (TC) is a C++ library, developed by Meta, that automates the synthesis of high-performance machine learning kernels. It leverages Halide, ISL (Integer Set Library), and either NVRTC or LLVM to produce efficient code. A key feature of TC is its framework-agnostic nature, meaning it is designed to work with different machine learning frameworks without being tied to any one of them specifically. TC introduces an Einstein notation based language, making its syntax more closely aligned with the mathematics of deep learning. This language is used within a polyhedral Just-In-Time (JIT) compiler that translates a mathematical description of a deep learning DAG into a CUDA kernel. TC simplifies the process of writing high-performance GPU code by generating code from a high-level language and then auto-tuning that code for specific input sizes, making it easier for developers to achieve optimized performance without deep expertise in GPU programming."
+  description: |
+    Tensor Comprehensions (TC) is a C++ library, developed by Meta, that automates the
+    synthesis of high-performance machine learning kernels. It leverages Halide, ISL
+    (Integer Set Library), and either NVRTC or LLVM to produce efficient code. A key
+    feature of TC is its framework-agnostic nature, meaning it is designed to work with
+    different machine learning frameworks without being tied to any one of them
+    specifically. TC introduces an Einstein notation based language, making its syntax
+    more closely aligned with the mathematics of deep learning. This language is used
+    within a polyhedral Just-In-Time (JIT) compiler that translates a mathematical
+    description of a deep learning DAG into a CUDA kernel. TC simplifies the process of
+    writing high-performance GPU code by generating code from a high-level language and
+    then auto-tuning that code for specific input sizes, making it easier for developers
+    to achieve optimized performance without deep expertise in GPU programming.
 
   features:
     - "Einstein Notation for Tensor Operations"

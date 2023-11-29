@@ -10,7 +10,9 @@ sima:
 
   url: https://sima.ai/palette-software/
 
-  description: "Sima is building an ultra low-power software and chip solution for machine learning at the edge."
+  description: |
+    Sima is building an ultra low-power software and chip solution for machine learning
+    at the edge.
 
   features:
     - "Compile and evaluate Any ML model, from framework to silicon without coding."

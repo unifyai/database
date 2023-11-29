@@ -12,7 +12,13 @@ ggml:
 
   url: https://ggml.ai
 
-  description: "GGML is a minimal, C-based tensor library focussed on providing efficient training and inference for popular models on commodity hardware, specifically Apple silicon. It has a number of features that make it ideal for edge deployment such as integer quantization ranging from 8-bit quantization all the way to 4-bit, no third-party dependencies, zero memory allocations at runtime, and support for WebAssembly and WASM SIMD for running in the browser. "
+  description: |
+    GGML is a minimal, C-based tensor library focussed on providing efficient training
+    and inference for popular models on commodity hardware, specifically Apple silicon.
+    It has a number of features that make it ideal for edge deployment such as integer
+    quantization ranging from 8-bit quantization all the way to 4-bit, no third-party
+    dependencies, zero memory allocations at runtime, and support for WebAssembly and
+    WASM SIMD for running in the browser.
 
   features:
     - "Optimized for Apple Silicon"

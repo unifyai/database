@@ -1,25 +1,25 @@
-
 pytorchcompression:
-
   name: "Built In Pytorch Compression"
- 
+
   image_url: https://raw.githubusercontent.com/pytorch/pytorch/main/docs/source/_static/img/pytorch-logo-dark.png
 
-  tags: 
+  tags:
     - quantization
     - pruning
 
   url: https://github.com/pytorch/pytorch
 
-  description: "Pytorch has built in support for quantization as well as pruning under it's model optmization module"
- 
+  description: |
+    Pytorch has built in support for quantization as well as pruning under it's model
+    optmization module
+
   features:
-  - "Random Unstructured Pruning"
-  - "Random Structured Pruning"
-  - "Ln Structured Pruning"
-  - "L1 Unstructured Pruning"
-  - "Dynamic Quantization"
-  - "Static Quantization"
-  - "Quantization Aware Training"
-  - "Graph Mode Quantization"
-  - "Eager Mode Quantization"
+    - "Random Unstructured Pruning"
+    - "Random Structured Pruning"
+    - "Ln Structured Pruning"
+    - "L1 Unstructured Pruning"
+    - "Dynamic Quantization"
+    - "Static Quantization"
+    - "Quantization Aware Training"
+    - "Graph Mode Quantization"
+    - "Eager Mode Quantization"

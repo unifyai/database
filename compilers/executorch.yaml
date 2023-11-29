@@ -10,7 +10,16 @@ executorch:
 
   url: https://pytorch.org/executorch-overview
 
-  description: "ExecuTorch: ExecuTorch is an end-to-end solution that enables on-device inference capabilities across mobile and edge devices. At a high level, it is a more robust version of PyTorch Mobile, which used TorchScript for deployment on edge devices. However, with PyTorch 2.0, it is no longer preferred to use TorchScript, and ExecuTorch replaces it with torch.compile and torch.export. One of the major benefits of ExecuTorch is that it defines a list of standardized operators, which reduces the surface that needs to be covered by third-party operator libraries and accelerator backends. ExecuTorch has also received backing from industry leaders like Meta, Arm, Apple, and Qualcomm."
+  description: |
+    ExecuTorch: ExecuTorch is an end-to-end solution that enables on-device inference
+    capabilities across mobile and edge devices. At a high level, it is a more robust
+    version of PyTorch Mobile, which used TorchScript for deployment on edge devices.
+    However, with PyTorch 2.0, it is no longer preferred to use TorchScript, and
+    ExecuTorch replaces it with torch.compile and torch.export. One of the major
+    benefits of ExecuTorch is that it defines a list of standardized operators, which
+    reduces the surface that needs to be covered by third-party operator libraries and
+    accelerator backends. ExecuTorch has also received backing from industry leaders
+    like Meta, Arm, Apple, and Qualcomm.
 
   features:
     - "Efficient Execution on Edge"

@@ -9,7 +9,17 @@ mlc-llm:
 
   url: https://llm.mlc.ai
 
-  description: "MLC LLM, which stands for Machine Learning Compilation for Large Language Models, is a framework aimed at high-performance and universal deployment of large language models. It leverages compiler acceleration to enable the native deployment of these models with native APIs across various devices. The framework is designed to facilitate the development, optimization, and deployment of AI models using machine learning compilation techniques. It offers capabilities to build and deploy applications across different platforms, including web, iOS, and Android, with support for multiple programming languages and APIs. Additionally, MLC-LLM provides tools for model compilation, distribution of compiled models, and model architecture definition."
+  description: |
+    MLC LLM, which stands for Machine Learning Compilation for Large Language Models, is
+    a framework aimed at high-performance and universal deployment of large language
+    models. It leverages compiler acceleration to enable the native deployment of these
+    models with native APIs across various devices. The framework is designed to
+    facilitate the development, optimization, and deployment of AI models using machine
+    learning compilation techniques. It offers capabilities to build and deploy
+    applications across different platforms, including web, iOS, and Android, with
+    support for multiple programming languages and APIs. Additionally, MLC-LLM provides
+    tools for model compilation, distribution of compiled models, and model architecture
+    definition.
 
   features:
     - "Universal Deployment"

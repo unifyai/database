@@ -9,7 +9,12 @@ blackwell:
 
   url: https://www.techradar.com/computing/gpu/nvidia-blackwell
 
-  description: "The Nvidia Blackwell architecture succeeds the previous-generation Nvidia Ada Lovelace architecture , And wiil also host an entirely new SM (streaming multiprocessor) structure which is part of the new design; with dedicated denoising accelerators to assist in ray tracing performance. CUDA cores will get a minor bump in counts to 18,432"
+  description: |
+    The Nvidia Blackwell architecture succeeds the previous-generation Nvidia Ada
+    Lovelace architecture , And wiil also host an entirely new SM (streaming
+    multiprocessor) structure which is part of the new design; with dedicated denoising
+    accelerators to assist in ray tracing performance. CUDA cores will get a minor bump
+    in counts to 18,432
 
   features:
     - "MCM (multi-chip module)"

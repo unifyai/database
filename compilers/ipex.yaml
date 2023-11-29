@@ -8,7 +8,13 @@ ipex:
 
   url:
 
-  description: "Intel® Extension for PyTorch (IPEX) is a powerful tool designed to optimize PyTorch performance specifically for Intel architecture, taking advantage of specialized instruction sets and acceleration units on Intel CPUs and GPUs. It enhances both eager and graph execution modes in PyTorch with custom modules, optimizers, and quantization APIs, while providing graph mode optimizations through extended fusion passes."
+  description: |
+    Intel® Extension for PyTorch (IPEX) is a powerful tool designed to optimize PyTorch
+    performance specifically for Intel architecture, taking advantage of specialized
+    instruction sets and acceleration units on Intel CPUs and GPUs. It enhances both
+    eager and graph execution modes in PyTorch with custom modules, optimizers, and
+    quantization APIs, while providing graph mode optimizations through extended fusion
+    passes.
 
   features:
     - "Performance Optimizations for Intel Hardware"

@@ -1,10 +1,9 @@
 sparseml:
-
   name: "SparseML"
- 
+
   image_url: https://www.pillar.vc/wp-content/uploads/2021/11/Dark-blue-1600x522.png
 
-  tags: 
+  tags:
     - pruning
     - distillation
     - quantization
@@ -15,10 +14,15 @@ sparseml:
 
   url: https://docs.neuralmagic.com/sparseml/
 
-  description: "SparseML is an open source library developed and maintained by [Neural Magic](https://neuralmagic.com/) for applying compression recipes to neural networks.
-  Currently, it supports pruning, quantization and knowledge distillation for compressing Vision, NLP, and now, large language models as well.
-  SparseML also provides pre-compressed and pre-quantized models in their SparseZoo."
- 
+  description: |
+    SparseML is an open source library developed and maintained by
+    [Neural Magic](https://neuralmagic.com/) for applying compression recipes to neural
+    networks.
+
+    Currently, it supports pruning, quantization and knowledge distillation for
+    compressing Vision, NLP, and now, large language models as well. SparseML also
+    provides pre-compressed and pre-quantized models in their SparseZoo.
+
   features:
     - "Gradual Magnitude Pruning (GMP)"
     - "Alternating Compressed/DeCompressed Pruning (AC/DC)"

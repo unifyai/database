@@ -8,7 +8,17 @@ apex:
 
   url: https://github.com/NVIDIA/apex
 
-  description: "NVIDIA's Apex is a set of tools designed to simplify and optimize mixed precision and distributed training in PyTorch. It was created to provide utilities like Automatic Mixed Precision (AMP) and Distributed Training functionalities to users more rapidly than the official PyTorch releases. Although parts of Apex, such as apex.amp for AMP and apex.parallel.DistributedDataParallel for optimized multi-process distributed training, have been deprecated in favor of PyTorch's native features, the library offered functionalities like synchronized Batch Normalization and a custom checkpointing system for training states. Apex has been instrumental in improving performance and memory usage for deep learning models on NVIDIA GPUs"
+  description: |
+    NVIDIA's Apex is a set of tools designed to simplify and optimize mixed precision
+    and distributed training in PyTorch. It was created to provide utilities like
+    Automatic Mixed Precision (AMP) and Distributed Training functionalities to users
+    more rapidly than the official PyTorch releases. Although parts of Apex, such as
+    apex.amp for AMP and apex.parallel.DistributedDataParallel for optimized
+    multi-process distributed training, have been deprecated in favor of PyTorch's
+    native features, the library offered functionalities like synchronized Batch
+    Normalization and a custom checkpointing system for training states. Apex has been
+    instrumental in improving performance and memory usage for deep learning models on
+    NVIDIA GPUs
 
   features:
     - "Automatic Mixed Precision"

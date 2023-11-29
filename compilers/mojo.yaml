@@ -9,7 +9,24 @@ mojo:
 
   url: https://www.modular.com/mojo
 
-  description: "Mojo is not just a compiler, but rather an entirely new programming language recently introduced by Chris Latner’s (of LLVM fame) company, Modular. Offering a syntax nearly identical to that of Python, Mojo seeks to combine Python’s ease of use with the low-level control and runtime efficiency which languages like C and C++ provide. Being a superset of Python, Mojo provides full interoperability with existing packages in the Python ecosystem such as pandas and matplotlib. Mojo also introduces a slew of new features which Python lacks, including type checking, ownership, SIMD (Single Instruction Multiple Data) programming and even autotuning features to finetune parameters for optimal performance on one’s target hardware. Built on top of MLIR, Mojo also allows full extensibility and interoperability with any existing tools in the MLIR ecosystem, and can even be thought of as a programming language for MLIR, as it provides the ability to write custom MLIR code in a more user-friendly, Pythonic syntax. Along with this new language, Modular also provides an AI inference engine (written using Mojo kernels) which existing models written in PyTorch or Tensorflow can be easily ported to for efficient inference. Currently Mojo supports all CPU architectures and is planning on supporting GPUs and custom accelerators in the near future."
+  description: |
+    Mojo is not just a compiler, but rather an entirely new programming language
+    recently introduced by Chris Latner’s (of LLVM fame) company, Modular. Offering a
+    syntax nearly identical to that of Python, Mojo seeks to combine Python’s ease of
+    use with the low-level control and runtime efficiency which languages like C and C++
+    provide. Being a superset of Python, Mojo provides full interoperability with
+    existing packages in the Python ecosystem such as pandas and matplotlib. Mojo also
+    introduces a slew of new features which Python lacks, including type checking,
+    ownership, SIMD (Single Instruction Multiple Data) programming and even autotuning
+    features to finetune parameters for optimal performance on one’s target hardware.
+    Built on top of MLIR, Mojo also allows full extensibility and interoperability with
+    any existing tools in the MLIR ecosystem, and can even be thought of as a
+    programming language for MLIR, as it provides the ability to write custom MLIR code
+    in a more user-friendly, Pythonic syntax. Along with this new language, Modular also
+    provides an AI inference engine (written using Mojo kernels) which existing models
+    written in PyTorch or Tensorflow can be easily ported to for efficient inference.
+    Currently Mojo supports all CPU architectures and is planning on supporting GPUs and
+    custom accelerators in the near future.
 
   features:
     - "Python Usability with C Performance"

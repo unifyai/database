@@ -8,7 +8,12 @@ movidius:
 
   url: https://www.intel.com/content/www/us/en/products/details/processors/movidius-vpu.html
 
-  description: "Intel Movidius VPUs empower resource-intensive computer vision and AI tasks with remarkable efficiency. Through the integration of highly parallel programmable computing and dedicated AI hardware acceleration in a distinctive architecture that minimizes data movement, Movidius VPUs strike a harmonious balance between power efficiency and computational performance."
+  description: |
+    Intel Movidius VPUs empower resource-intensive computer vision and AI tasks with
+    remarkable efficiency. Through the integration of highly parallel programmable
+    computing and dedicated AI hardware acceleration in a distinctive architecture that
+    minimizes data movement, Movidius VPUs strike a harmonious balance between power
+    efficiency and computational performance.
 
   features:
     - "Designed to specifically accelerate AI workloads on your PC."

@@ -9,7 +9,13 @@ sifive:
 
   url: https://www.sifive.com/
 
-  description: "SiFive provides processor core IP based on the RISC-V architecture, allowing others to design and customize their own processors according to their specific needs. The company aims to promote open collaboration and innovation in the field of processor design by providing accessible and customizable solutions through the RISC-V ISA. This approach contrasts with traditional closed-source processor architectures, offering more flexibility and transparency to developers and manufacturers."
+  description: |
+    SiFive provides processor core IP based on the RISC-V architecture, allowing others
+    to design and customize their own processors according to their specific needs. The
+    company aims to promote open collaboration and innovation in the field of processor
+    design by providing accessible and customizable solutions through the RISC-V ISA.
+    This approach contrasts with traditional closed-source processor architectures,
+    offering more flexibility and transparency to developers and manufacturers.
 
   features:
     - "The use of RISC-V architecture implies that all development is open source."

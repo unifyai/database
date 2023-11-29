@@ -8,10 +8,11 @@ skypilot:
 
   url: https://skypilot.readthedocs.io/en/latest/
 
-  description: "Skypilot abstracts away cloud infrastructure burdens across providers like AWS, GCP and Azure. It is
+  description: |
+    Skypilot abstracts away cloud infrastructure burdens across providers like AWS, GCP and Azure. It is
     a framework to control and run ML models in any cloud. Skypilot maximizes GPU availibility by provisioning GPUs
     across different regions and zones that a user can access. It also is easy to use and supports most ML workloads with
-    minimal changes in code"
+    minimal changes in code
 
   features:
     - "Abstracts over multiple clouds"

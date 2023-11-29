@@ -8,8 +8,10 @@ beam:
 
   url: https://www.beam.cloud
 
-  description: "Beam Cloud is a serverless GPU platform for deploying ML models without managing the infrastructure burden. Along with autoscaling,
-    it comes with a coldstart time of 1.21s and a web-based dashboard apart from a simple API"
+  description: |
+    Beam Cloud is a serverless GPU platform for deploying ML models without managing the
+    infrastructure burden. Along with autoscaling, it comes with a coldstart time of
+    1.21s and a web-based dashboard apart from a simple API
 
   features:
     - "Low cold start time"
