@@ -1,7 +1,7 @@
 kalray:
   name: "kalray"
 
-  image_url: https://www.kalrayinc.com/wp-content/uploads/jch-optimize/ng/wp-content_uploads_2023_09_image-39.webp
+  image_url: kalray.png
 
   tags:
     - hardware
@@ -11,7 +11,11 @@ kalray:
 
   url: https://www.kalrayinc.com/products/dpu-processors/
 
-  description: "Kalray has multiple different hardware offerings, including their unique and patented DPU (Data Processing Unit) processors, acceleration cards, as well as market-leading data management and storage hardware, either separated or in combination."
+  description: |
+    Kalray has multiple different hardware offerings, including their unique and
+    patented DPU (Data Processing Unit) processors, acceleration cards, as well as
+    market-leading data management and storage hardware, either separated or in
+    combination.
 
   features:
     - "The DPU is natively capable of managing massive data flows."
