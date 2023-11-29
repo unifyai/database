@@ -6,6 +6,9 @@ import argparse
 import re
 
 TAGS_PATH = "tags.yaml"
+# Index file is used to specify tags for all entries in a directory,
+# unless they are specified in the entry file
+DEFAULT_FILE_NAME = "__default.yaml"
 strict = False
 
 
@@ -57,6 +60,20 @@ def fix_entry_image(entry: dict[str, list[str]]):
 def load_database(tags: list[str]) -> dict[str, list[str]]:
     database = {}
     for root, _, files in os.walk("."):
+        # Load index file
+        defaults = {}
+        if DEFAULT_FILE_NAME in files:
+            logging.debug("Loading %s defaults", root)
+            with open(
+                os.path.join(root, DEFAULT_FILE_NAME), "r", encoding="utf-8"
+            ) as f:
+                defaults = yaml.safe_load(f)
+                if "tags" in defaults:
+                    check_tags(tags, defaults["tags"])
+
+                if "image_url" in defaults:
+                    fix_entry_image(defaults)
+
         for file in files:
             if (
                 file != TAGS_PATH
@@ -68,6 +85,8 @@ def load_database(tags: list[str]) -> dict[str, list[str]]:
                     entry = yaml.safe_load(f)
                     check_tags(tags, list(entry.values())[0]["tags"])
                     fix_entry_image(entry)
+                    entry_key = list(entry.keys())[0]
+                    entry[entry_key] = {**defaults, **entry[entry_key]}
 
                     database.update(entry)
 
