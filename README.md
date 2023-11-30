@@ -2,6 +2,15 @@
 
 Unify database is a collection of curated YAML files that hold a description of different algorithms, tools, repos, products, related to different layers of the ML deployment stack, mainly: orchestration, compression, compilers, hardware.
 
+**[Website](https://unify.ai/database)** - **[Contribute](CONTRIBUTING.md)**
+
+## How to access the database
+
+You can offer the database through:
+
+- [The website](https://unify.ai/database).
+- Programmatically with [our endpoint](docs/endpoint.md).
+
 ## Database Structure
 
 The database tree looks like this:
