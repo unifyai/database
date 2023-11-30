@@ -24,10 +24,10 @@ In both cases, we will upload the image to our servers and update the link in th
 ## Removing an entry
 
 1. Create an issue detailing the reason for the removal
-2. We will remove the entry and close the issue
+2. We will will evaluate the request and remove the entry if needed
 
 ## Report an issue
 
 1. Create an issue detailing the issue
 2. Please include the link to the entry, as well as the reason for the issue
-3. We will fix the issue and close the issue
+3. We will look into it!
