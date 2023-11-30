@@ -8,7 +8,7 @@ GET https://unifyai.github.io/database/database.json
 
 **Example:**
 
-```json
+```js
 {
     "tool-1": {
         "__url": "https://github.com/unifyai/database/blob/main/category/tool-1.yaml"
