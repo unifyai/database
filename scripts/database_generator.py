@@ -47,16 +47,19 @@ def check_tags(tags: list[str], entry_tags: list[str]):
             log_warning(f"Tag {tag} not found", ValueError)
 
 
+def fix_image_url(image_url: str):
+    if not image_url.startswith("http") and not image_url.startswith("data:image"):
+        image_url = "https://cdn.saas.unify.ai/" + image_url
+
+    return image_url
+
+
 def fix_entry_image(entry: dict[str, list[str]]):
     key = list(entry.keys())[0]
     if "image_url" not in entry[key]:
         return
 
-    image_url = entry[key]["image_url"]
-    if not image_url.startswith("http") and not image_url.startswith("data:image"):
-        image_url = "https://cdn.saas.unify.ai/" + image_url
-
-    entry[key]["image_url"] = image_url
+    entry[key]["image_url"] = fix_entry_image(entry[key]["image_url"])
 
 
 def load_database(tags: list[str]) -> dict[str, list[str]]:
@@ -74,7 +77,7 @@ def load_database(tags: list[str]) -> dict[str, list[str]]:
                     check_tags(tags, defaults["tags"])
 
                 if "image_url" in defaults:
-                    fix_entry_image(defaults)
+                    defaults["image_url"] = fix_entry_image(defaults["image_url"])
 
         for file in files:
             if (
