@@ -59,7 +59,7 @@ def fix_entry_image(entry: dict[str, list[str]]):
     if "image_url" not in entry[key]:
         return
 
-    entry[key]["image_url"] = fix_entry_image(entry[key]["image_url"])
+    entry[key]["image_url"] = fix_image_url(entry[key]["image_url"])
 
 
 def load_database(tags: list[str]) -> dict[str, list[str]]:
