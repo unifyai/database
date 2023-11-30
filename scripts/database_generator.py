@@ -77,7 +77,7 @@ def load_database(tags: list[str]) -> dict[str, list[str]]:
                     check_tags(tags, defaults["tags"])
 
                 if "image_url" in defaults:
-                    defaults["image_url"] = fix_entry_image(defaults["image_url"])
+                    defaults["image_url"] = fix_image_url(defaults["image_url"])
 
         for file in files:
             if (
