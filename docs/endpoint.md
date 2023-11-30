@@ -18,7 +18,7 @@ GET https://unifyai.github.io/database/database.json
 }
 ```
 
-The schema of tools can be found in `_sample.yaml`](../_sample.yaml), but there are some special
+The schema of tools can be found in [`_sample.yaml`](../_sample.yaml), but there are some special
 fields that might be computed during build time. Usually we will prefix them with 2 underscores `__`
 (e.g. `__url`).
 
