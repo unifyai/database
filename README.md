@@ -10,7 +10,7 @@ The database tree looks like this:
 tool-category-1/
     ├─ tool.yaml
 tool-category-2/
-    ├─ __index.yaml
+    ├─ __default.yaml
     ├─ tool.yaml
 scripts/
     ├─ script.py
