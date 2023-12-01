@@ -1,6 +1,5 @@
 # Any tag used within the yaml files should be listed here.
 # When possible, a tag that is already listed should be used.
-# Tags must be sorted in alphabetical order.
 tags:
   - amd
   - apple-silicon
@@ -51,11 +50,9 @@ tags:
   - Tenstorrent
   - IBM
   - knowledge-distillation
-  - gpu-containers
   - aws
   - training
   - vision
   - analog
-  - npu
   - tesla
   - dpu
