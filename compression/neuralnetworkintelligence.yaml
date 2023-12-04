@@ -6,7 +6,6 @@ neuralnetworkintelligence:
   tags:
     - pruning
     - quantization
-    - microsoft
     - open-source
 
   url: https://github.com/quic/aimet

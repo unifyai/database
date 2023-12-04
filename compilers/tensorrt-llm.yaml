@@ -6,7 +6,7 @@ tensorrt-llm:
   tags:
     - compilers
     - nvidia
-    - llms
+    - llm
     - inference
 
   url: https://github.com/NVIDIA/TensorRT-LLM

@@ -4,7 +4,7 @@ tpu:
   image_url: tpu.jpg
 
   tags:
-    - tpu
+    - custom-hardware
     - hardware
     - mlir
 

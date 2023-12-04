@@ -4,7 +4,6 @@ tenstorrent:
   image_url: tenstorrent.svg
 
   tags:
-    - Tenstorrent
     - hardware
 
   url: https://tenstorrent.com/

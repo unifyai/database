@@ -4,7 +4,6 @@ northpole:
   image_url: northpole.png
 
   tags:
-    - IBM
     - hardware
 
   url: https://research.ibm.com/blog/northpole-ibm-ai-chip

@@ -5,7 +5,7 @@ inferentia:
 
   tags:
     - hardware
-    - aws
+    - cloud
     - inference
 
   url: https://awsdocs-neuron.readthedocs-hosted.com/en/latest/general/quick-start/docs-quicklinks.html

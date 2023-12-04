@@ -8,7 +8,7 @@ sambanova:
     - hardware
     - high-throughput
     - infrastructure
-    - frameworks
+    - framework
 
   url: https://sambanova.ai/
 

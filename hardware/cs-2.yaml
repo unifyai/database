@@ -4,7 +4,6 @@ cs-2:
   image_url: cs-2.jpg
 
   tags:
-    - cerebras
     - hardware
     - cluster
     - infrastructure

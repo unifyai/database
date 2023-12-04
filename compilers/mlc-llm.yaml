@@ -5,7 +5,7 @@ mlc-llm:
 
   tags:
     - compilers
-    - llms
+    - llm
 
   url: https://llm.mlc.ai
 

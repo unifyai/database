@@ -7,36 +7,34 @@ tags:
   - llvm
 
   # Compression
+  - compression
   - distillation
   - quantization
   - tensorization
-  - knowledge-distillation
   - pruning
 
   # Hardware
   - hardware
   - apple-silicon
   - amd
+  - nvidia
   - intel
   - edge
   - web
   - cpu
   - gpu
-  - tpu
-  - dpu
-  - driver # ??
+  - custom-hardware
 
   # Orchestration
   - orchestration
-  - container
-  - endpoints
-  - model-endpoint # Duplicate
-  - serving # Duplicate
+  - container # serverless? we can make the container tag for model-binaries (container generation)
+  - model-endpoint
   - inference
   - training
   - model-binary
-  - infrastructure
-  - cluster
+  - infrastructure # what does that mean?
+  - cluster # not sure if that even applies to anything
+  - cloud
 
   # Eco-system
   - jax
@@ -46,29 +44,13 @@ tags:
   - numpy
   - mxnet
   - onnx
-  - cupy # ??
-  - frameworks # ??
-  - tensor-library # ??
-
-  # Companies
-  - microsoft # ??
-  - nvidia
-  - sony
-  - tesla
-  - IBM
-  - aws # ??
-  ## Not sure
-  - cerebras
-  - d-Matrix
-  - graphcore
-  - Tenstorrent
 
   # Classification
   - open-source
-  - llms
+  - framework
+  - llm
   - vision
-  - analog # ??
 
   # Goals
-  - high-throughput # ??
-  - low-latency # ??
+  - high-throughput
+  - low-latency

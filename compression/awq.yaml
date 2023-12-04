@@ -6,7 +6,7 @@ llm-awq:
   tags:
     - quantization
     - pytorch
-    - llms
+    - llm
     - open-source
 
   url: https://github.com/mit-han-lab/llm-awq

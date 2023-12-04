@@ -5,7 +5,6 @@ modelcompressiontoolkit.yaml:
 
   tags:
     - quantization
-    - sony
     - open-source
 
   url: https://github.com/sony/model_optimization

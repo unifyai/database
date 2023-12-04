@@ -4,7 +4,7 @@ keops:
   image_url: keops.png
 
   tags:
-    - gpu
+    - custom-hardware
 
   url: https://www.kernel-operations.io/keops/index.html
 

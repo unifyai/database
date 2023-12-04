@@ -9,7 +9,6 @@ tensorly:
     - numpy
     - tensorflow
     - mxnet
-    - cupy
     - jax
     - open-source
 

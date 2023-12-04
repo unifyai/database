@@ -4,7 +4,7 @@ tinygrad:
   image_url: tinygrad.png
 
   tags:
-    - frameworks
+    - framework
 
   url: https://tinygrad.org
 

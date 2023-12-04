@@ -8,7 +8,7 @@ ggml:
     - edge
     - quantization
     - apple-silicon
-    - tensor-library
+    - compilers
 
   url: https://ggml.ai
 

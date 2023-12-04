@@ -6,7 +6,7 @@ flexgen:
   tags:
     - high-throughput
     - inference
-    - llms
+    - llm
 
   url: https://github.com/FMInference/FlexGen
 

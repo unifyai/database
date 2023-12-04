@@ -5,7 +5,7 @@ kalray:
 
   tags:
     - hardware
-    - dpu
+    - custom-hardware
     - edge
     - inference
 

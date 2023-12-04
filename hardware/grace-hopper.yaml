@@ -4,7 +4,7 @@ grace-hopper:
   image_url: grace-hopper.png
 
   tags:
-    - gpu
+    - custom-hardware
     - nvidia
     - hardware
     - cpu

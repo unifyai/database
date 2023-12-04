@@ -4,8 +4,7 @@ WebGPU:
   image_url: WebGPU.svg
 
   tags:
-    - gpu
-    - driver
+    - custom-hardware
     - hardware
     - web
 

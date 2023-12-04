@@ -5,8 +5,7 @@ vllm:
 
   tags:
     - inference
-    - llms
-    - serving
+    - llm
     - high-throughput
 
   url: https://vllm.ai

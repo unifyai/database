@@ -4,7 +4,7 @@ candle:
   image_url: candle.png
 
   tags:
-    - frameworks
+    - framework
     - inference
 
   url: https://github.com/huggingface/candle
