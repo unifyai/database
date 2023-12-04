@@ -1,58 +1,74 @@
 # Any tag used within the yaml files should be listed here.
 # When possible, a tag that is already listed should be used.
 tags:
-  - amd
-  - apple-silicon
+  # Compilers
   - compilers
-  - container
-  - cupy
-  - distillation
-  - edge
-  - endpoints
-  - frameworks
-  - high-throughput
-  - low-latency
-  - inference
-  - infrastructure
-  - intel
-  - jax
-  - keras
-  - llms
-  - llvm
-  - microsoft
   - mlir
-  - model-binary
-  - model-endpoint
-  - mxnet
-  - nvidia
-  - numpy
-  - onnx
-  - open-source
-  - orchestration
-  - pruning
-  - pytorch
+  - llvm
+
+  # Compression
+  - distillation
   - quantization
-  - serving
-  - sony
-  - tensor-library
   - tensorization
-  - tensorflow
-  - tpu
+  - knowledge-distillation
+  - pruning
+
+  # Hardware
   - hardware
-  - driver
-  - gpu
+  - apple-silicon
+  - amd
+  - intel
+  - edge
   - web
   - cpu
+  - gpu
+  - tpu
+  - dpu
+  - driver # ??
+
+  # Orchestration
+  - orchestration
+  - container
+  - endpoints
+  - model-endpoint # Duplicate
+  - serving # Duplicate
+  - inference
+  - training
+  - model-binary
+  - infrastructure
   - cluster
+
+  # Eco-system
+  - jax
+  - keras
+  - pytorch
+  - tensorflow
+  - numpy
+  - mxnet
+  - onnx
+  - cupy # ??
+  - frameworks # ??
+  - tensor-library # ??
+
+  # Companies
+  - microsoft # ??
+  - nvidia
+  - sony
+  - tesla
+  - IBM
+  - aws # ??
+  ## Not sure
   - cerebras
   - d-Matrix
   - graphcore
   - Tenstorrent
-  - IBM
-  - knowledge-distillation
-  - aws
-  - training
+
+  # Classification
+  - open-source
+  - llms
   - vision
-  - analog
-  - tesla
-  - dpu
+  - analog # ??
+
+  # Goals
+  - high-throughput # ??
+  - low-latency # ??
