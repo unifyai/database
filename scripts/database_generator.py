@@ -15,10 +15,13 @@ DEFAULT_FILE_NAME = "__default.yaml"
 # Special entry that is used to link to the github file of the entry.
 URL_ENTRY_NAME = "__url"
 strict = False
+warnings = 0
 
 
 def log_warning(msg: str, exception_class: Exception = Exception):
     logging.warning(msg)
+    global warnings  # pylint: disable=global-statement
+    warnings += 1
     if strict:
         raise exception_class(msg)  # pylint: disable=broad-exception-raised
 
@@ -248,10 +251,17 @@ if __name__ == "__main__":
     parser.add_argument(
         "-s", "--strict", action="store_true", help="Fail in case of warnings"
     )
+    parser.add_argument(
+        "-t",
+        "--test",
+        action="store_true",
+        help="Print all warnings but fail after running",
+    )
     parser.add_argument("-v", "--verbose", action="store_true", help="Verbose output")
 
     args = parser.parse_args()
     strict = args.strict
+    test = args.test
 
     logging.basicConfig(
         level=logging.DEBUG if args.verbose else logging.INFO,
@@ -259,3 +269,6 @@ if __name__ == "__main__":
     )
 
     main()
+    
+    if warnings > 0 and test:
+        exit(1)

@@ -17,4 +17,4 @@ jobs:
       - name: Compile database
         run: |
           pip install -r scripts/requirements.txt
-          python scripts/database_generator.py -sv
+          python scripts/database_generator.py -tv
