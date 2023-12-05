@@ -1,56 +1,131 @@
-# Any tag used within the yaml files should be listed here.
-# When possible, a tag that is already listed should be used.
+# The tags are structured in tag groups, to enforce tag logic.
+# The tag group schema is:
+#   group-name:
+#     description: "Group description"
+#     min: 1 # minimum number of tags from this group
+#     max: 1 # maximum number of tags from this group
+#     depends_on: # tags or groups that must be present for this group to be valid
+#       tags:
+#         - tag1
+#       groups:
+#         - group1
 tags:
-  # Compilers
-  - compilers
-  - mlir
-  - llvm
+  categories:
+    description: "Categories specific tags"
+    min: 1
+    tags:
+      - compilers
+      - compression
+      - hardware
+      - orchestration
 
-  # Compression
-  - compression
-  - distillation
-  - quantization
-  - tensorization
-  - pruning
+  compilers:
+    description: "Compilers specific tags"
+    min: 1
+    depends_on:
+      tags:
+        - compilers
+    tags:
+      - mlir
+      - llvm
 
-  # Hardware
-  - hardware
-  - apple-silicon
-  - amd
-  - nvidia
-  - intel
-  - edge
-  - web
-  - cpu
-  - gpu
-  - custom-hardware
+  compression:
+    description: "Compression specific tags"
+    min: 1
+    depends_on:
+      tags:
+        - compression
+    tags:
+      - distillation
+      - quantization
+      - tensorization
+      - pruning
 
-  # Orchestration
-  - orchestration
-  - container # serverless? we can make the container tag for model-binaries (container generation)
-  - model-endpoint
-  - inference
-  - training
-  - model-binary
-  - infrastructure # what does that mean?
-  - cluster # not sure if that even applies to anything
-  - cloud
+  hardware: # Do we need to rethink this?
+    description: "Hardware specific tags"
+    min: 1
+    depends_on:
+      tags:
+        - hardware
+    tags:
+      - custom-hardware
 
-  # Eco-system
-  - jax
-  - keras
-  - pytorch
-  - tensorflow
-  - numpy
-  - mxnet
-  - onnx
+  orchestration:
+    description: "Orchestration specific tags"
+    min: 1
+    depends_on:
+      tags:
+        - orchestration
+    tags:
+      - container # serverless? we can make the container tag for model-binaries (container generation)
+      - model-endpoint
+      - inference
+      - training
+      - model-binary
+      - infrastructure # what does that mean?
+      - cluster # not sure if that even applies to anything
+      - cloud
 
-  # Classification
-  - open-source
-  - framework
-  - llm
-  - vision
+  modality:
+    description: "Type of model specific tags"
+    tags:
+      - llm
+      - vision
+      - nlp
+      - speech
+      - gan
 
-  # Goals
-  - high-throughput
-  - low-latency
+  supported-hardware:
+    description: "Supported hardware specific tags"
+    tags:
+      - amd
+      - nvidia
+      - intel
+      - apple-silicon
+      - cpu
+      - gpu
+      - tpu
+      - edge
+      - web
+      - custom-hardware
+
+  eco-system:
+    description: "Eco-system specific tags"
+    tags:
+      - jax
+      - keras
+      - pytorch
+      - tensorflow
+      - numpy
+      - mxnet
+      - onnx
+
+  general:
+    description: "General classification tags"
+    tags:
+      - open-source
+      - framework
+
+  goals:
+    description: "Goals specific tags"
+    tags:
+      - high-throughput
+      - low-latency
+
+  license:
+    description: "License specific tags"
+    min: 1
+    depends_on:
+      tags:
+        - compilers
+        - compression
+        - orchestration
+    tags:
+      - apache-2.0
+      - mit
+      - bsd-3-clause
+      - gpl-3.0
+      - lgpl-3.0
+      - unlicense
+      - other-license
+      - proprietary
