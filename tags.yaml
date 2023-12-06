@@ -1,61 +1,130 @@
-# Any tag used within the yaml files should be listed here.
-# When possible, a tag that is already listed should be used.
-# Tags must be sorted in alphabetical order.
+# The tags are structured in tag groups, to enforce tag logic.
+# The tag group schema is:
+#   group-name:
+#     description: "Group description"
+#     min: 1 # minimum number of tags from this group
+#     max: 1 # maximum number of tags from this group
+#     depends_on: # tags or groups that must be present for this group to be valid
+#       tags:
+#         - tag1
+#       groups:
+#         - group1
 tags:
-  - amd
-  - apple-silicon
-  - compilers
-  - container
-  - cupy
-  - distillation
-  - edge
-  - endpoints
-  - frameworks
-  - high-throughput
-  - low-latency
-  - inference
-  - infrastructure
-  - intel
-  - jax
-  - keras
-  - llms
-  - llvm
-  - microsoft
-  - mlir
-  - model-binary
-  - model-endpoint
-  - mxnet
-  - nvidia
-  - numpy
-  - onnx
-  - open-source
-  - orchestration
-  - pruning
-  - pytorch
-  - quantization
-  - serving
-  - sony
-  - tensor-library
-  - tensorization
-  - tensorflow
-  - tpu
-  - hardware
-  - driver
-  - gpu
-  - web
-  - cpu
-  - cluster
-  - cerebras
-  - d-Matrix
-  - graphcore
-  - Tenstorrent
-  - IBM
-  - knowledge-distillation
-  - gpu-containers
-  - aws
-  - training
-  - vision
-  - analog
-  - npu
-  - tesla
-  - dpu
+  categories:
+    description: "Categories specific tags"
+    min: 1
+    tags:
+      - compilers
+      - compression
+      - hardware
+      - orchestration
+
+  compilers:
+    description: "Compilers specific tags"
+    min: 0
+    depends_on:
+      tags:
+        - compilers
+    tags:
+      - mlir
+      - llvm
+      - inference-optimizer
+
+  compression:
+    description: "Compression specific tags"
+    min: 1
+    depends_on:
+      tags:
+        - compression
+    tags:
+      - distillation
+      - quantization
+      - tensorization
+      - pruning
+
+  hardware:
+    description: "Hardware specific tags"
+    min: 0
+    depends_on:
+      tags:
+        - hardware
+    tags:
+      - custom-hardware
+
+  orchestration:
+    description: "Orchestration specific tags"
+    min: 1
+    depends_on:
+      tags:
+        - orchestration
+    tags:
+      - container
+      - model-endpoint
+      - inference
+      - training
+      - model-binary
+      - cluster
+      - cloud
+      - ml-ops
+
+  modality:
+    description: "Type of model specific tags"
+    tags:
+      - llm
+      - vision
+      - nlp
+      - speech
+      - gan
+
+  supported-hardware:
+    description: "Supported hardware specific tags"
+    tags:
+      - amd
+      - nvidia
+      - intel
+      - apple-silicon
+      - cpu
+      - gpu
+      - tpu
+      - edge
+      - web
+
+  eco-system:
+    description: "Eco-system specific tags"
+    tags:
+      - jax
+      - keras
+      - pytorch
+      - tensorflow
+      - numpy
+      - mxnet
+      - onnx
+
+  general:
+    description: "General classification tags"
+    tags:
+      - open-source
+      - framework
+
+  goals:
+    description: "Goals specific tags"
+    tags:
+      - high-throughput
+      - low-latency
+
+  license:
+    description: "License specific tags"
+    min: 1
+    depends_on:
+      tags:
+        - compilers
+        - compression
+    tags:
+      - apache-2.0
+      - mit
+      - bsd-3-clause
+      - gpl-3.0
+      - lgpl-3.0
+      - unlicense
+      - other-license
+      - proprietary

@@ -5,6 +5,7 @@ mlgo:
 
   tags:
     - compilers
+    - apache-2.0
 
   url: https://github.com/google/ml-compiler-opt
 

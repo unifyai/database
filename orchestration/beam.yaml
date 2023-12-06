@@ -4,6 +4,7 @@ beam:
   image_url: beam.svg
 
   tags:
+    - orchestration
     - model-binary
 
   url: https://www.beam.cloud

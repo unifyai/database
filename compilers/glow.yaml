@@ -5,6 +5,7 @@ glow:
 
   tags:
     - compilers
+    - apache-2.0
 
   url: https://ai.meta.com/tools/glow/
 

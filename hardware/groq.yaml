@@ -4,11 +4,8 @@ groq:
   image_url: groq.svg
 
   tags:
-    - training
     - hardware
     - high-throughput
-    - infrastructure
-    - cluster
 
   url: https://groq.com/
 

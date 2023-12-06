@@ -4,9 +4,8 @@ tpu:
   image_url: tpu.jpg
 
   tags:
-    - tpu
+    - custom-hardware
     - hardware
-    - mlir
 
   url: https://cloud.google.com/tpu/docs/intro-to-tpu
 

@@ -4,8 +4,9 @@ mystic:
   image_url: mystic.jpg
 
   tags:
+    - orchestration
     - model-binary
-    - endpoints
+    - model-endpoint
 
   url: https://mystic.ai/
 

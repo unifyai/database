@@ -5,7 +5,8 @@ mlc-llm:
 
   tags:
     - compilers
-    - llms
+    - llm
+    - apache-2.0
 
   url: https://llm.mlc.ai
 

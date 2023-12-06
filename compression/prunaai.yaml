@@ -4,12 +4,14 @@ pruna-ai:
   image_url: pruna-ai.svg
 
   tags:
+    - compression
     - pytorch
     - pruning
     - distillation
     - quantization
+    - proprietary
 
-  url: https://github.com/PrunaAI
+  url: https://www.pruna.ai/
 
   description: |
     Pruna AI makes, in one line of code, any AI model faster, cheaper, smaller, greener on any hardware.

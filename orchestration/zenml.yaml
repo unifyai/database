@@ -5,6 +5,8 @@ zenml:
 
   tags:
     - orchestration
+    - ml-ops
+    - cloud
 
   url: https://www.zenml.io/
 

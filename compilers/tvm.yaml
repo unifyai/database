@@ -5,6 +5,7 @@ tvm:
 
   tags:
     - compilers
+    - apache-2.0
 
   url: https://tvm.apache.org
 

@@ -5,6 +5,7 @@ tiramisu:
 
   tags:
     - compilers
+    - apache-2.0
 
   url: https://github.com/facebookresearch/TensorComprehensions
 

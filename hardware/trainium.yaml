@@ -5,8 +5,6 @@ trainium:
 
   tags:
     - hardware
-    - aws
-    - training
 
   url: https://awsdocs-neuron.readthedocs-hosted.com/en/latest/general/arch/neuron-hardware/trainium.html#trainium-arch
 

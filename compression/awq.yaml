@@ -4,10 +4,12 @@ llm-awq:
   image_url: llm-awq.png
 
   tags:
+    - compression
     - quantization
     - pytorch
-    - llms
+    - llm
     - open-source
+    - mit
 
   url: https://github.com/mit-han-lab/llm-awq
 

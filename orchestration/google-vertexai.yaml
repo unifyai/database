@@ -4,6 +4,7 @@ google-vertexai:
   image_url: google-vertexai.png
 
   tags:
+    - orchestration
     - model-binary
 
   url: https://cloud.google.com/vertex-ai

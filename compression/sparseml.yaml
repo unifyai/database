@@ -4,6 +4,7 @@ sparseml:
   image_url: sparseml.png
 
   tags:
+    - compression
     - pruning
     - distillation
     - quantization
@@ -11,6 +12,7 @@ sparseml:
     - tensorflow
     - keras
     - open-source
+    - apache-2.0
 
   url: https://docs.neuralmagic.com/sparseml/
 

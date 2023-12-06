@@ -4,8 +4,10 @@ tensorly-torch:
   image_url: tensorly-torch.png
 
   tags:
+    - compression
     - tensorization
     - pytorch
+    - bsd-3-clause
 
   url: https://github.com/tensorly/torch
 

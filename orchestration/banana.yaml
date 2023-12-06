@@ -4,6 +4,7 @@ banana:
   image_url: banana.svg
 
   tags:
+    - orchestration
     - container
 
   url: https://www.banana.dev/

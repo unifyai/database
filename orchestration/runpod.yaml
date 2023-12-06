@@ -4,6 +4,7 @@ Runpod:
   image_url: Runpod.png
 
   tags:
+    - orchestration
     - model-binary
 
   url: https://www.runpod.io/

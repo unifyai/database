@@ -4,6 +4,7 @@ paperspace:
   image_url: paperspace.svg
 
   tags:
+    - orchestration
     - model-binary
 
   url: https://www.paperspace.com

@@ -4,9 +4,11 @@ ipex:
   image_url: ipex.png
 
   tags:
+    - compilers
     - intel
+    - apache-2.0
 
-  url:
+  url: https://github.com/intel/intel-extension-for-pytorch
 
   description: |
     Intel® Extension for PyTorch (IPEX) is a powerful tool designed to optimize PyTorch

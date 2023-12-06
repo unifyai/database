@@ -4,8 +4,10 @@ pytorchcompression:
   image_url: pytorchcompression.png
 
   tags:
+    - compression
     - quantization
     - pruning
+    - bsd-3-clause
 
   url: https://github.com/pytorch/pytorch
 

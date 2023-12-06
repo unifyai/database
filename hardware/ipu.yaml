@@ -5,7 +5,6 @@ ipu:
 
   tags:
     - hardware
-    - graphcore
 
   url: https://www.graphcore.ai/bow-processors
 

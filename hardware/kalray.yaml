@@ -5,9 +5,8 @@ kalray:
 
   tags:
     - hardware
-    - dpu
+    - custom-hardware
     - edge
-    - inference
 
   url: https://www.kalrayinc.com/products/dpu-processors/
 

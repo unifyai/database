@@ -4,11 +4,13 @@ optimum:
   image_url: optimum.png
 
   tags:
+    - compression
     - quantization
     - pruning
-    - knowledge-distillation
+    - distillation
     - pytorch
     - open-source
+    - apache-2.0
 
   url: https://github.com/huggingface/optimum
 

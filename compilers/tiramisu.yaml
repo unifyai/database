@@ -5,6 +5,7 @@ tiramisu:
 
   tags:
     - compilers
+    - mit
 
   url: https://tiramisu-compiler.org
 

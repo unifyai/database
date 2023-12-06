@@ -4,7 +4,9 @@ gptq:
   image_url: gptq.png
 
   tags:
+    - compression
     - quantization
+    - apache-2.0
 
   url: https://github.com/IST-DASLab/gptq
 

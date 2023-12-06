@@ -4,7 +4,9 @@ tinygrad:
   image_url: tinygrad.png
 
   tags:
-    - frameworks
+    - compilers
+    - framework
+    - mit
 
   url: https://tinygrad.org
 

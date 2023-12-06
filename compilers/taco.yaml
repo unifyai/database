@@ -5,6 +5,7 @@ taco:
 
   tags:
     - compilers
+    - mit
 
   url: http://tensor-compiler.org
 

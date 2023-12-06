@@ -6,6 +6,7 @@ polyblocks:
   tags:
     - compilers
     - mlir
+    - proprietary
 
   url: https://www.polymagelabs.com/technology/
 

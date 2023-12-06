@@ -4,6 +4,7 @@ skypilot:
   image_url: skypilot.png
 
   tags:
+    - orchestration
     - container
 
   url: https://skypilot.readthedocs.io/en/latest/

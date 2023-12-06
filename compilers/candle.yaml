@@ -4,8 +4,11 @@ candle:
   image_url: candle.png
 
   tags:
-    - frameworks
-    - inference
+    - compilers
+    - framework
+    - inference-optimizer
+    - mit
+    - apache-2.0
 
   url: https://github.com/huggingface/candle
 

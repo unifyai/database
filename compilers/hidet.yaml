@@ -6,6 +6,7 @@ hidet:
   tags:
     - compilers
     - pytorch
+    - apache-2.0
 
   url: https://github.com/hidet-org/hidet
 

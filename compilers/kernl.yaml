@@ -6,6 +6,7 @@ kernl:
   tags:
     - compilers
     - pytorch
+    - apache-2.0
 
   url: https://www.kernl.ai
 

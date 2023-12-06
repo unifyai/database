@@ -4,6 +4,7 @@ modal:
   image_url: modal.svg
 
   tags:
+    - orchestration
     - container
     - model-endpoint
 
