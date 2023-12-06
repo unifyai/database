@@ -41,9 +41,9 @@ tags:
       - tensorization
       - pruning
 
-  hardware: # Do we need to rethink this?
+  hardware:
     description: "Hardware specific tags"
-    min: 1
+    min: 0
     depends_on:
       tags:
         - hardware
@@ -57,13 +57,12 @@ tags:
       tags:
         - orchestration
     tags:
-      - container # serverless? we can make the container tag for model-binaries (container generation)
+      - container
       - model-endpoint
       - inference
       - training
       - model-binary
-      - infrastructure # what does that mean?
-      - cluster # not sure if that even applies to anything
+      - cluster
       - cloud
 
   modality:
@@ -87,7 +86,6 @@ tags:
       - tpu
       - edge
       - web
-      - custom-hardware
 
   eco-system:
     description: "Eco-system specific tags"
