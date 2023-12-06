@@ -7,6 +7,10 @@ import re
 import math
 from dataclasses import dataclass
 from typing import Optional
+import xml.etree.cElementTree as ET
+import datetime
+
+import git
 
 TAGS_PATH = "tags.yaml"
 # Index file is used to specify tags for all entries in a directory,
@@ -14,6 +18,9 @@ TAGS_PATH = "tags.yaml"
 DEFAULT_FILE_NAME = "__default.yaml"
 # Special entry that is used to link to the github file of the entry.
 URL_ENTRY_NAME = "__url"
+LAST_MOD_ENTRY_NAME = "__last_mod"
+SITE_URL_ENTRY_NAME = "__site_url"
+SITE_URL_PREFIX = "https://unify.ai/database/"
 strict = False
 warnings = 0
 
@@ -214,6 +221,16 @@ def load_database(tag_groups: list[TagGroup]) -> dict[str, list[str]]:
                         url = url.replace("./", "")
                     entry[entry_key][URL_ENTRY_NAME] = url
 
+                    # Add last mod entry
+                    repo = git.Repo(search_parent_directories=True)
+                    file_path = os.path.join(root, file)
+                    last_mod = repo.git.log("-1", "--format=%at", "--", file_path)
+                    entry[entry_key][LAST_MOD_ENTRY_NAME] = last_mod
+
+                    # Add site url entry
+                    site_url = SITE_URL_PREFIX + entry_key
+                    entry[entry_key][SITE_URL_ENTRY_NAME] = site_url
+
                     database.update(entry)
 
     logging.info("Loaded database")
@@ -224,13 +241,34 @@ def sort_tags(tags: list[str], database: dict[str, list[str]]) -> list[str]:
     tags_count = {tag: 0 for tag in tags}
     for entry in database.values():
         for tag in entry["tags"]:
-            tags_count[tag] += 1
+            if tag in tags_count:
+                tags_count[tag] += 1
 
     tags = sorted(tags, key=lambda tag: tags_count[tag], reverse=True)
     tags = [tag for tag in tags if tags_count[tag] > 0]
 
     logging.info("Sorted tags")
     return tags
+
+
+def generate_sitemap(database: dict[str, list[str]]):
+    root = ET.Element("urlset")
+    root.set("xmlns", "http://www.sitemaps.org/schemas/sitemap/0.9")
+
+    url = ET.SubElement(root, "url")
+    ET.SubElement(url, "loc").text = SITE_URL_PREFIX
+
+    for entry in database.values():
+        url = ET.SubElement(root, "url")
+        ET.SubElement(url, "loc").text = entry[SITE_URL_ENTRY_NAME]
+        ET.SubElement(url, "lastmod").text = datetime.datetime.fromtimestamp(
+            int(entry[LAST_MOD_ENTRY_NAME])
+        ).isoformat()
+
+    tree = ET.ElementTree(root)
+    tree.write("build/sitemap.xml", encoding="utf-8", xml_declaration=True)
+
+    logging.info("Generated sitemap")
 
 
 def main():
@@ -244,6 +282,7 @@ def main():
         json.dump(database, f)
     with open("build/tags.json", "w", encoding="utf-8") as f:
         json.dump(tags, f)
+    generate_sitemap(database)
 
 
 if __name__ == "__main__":
@@ -269,6 +308,6 @@ if __name__ == "__main__":
     )
 
     main()
-    
+
     if warnings > 0 and test:
         exit(1)
