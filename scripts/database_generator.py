@@ -1,4 +1,3 @@
-import yaml
 import json
 import os
 import logging
@@ -7,10 +6,11 @@ import re
 import math
 from dataclasses import dataclass
 from typing import Optional
-import xml.etree.cElementTree as ET
+import xml.etree.ElementTree as ET
 import datetime
 
 import git
+import yaml
 
 TAGS_PATH = "tags.yaml"
 # Index file is used to specify tags for all entries in a directory,
@@ -263,7 +263,7 @@ def generate_sitemap(database: dict[str, list[str]]):
         ET.SubElement(url, "loc").text = entry[SITE_URL_ENTRY_NAME]
         ET.SubElement(url, "lastmod").text = datetime.datetime.fromtimestamp(
             int(entry[LAST_MOD_ENTRY_NAME])
-        ).isoformat()
+        ).isoformat() + "+00:00"
 
     tree = ET.ElementTree(root)
     tree.write("build/sitemap.xml", encoding="utf-8", xml_declaration=True)
