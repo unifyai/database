@@ -6,6 +6,7 @@ bladedisc:
   tags:
     - compilers
     - mlir
+    - apache-2.0
 
   url: https://github.com/alibaba/BladeDISC
 

@@ -4,6 +4,7 @@ amazon-sagemaker:
   image_url: amazon-sagemaker.png
 
   tags:
+    - orchestration
     - model-binary
 
   url: https://aws.amazon.com/sagemaker/

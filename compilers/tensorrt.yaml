@@ -6,9 +6,10 @@ tensorrt:
   tags:
     - compilers
     - nvidia
-    - inference
+    - inference-optimizer
+    - apache-2.0
 
-  url: https://developer.nvidia.com/tensorrt#:~:text=NVIDIA%20TensorRT-LLM%20is%20an,knowledge%20of%20C%2B%2B%20or%20CUDA.
+  url: https://developer.nvidia.com/tensorrt
 
   description: |
     TensorRT is a high-performance deep learning inference library developed by NVIDIA.

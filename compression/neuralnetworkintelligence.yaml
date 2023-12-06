@@ -4,9 +4,11 @@ neuralnetworkintelligence:
   image_url: neuralnetworkintelligence.png
 
   tags:
+    - compression
     - pruning
     - quantization
     - open-source
+    - bsd-3-clause
 
   url: https://github.com/quic/aimet
 

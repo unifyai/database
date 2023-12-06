@@ -4,6 +4,7 @@ valohai:
   image_url: valohai.svg
 
   tags:
+    - orchestration
     - model-binary
 
   url: https://valohai.com/

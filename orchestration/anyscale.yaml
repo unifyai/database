@@ -4,6 +4,7 @@ anyscale:
   image_url: anyscale.png
 
   tags:
+    - orchestration
     - model-binary
 
   url: https://www.anyscale.com/

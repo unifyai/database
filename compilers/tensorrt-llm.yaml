@@ -7,7 +7,8 @@ tensorrt-llm:
     - compilers
     - nvidia
     - llm
-    - inference
+    - inference-optimizer
+    - apache-2.0
 
   url: https://github.com/NVIDIA/TensorRT-LLM
 

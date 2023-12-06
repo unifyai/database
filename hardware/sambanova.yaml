@@ -4,10 +4,8 @@ sambanova:
   image_url: sambanova.svg
 
   tags:
-    - training
     - hardware
     - high-throughput
-    - infrastructure
     - framework
 
   url: https://sambanova.ai/

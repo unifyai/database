@@ -4,9 +4,11 @@ squeezellm:
   image_url: squeezellm.png
 
   tags:
+    - compression
     - quantization
     - pytorch
     - open-source
+    - mit
 
   url: https://github.com/SqueezeAILab/SqueezeLLM
 

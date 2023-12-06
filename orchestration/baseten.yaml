@@ -4,6 +4,7 @@ baseten:
   image_url: baseten.png
 
   tags:
+    - orchestration
     - model-binary
 
   url: https://www.baseten.co/

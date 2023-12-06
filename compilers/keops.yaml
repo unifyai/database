@@ -4,7 +4,8 @@ keops:
   image_url: keops.png
 
   tags:
-    - custom-hardware
+    - compilers
+    - mit
 
   url: https://www.kernel-operations.io/keops/index.html
 

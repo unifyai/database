@@ -6,6 +6,8 @@ oneapi:
   tags:
     - intel
     - compilers
+    - other-license
+    - mit
 
   url: https://www.oneapi.io
 

@@ -4,11 +4,13 @@ ggml:
   # image_url: none
 
   tags:
-    - inference
+    - inference-optimizer
     - edge
     - quantization
     - apple-silicon
     - compilers
+    - compression
+    - mit
 
   url: https://ggml.ai
 

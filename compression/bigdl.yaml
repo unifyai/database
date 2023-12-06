@@ -5,9 +5,13 @@ bigdl:
   image_url: bigdl.png
 
   tags:
+    - compression
+    - quantization
+    - distillation
     - intel
     - pytorch
     - open-source
+    - apache-2.0
 
   url: https://github.com/intel/neural-compressor
 

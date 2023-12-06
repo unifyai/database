@@ -4,6 +4,7 @@ replicate:
   image_url: replicate.png
 
   tags:
+    - orchestration
     - model-binary
 
   url: https://replicate.com/

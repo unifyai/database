@@ -4,7 +4,9 @@ fluidstack:
   image_url: fluidstack.svg
 
   tags:
-    - infrastructure
+    - orchestration
+    - cloud
+    - cluster
 
   url: https://www.fluidstack.io/
 

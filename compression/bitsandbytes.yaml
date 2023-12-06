@@ -4,7 +4,9 @@ bitsandbytes:
   image_url: bitsandbytes.png
 
   tags:
+    - compression
     - quantization
+    - mit
 
   url: https://github.com/TimDettmers/bitsandbytes
 

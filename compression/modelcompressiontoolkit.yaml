@@ -4,8 +4,10 @@ modelcompressiontoolkit.yaml:
   image_url: modelcompressiontoolkit.yaml.png
 
   tags:
+    - compression
     - quantization
     - open-source
+    - apache-2.0
 
   url: https://github.com/sony/model_optimization
 

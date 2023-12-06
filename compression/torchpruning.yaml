@@ -4,9 +4,11 @@ torchpruning:
   image_url: torchpruning.png
 
   tags:
+    - compression
     - pytorch
     - open-source
     - pruning
+    - mit
 
   url: https://github.com/VainF/Torch-Pruning
 

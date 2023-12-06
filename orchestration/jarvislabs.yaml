@@ -4,7 +4,8 @@ jarvislabsai:
   image_url: jarvislabsai.png
 
   tags:
-    - infrastructure
+    - orchestration
+    - cloud
 
   url: https://jarvislabs.ai
 

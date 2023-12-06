@@ -4,6 +4,7 @@ tensorly:
   image_url: tensorly-torch.png
 
   tags:
+    - compression
     - tensorization
     - pytorch
     - numpy
@@ -11,6 +12,7 @@ tensorly:
     - mxnet
     - jax
     - open-source
+    - bsd-3-clause
 
   url: https://github.com/tensorly/tensorly
 

@@ -6,6 +6,8 @@ torch-mlir:
   tags:
     - compilers
     - mlir
+    - other-license
+    - bsd-3-clause
 
   url: https://github.com/llvm/torch-mlir
 

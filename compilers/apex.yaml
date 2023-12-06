@@ -4,7 +4,9 @@ apex:
   image_url: apex.png
 
   tags:
+    - compilers
     - nvidia
+    - bsd-3-clause
 
   url: https://github.com/NVIDIA/apex
 

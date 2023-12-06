@@ -21,13 +21,14 @@ tags:
 
   compilers:
     description: "Compilers specific tags"
-    min: 1
+    min: 0
     depends_on:
       tags:
         - compilers
     tags:
       - mlir
       - llvm
+      - inference-optimizer
 
   compression:
     description: "Compression specific tags"
@@ -64,6 +65,7 @@ tags:
       - model-binary
       - cluster
       - cloud
+      - ml-ops
 
   modality:
     description: "Type of model specific tags"
@@ -117,7 +119,6 @@ tags:
       tags:
         - compilers
         - compression
-        - orchestration
     tags:
       - apache-2.0
       - mit

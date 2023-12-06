@@ -4,9 +4,11 @@ vllm:
   image_url: vllm.png
 
   tags:
-    - inference
+    - compilers
+    - inference-optimizer
     - llm
     - high-throughput
+    - apache-2.0
 
   url: https://vllm.ai
 

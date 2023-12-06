@@ -6,7 +6,6 @@ tpu:
   tags:
     - custom-hardware
     - hardware
-    - mlir
 
   url: https://cloud.google.com/tpu/docs/intro-to-tpu
 

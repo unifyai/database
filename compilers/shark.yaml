@@ -7,6 +7,7 @@ shark:
     - compilers
     - mlir
     - amd
+    - apache-2.0
 
   url: https://github.com/nod-ai/SHARK/tree/main
 

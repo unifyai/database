@@ -4,8 +4,8 @@ hyperstack:
   image_url: hyperstack.jpg
 
   tags:
-    - infrastructure
     - orchestration
+    - cloud
 
   url: https://www.hyperstack.cloud/
 

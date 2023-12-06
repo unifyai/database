@@ -6,7 +6,7 @@ xla:
   tags:
     - compilers
     - mlir
-    - custom-hardware
+    - apache-2.0
 
   url: https://www.tensorflow.org/xla
 

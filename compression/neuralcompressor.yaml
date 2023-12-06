@@ -5,6 +5,7 @@ neuralcompressor:
   image_url: neuralcompressor.png
 
   tags:
+    - compression
     - pruning
     - distillation
     - quantization
@@ -13,6 +14,7 @@ neuralcompressor:
     - onnx
     - mxnet
     - open-source
+    - apache-2.0
 
   url: https://github.com/intel/neural-compressor
 

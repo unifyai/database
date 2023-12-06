@@ -7,6 +7,7 @@ pi:
     - compilers
     - mlir
     - pytorch
+    - apache-2.0
 
   url: https://github.com/nod-ai/PI#installing
 

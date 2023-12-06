@@ -4,6 +4,7 @@ aimet:
   image_url: aimet.png
 
   tags:
+    - compression
     - pruning
     - tensorization
     - quantization
@@ -11,6 +12,7 @@ aimet:
     - tensorflow
     - onnx
     - open-source
+    - bsd-3-clause
 
   url: https://github.com/quic/aimet
 

@@ -6,6 +6,7 @@ mojo:
   tags:
     - compilers
     - mlir
+    - proprietary
 
   url: https://www.modular.com/mojo
 

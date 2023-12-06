@@ -4,9 +4,11 @@ flexgen:
   # image_url: none
 
   tags:
+    - compilers
     - high-throughput
-    - inference
+    - inference-optimizer
     - llm
+    - apache-2.0
 
   url: https://github.com/FMInference/FlexGen
 
