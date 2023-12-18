@@ -17,7 +17,7 @@ tags:
       - compilers
       - compression
       - hardware
-      - orchestration
+      - serving
 
   compilers:
     description: "Compilers specific tags"
@@ -51,12 +51,12 @@ tags:
     tags:
       - custom-hardware
 
-  orchestration:
-    description: "Orchestration specific tags"
+  serving:
+    description: "Serving specific tags"
     min: 1
     depends_on:
       tags:
-        - orchestration
+        - serving
     tags:
       - container
       - model-endpoint

@@ -1,0 +1,23 @@
+inferless:
+  name: "Inferless"
+
+  image_url: inferless.svg
+
+  tags:
+    - serving
+    - container
+
+  url: https://www.inferless.com/
+
+  description: |
+    Inferless offers a serverless GPU solution for scaling machine learning inference
+    without the complexities of server management. It enables rapid model deployment
+    and customization, focusing on reducing infrastructure costs and enhancing user
+    flexibility. Inferless streamlines the deployment process, handling scalability and
+    operational challenges.
+
+  features:
+    - "Serverless GPU Inference: Deploy ML models seamlessly with serverless GPUs, offering ease of scaling and deployment."
+    - "Infrastructure Cost Optimization: Save up to 80% on infrastructure costs with transparent billing and efficient resource utilization."
+    - "Seamless Autoscaling: In-house built load balancer for efficient service scaling with minimal overhead."
+    - "GPU Virtualization: Facilitates the deployment of multiple models on a single GPU instance, catering to customized requirements."

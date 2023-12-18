@@ -3,7 +3,7 @@
 ## Adding a new entry
 
 1. Fork this repository
-2. Create a `.yaml` file in the appropriate folder (e.g. `orchestration/`), to know the structure of the file, please refer to the [_sample.yaml](_sample.yaml) file.
+2. Create a `.yaml` file in the appropriate folder (e.g. `serving/`), to know the structure of the file, please refer to the [_sample.yaml](_sample.yaml) file.
 3. Create a pull request
 
 ### Add a new image
