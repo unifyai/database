@@ -4,7 +4,7 @@ octoai:
   image_url: octoai.svg
 
   tags:
-    - orchestration
+    - serving
     - model-endpoint
 
   url: https://octoml.ai/

@@ -4,7 +4,7 @@ hopsworks:
   image_url: hopsworks.svg
 
   tags:
-    - orchestration
+    - serving
 
   url: https://www.hopsworks.ai/
 

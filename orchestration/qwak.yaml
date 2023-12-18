@@ -4,7 +4,7 @@ qwak:
   image_url: qwak.svg
 
   tags:
-    - orchestration
+    - serving
     - model-binary
     - model-endpoint
 

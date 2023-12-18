@@ -4,7 +4,7 @@ mystic:
   image_url: mystic.jpg
 
   tags:
-    - orchestration
+    - serving
     - model-binary
     - model-endpoint
 

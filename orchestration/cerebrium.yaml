@@ -4,7 +4,7 @@ cerebrium:
   image_url: cerebrium.svg
 
   tags:
-    - orchestration
+    - serving
     - model-binary
 
   url: https://www.cerebrium.ai/

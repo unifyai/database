@@ -4,7 +4,7 @@ inferless:
   image_url: inferless.svg
 
   tags:
-    - orchestration
+    - serving
     - container
 
   url: https://www.inferless.com/

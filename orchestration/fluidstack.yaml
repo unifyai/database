@@ -4,7 +4,7 @@ fluidstack:
   image_url: fluidstack.svg
 
   tags:
-    - orchestration
+    - serving
     - cloud
     - cluster
 

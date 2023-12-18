@@ -4,7 +4,7 @@ beam:
   image_url: beam.svg
 
   tags:
-    - orchestration
+    - serving
     - model-binary
 
   url: https://www.beam.cloud

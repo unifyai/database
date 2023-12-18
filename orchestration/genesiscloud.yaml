@@ -4,7 +4,7 @@ genesiscloud:
   image_url: genesiscloud.svg
 
   tags:
-    - orchestration
+    - serving
     - cloud
 
   url: https://www.genesiscloud.com

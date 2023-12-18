@@ -4,7 +4,7 @@ coreweave:
   image_url: coreweave.png
 
   tags:
-    - orchestration
+    - serving
     - container
 
   url: https://www.coreweave.com

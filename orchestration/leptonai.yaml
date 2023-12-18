@@ -4,7 +4,7 @@ Leptonai:
   image_url: Leptonai.jpg
 
   tags:
-    - orchestration
+    - serving
     - model-binary
 
   url: https://www.lepton.ai

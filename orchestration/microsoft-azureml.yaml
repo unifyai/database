@@ -4,7 +4,7 @@ microsoft-azureml:
   image_url: microsoft-azureml.png
 
   tags:
-    - orchestration
+    - serving
     - model-binary
 
   url: https://azure.microsoft.com/en-us/products/machine-learning

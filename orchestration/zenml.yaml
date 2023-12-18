@@ -4,7 +4,7 @@ zenml:
   image_url: zenml.svg
 
   tags:
-    - orchestration
+    - serving
     - ml-ops
     - cloud
 

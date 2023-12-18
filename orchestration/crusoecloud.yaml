@@ -4,7 +4,7 @@ crusoecloud:
   image_url: crusoecloud.png
 
   tags:
-    - orchestration
+    - serving
     - cloud
 
   url: https://crusoecloud.com/

@@ -4,7 +4,7 @@ launchflow:
   image_url: launchflow.png
 
   tags:
-    - orchestration
+    - serving
     - model-endpoint
 
   url: https://www.launchflow.com/
