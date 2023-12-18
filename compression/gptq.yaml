@@ -8,6 +8,7 @@ gptq:
     - quantization
     - apache-2.0
 
+  temperature: hot
   url: https://github.com/IST-DASLab/gptq
 
   description: |
