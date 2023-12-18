@@ -9,6 +9,7 @@ tensorly-torch:
     - pytorch
     - bsd-3-clause
 
+  temperature: hot
   url: https://github.com/tensorly/torch
 
   description: |

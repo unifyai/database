@@ -8,6 +8,7 @@ bitsandbytes:
     - quantization
     - mit
 
+  temperature: hot
   url: https://github.com/TimDettmers/bitsandbytes
 
   description: |
