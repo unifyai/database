@@ -10,6 +10,7 @@ candle:
     - mit
     - apache-2.0
 
+  temperature: hot
   url: https://github.com/huggingface/candle
 
   description: |

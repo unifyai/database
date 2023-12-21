@@ -9,6 +9,7 @@ oneapi:
     - other-license
     - mit
 
+  temperature: neutral
   url: https://www.oneapi.io
 
   description: |

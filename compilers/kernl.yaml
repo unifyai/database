@@ -8,6 +8,7 @@ kernl:
     - pytorch
     - apache-2.0
 
+  temperature: neutral
   url: https://www.kernl.ai
 
   description: |

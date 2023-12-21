@@ -9,6 +9,7 @@ mlir:
     - mlir
     - apache-2.0
 
+  temperature: hot
   url: https://mlir.llvm.org
 
   description: |

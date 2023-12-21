@@ -8,6 +8,7 @@ apex:
     - nvidia
     - bsd-3-clause
 
+  temperature: hot
   url: https://github.com/NVIDIA/apex
 
   description: |

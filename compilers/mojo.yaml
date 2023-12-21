@@ -8,6 +8,7 @@ mojo:
     - mlir
     - proprietary
 
+  temperature: hot
   url: https://www.modular.com/mojo
 
   description: |

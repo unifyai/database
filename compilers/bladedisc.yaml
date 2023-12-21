@@ -8,6 +8,7 @@ bladedisc:
     - mlir
     - apache-2.0
 
+  temperature: hot
   url: https://github.com/alibaba/BladeDISC
 
   description: |

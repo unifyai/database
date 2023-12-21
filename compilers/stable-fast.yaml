@@ -1,0 +1,43 @@
+stable-fast:
+  name: "stable-fast"
+
+  image_url: https://docs.oneflow.org/en/master/assets/product-layer.png
+
+  tags:
+    - compilers
+    - framework
+    - apache-2.0
+
+  temperature: hot
+  url: https://github.com/chengzeyi/stable-fast
+
+  description: |
+    StableFast is a cutting-edge, ultra-lightweight inference optimization framework designed 
+    specifically for HuggingFace Diffusers on NVIDIA GPUs. It stands out for its exceptional 
+    state-of-the-art (SOTA) inference performance on a wide range of diffuser models, including 
+    the latest StableVideoDiffusionPipeline. One of its most notable features is its rapid model 
+    compilation capability, which significantly outpaces other frameworks like TensorRT or AITemplate
+    by reducing compilation time from minutes to mere seconds. StableFast supports dynamic shapes, LoRA 
+    (Low-Rank Adaptation), and ControlNet, offering a broad range of functionalities. It incorporates 
+    advanced techniques such as CUDNN Convolution Fusion, low precision and fused GEMM, fused Linear GEGLU,
+    optimized NHWC & fused GroupNorm, and CUDA Graph and Fused Multihead Attention optimizations. This makes 
+    it a highly versatile and efficient tool for developers. The framework is compatible with various versions 
+    of HuggingFace Diffusers and PyTorch, ensuring broad applicability. Currently tested on Linux and WSL2 in 
+    Windows, StableFast requires PyTorch with CUDA support and specific versions of related tools like xformers 
+    and triton. The ongoing development of StableFast focuses on maintaining its position as a leading inference 
+    optimization framework, with an emphasis on enhancing speed and reducing VRAM usage for transformers. This 
+    commitment to continuous improvement underlines its utility in the rapidly evolving field of deep learning 
+    optimization.
+
+  features:
+    - "Rapid Model Compilation"
+    - "Supports Dynamic Shape"
+    - "Compatible with LoRA and ControlNet"
+    - "CUDNN Convolution Fusion"
+    - "Low Precision & Fused GEMM Operations"
+    - "Fused Linear GEGLU"
+    - "Optimized NHWC & Fused GroupNorm"
+    - "Enhanced TorchScript Tracing"
+    - "CUDA Graph Support"
+    - "Fused Multihead Attention"
+    - "Broad Compatibility with PyTorch and HuggingFace Diffusers"
