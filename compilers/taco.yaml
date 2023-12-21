@@ -7,6 +7,7 @@ taco:
     - compilers
     - mit
 
+  temperature: cold
   url: http://tensor-compiler.org
 
   description: |

@@ -10,6 +10,7 @@ vllm:
     - high-throughput
     - apache-2.0
 
+  temperature: hot
   url: https://vllm.ai
 
   description: |

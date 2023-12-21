@@ -7,6 +7,7 @@ tiramisu:
     - compilers
     - apache-2.0
 
+  temperature: cold
   url: https://github.com/facebookresearch/TensorComprehensions
 
   description: |

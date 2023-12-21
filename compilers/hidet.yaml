@@ -8,6 +8,7 @@ hidet:
     - pytorch
     - apache-2.0
 
+  temperature: hot
   url: https://github.com/hidet-org/hidet
 
   description: |

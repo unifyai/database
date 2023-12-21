@@ -12,6 +12,7 @@ ggml:
     - compression
     - mit
 
+  temperature: hot
   url: https://ggml.ai
 
   description: |
