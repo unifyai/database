@@ -1,7 +1,7 @@
 stable-fast:
   name: "stable-fast"
 
-  image_url: https://docs.oneflow.org/en/master/assets/product-layer.png
+  image_url: none
 
   tags:
     - compilers
