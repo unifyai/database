@@ -1,0 +1,23 @@
+VastAI:
+  name: "Vast AI"
+
+  image_url: https://vast.ai/logo.svg
+
+  tags:
+    - orchestration
+    - cloud
+
+  url: https://vast.ai/
+
+  description: |
+    Vast.ai is a market based cloud computing platform focused on reducing
+    the costs and friction of compute-intensive workloads, enabling anyone to 
+    easily leverage large-scale GPU liquidity. It's search engine allows users 
+    to quickly find the best options and deals for compute services according 
+    to their specific requirements.
+
+  features:
+    - "Easily find the best offers matching specific compute requirements."
+    - "Direct data copy and cloud sync."
+    - "Spin up container instances with affordable, powerful GPU in seconds."
+    - "Pick your security/trust tier: both secure datacenter and community servers"
