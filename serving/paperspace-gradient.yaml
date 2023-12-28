@@ -1,0 +1,12 @@
+paperspace-gradient:
+  name: "Paperspace Gradient"
+
+  image_url: paperspace-gradient.png
+
+  tags:
+    - serving
+    - ml-ops
+
+  url: https://www.paperspace.com/deployments
+
+  temperature: neutral
