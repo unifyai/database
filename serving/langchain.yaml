@@ -1,0 +1,23 @@
+langchain:
+  name: "LangChain"
+
+  image_url: langchain.png
+
+  tags:
+    - serving
+    - llm
+    - open-source
+    - mit
+
+  temperature: hot
+  url: https://github.com/langchain-ai/langchain
+
+  description: |
+    LangChain is a toolbox for building apps that leverage the power of language models. It is designed to be 
+    a simple, fast, and scalable language model serving library for production use cases.
+
+  features:
+   - "Python and JavaScript APIs."
+   - "A collection of reference architectures."
+   - "LangServe : A library for deploying LangChain chains as a REST API."
+   - "LangSmith : A developer platform for debugging and monitoring chains."
