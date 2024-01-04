@@ -11,6 +11,7 @@ coreml:
     - pytorch
     - tensorflow
     - palettization
+    - proprietary
 
   temperature: hot
   url: https://apple.github.io/coremltools/docs-guides/index.html

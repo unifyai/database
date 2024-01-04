@@ -8,6 +8,7 @@ only_train_once:
     - pytorch
     - open-source
     - pruning
+    - mit
 
   temperature: hot
   url: https://github.com/tianyic/only_train_once
