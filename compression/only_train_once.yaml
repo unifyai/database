@@ -1,4 +1,3 @@
-
 only_train_once:
   name: "only_train_once"
 
@@ -14,10 +13,11 @@ only_train_once:
   url: https://github.com/tianyic/only_train_once
 
   description: |
-  OTO is an automatic, architecture agnostic DNN training and compression
-  (via structured pruning and erasing operators) framework. By OTO, users
-  could train a general DNN either from scratch or a pretrained checkpoint
-  to achieve both high performance and slimmer architecture simultaneously
-  in the one-shot manner (without fine-tuning).
+    OTO is an automatic, architecture agnostic DNN training and compression
+    (via structured pruning and erasing operators) framework. By OTO, users
+    could train a general DNN either from scratch or a pretrained checkpoint
+    to achieve both high performance and slimmer architecture simultaneously
+    in the one-shot manner (without fine-tuning).
+
   features:
     - "Structured Pruning"

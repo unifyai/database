@@ -16,13 +16,12 @@ coreml:
   url: https://apple.github.io/coremltools/docs-guides/index.html
 
   description: |
-  Core ML provides a unified representation for all models. Your app uses Core ML APIs
-  and user data to make predictions, and to fine-tune models, all on the user’s device.
-  Running a model strictly on the user’s device removes any need for a network connection,
-  which helps keep the user’s data private and your app responsive.
-
-  Core ML optimizes on-device performance by leveraging the CPU, GPU, and Apple Neural Engine (ANE)
-  while minimizing its memory footprint and power consumption.
+    Core ML provides a unified representation for all models. Your app uses Core ML APIs
+    and user data to make predictions, and to fine-tune models, all on the user’s device.
+    Running a model strictly on the user’s device removes any need for a network connection,
+    which helps keep the user’s data private and your app responsive.
+    Core ML optimizes on-device performance by leveraging the CPU, GPU, and Apple Neural Engine (ANE)
+    while minimizing its memory footprint and power consumption.
 
   features:
     - "Pruning"
