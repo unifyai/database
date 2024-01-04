@@ -41,6 +41,7 @@ tags:
       - quantization
       - tensorization
       - pruning
+      - palettization
 
   hardware:
     description: "Hardware specific tags"
