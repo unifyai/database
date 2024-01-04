@@ -1,0 +1,23 @@
+
+only_train_once:
+  name: "only_train_once"
+
+  image_url: https://private-user-images.githubusercontent.com/8930611/292655437-131bd6ba-3f94-4b46-8398-074ae311ccf0.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDQzNzM4MjIsIm5iZiI6MTcwNDM3MzUyMiwicGF0aCI6Ii84OTMwNjExLzI5MjY1NTQzNy0xMzFiZDZiYS0zZjk0LTRiNDYtODM5OC0wNzRhZTMxMWNjZjAucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDEwNCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDAxMDRUMTMwNTIyWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YmQxNDU1NGM5YWNjMTcyY2YwM2FlZThmZjM4OWRkZTU1OWJhMDM5ODFiMGIyMDgwNjQ4MmNmYzJjNjIwZTBiNyZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.YEtWUR7qR1JD8Ma-XhQSCtyMTuxneT8v8S8aSzadNTw
+
+  tags:
+    - compression
+    - pytorch
+    - open-source
+    - pruning
+
+  temperature: hot
+  url: https://github.com/tianyic/only_train_once
+
+  description: |
+  OTO is an automatic, architecture agnostic DNN training and compression
+  (via structured pruning and erasing operators) framework. By OTO, users
+  could train a general DNN either from scratch or a pretrained checkpoint
+  to achieve both high performance and slimmer architecture simultaneously
+  in the one-shot manner (without fine-tuning).
+  features:
+    - "Structured Pruning"
