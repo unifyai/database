@@ -1,0 +1,12 @@
+intel-dev-cloud:
+  name: "Intel Developer Cloud"
+
+  image_url: idc.png
+
+  tags:
+    - serving
+    - cloud
+
+  url: https://www.intel.com/content/www/us/en/developer/tools/devcloud/services.html
+
+  temperature: hot

@@ -1,0 +1,15 @@
+mosaicml:
+  name: "MosaicML"
+
+  image_url: mosaicml.svg
+
+  tags:
+    - serving
+    - model-endpoint
+    - training
+    - inference
+    - llm
+
+  url: https://www.mosaicml.com/
+
+  temperature: neutral

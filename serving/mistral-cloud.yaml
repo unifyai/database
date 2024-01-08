@@ -1,0 +1,16 @@
+mistral-cloud:
+  name: "Mistral AI Platform"
+
+  image_url: mistral-cloud.webp
+
+  tags:
+    - serving
+    - model-endpoint
+    - inference
+    - llm
+    - open-source
+    - apache-2.0
+
+  url: https://mistral.ai/
+
+  temperature: hot
