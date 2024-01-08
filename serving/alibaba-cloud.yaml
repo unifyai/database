@@ -1,0 +1,12 @@
+alibaba-cloud:
+  name: "Alibaba Cloud"
+
+  image_url: alibaba-cloud.jpg
+
+  tags:
+    - serving
+    - cloud
+
+  url: https://alibabacloud.com/en 
+
+  temperature: neutral
