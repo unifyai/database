@@ -1,0 +1,23 @@
+arc-compute:
+  name: "Arc Compute"
+
+  image_url: https://avatars.githubusercontent.com/u/91487685?s=200&v=4
+
+  tags:
+    - serving
+    - hardware
+    - gpu
+  
+  url: https://www.arccompute.io/
+
+  description: |
+    Arc Compute offers specialized solutions for optimizing GPU infrastructure, 
+    aiming to enhance the performance and efficiency of GPU resources in various 
+    applications. Their services are designed to maximize the utilization of 
+    GPU capabilities, significantly improving the processing speed and efficiency 
+    for tasks like large-scale model training and data analysis.
+
+  features:
+   - "Advanced control and optimization of GPU infrastructure through ArcHPC"
+   - "Offers the latest NVIDIA GPUs for data center deployment"
+   - "Provides cloud clusters featuring top-of-the-line NVIDIA H100 SXM5 GPUs for large-scale model training"

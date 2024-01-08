@@ -1,0 +1,23 @@
+juice-labs:
+  name: "Juice Labs"
+
+  image_url: https://avatars.githubusercontent.com/u/72895430?s=200&v=4
+
+  tags:
+    - serving
+    - hardware
+    - gpu
+    - open-source
+  
+  url: https://www.juicelabs.co/
+
+  description: |
+    Juice Labs offers a unique GPU-over-IP software solution that transforms underutilized 
+    GPU resources into dynamic, network-attached assets. This innovative approach enables 
+    more efficient use of existing GPU capabilities across various workloads, enhancing 
+    overall GPU utility and reducing the need for additional hardware investments.
+
+  features:
+   - "Facilitates the pooling and sharing of GPU resources over a network"
+   - "Targets underutilized GPUs, turning them into accessible resources for enhanced performance"
+   - "Minimizes the need for new hardware by maximizing current GPU infrastructure"
