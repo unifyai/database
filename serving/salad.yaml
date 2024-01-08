@@ -1,0 +1,13 @@
+salad:
+  name: "Salad Cloud"
+
+  image_url: salad.png
+
+  tags:
+    - serving
+    - inference
+    - cloud
+
+  url: https://salad.com/
+
+  temperature: neutral
