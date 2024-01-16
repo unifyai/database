@@ -283,7 +283,7 @@ def main():
         json.dump(database, f)
     with open("build/tags.json", "w", encoding="utf-8") as f:
         json.dump(tags, f)
-    with open("build/tag_groups.json", "w", encoding="utf-8") as f:
+    with open("build/tag-groups.json", "w", encoding="utf-8") as f:
 
         def default(o):
             if isinstance(o, set):
