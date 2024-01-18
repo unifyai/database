@@ -120,6 +120,7 @@ tags:
 
   goals:
     description: "Goals specific tags"
+    visible: false
     tags:
       - high-throughput
       - low-latency
