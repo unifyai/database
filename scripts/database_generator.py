@@ -261,9 +261,10 @@ def generate_sitemap(database: dict[str, list[str]]):
     for entry in database.values():
         url = ET.SubElement(root, "url")
         ET.SubElement(url, "loc").text = entry[SITE_URL_ENTRY_NAME]
-        ET.SubElement(url, "lastmod").text = datetime.datetime.fromtimestamp(
-            int(entry[LAST_MOD_ENTRY_NAME])
-        ).isoformat() + "+00:00"
+        ET.SubElement(url, "lastmod").text = (
+            datetime.datetime.fromtimestamp(int(entry[LAST_MOD_ENTRY_NAME])).isoformat()
+            + "+00:00"
+        )
 
     tree = ET.ElementTree(root)
     tree.write("build/sitemap.xml", encoding="utf-8", xml_declaration=True)
@@ -282,6 +283,17 @@ def main():
         json.dump(database, f)
     with open("build/tags.json", "w", encoding="utf-8") as f:
         json.dump(tags, f)
+    with open("build/tag-groups.json", "w", encoding="utf-8") as f:
+
+        def default(o):
+            if isinstance(o, set):
+                return list(o)
+
+            allowed_keys = ["name", "description", "tags"]
+
+            return {k: v for k, v in o.__dict__.items() if k in allowed_keys}
+
+        json.dump(tag_groups, f, default=default)
     generate_sitemap(database)
 
 

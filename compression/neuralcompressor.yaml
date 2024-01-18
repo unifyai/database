@@ -16,6 +16,7 @@ neuralcompressor:
     - open-source
     - apache-2.0
 
+  temperature: hot
   url: https://github.com/intel/neural-compressor
 
   description: |

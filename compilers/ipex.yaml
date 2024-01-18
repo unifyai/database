@@ -8,6 +8,7 @@ ipex:
     - intel
     - apache-2.0
 
+  temperature: hot
   url: https://github.com/intel/intel-extension-for-pytorch
 
   description: |

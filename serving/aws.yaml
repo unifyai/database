@@ -1,0 +1,12 @@
+aws:
+  name: "Amazon Web Services"
+
+  image_url: aws.jpg
+
+  tags:
+    - serving
+    - cloud
+
+  url: https://aws.amazon.com/ 
+
+  temperature: hot

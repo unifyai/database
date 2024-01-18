@@ -1,0 +1,29 @@
+baseten:
+  name: "Baseten"
+
+  image_url: baseten.png
+
+  tags:
+    - serving
+    - model-binary
+
+  url: https://www.baseten.co/
+
+  description: |
+    Baseten is a machine learning infrastructure service designed for efficient
+    deployment and serving of ML models.
+
+    It offers quick setup, open-source model packaging using Truss, and horizontally
+    scalable infrastructure to handle growing traffic without complex configurations.
+
+    The service optimizes each step of the ML pipeline for faster model scaling and
+    provides comprehensive logs and health metrics for monitoring.
+
+    Users can customize the infrastructure and choose between deploying on their
+    infrastructure or using AWS and GCP credits (available soon for startups) for
+    deployment on Baseten.
+
+  features:
+    - "Horizontally Scalable Infrastructure."
+    - "Comprehensive Logging and Monitoring."
+    - "Model Packaging."

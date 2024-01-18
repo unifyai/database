@@ -11,6 +11,7 @@ pruna-ai:
     - quantization
     - proprietary
 
+  temperature: hot
   url: https://www.pruna.ai/
 
   description: |

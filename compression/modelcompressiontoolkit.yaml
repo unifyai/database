@@ -9,6 +9,7 @@ modelcompressiontoolkit.yaml:
     - open-source
     - apache-2.0
 
+  temperature: neutral
   url: https://github.com/sony/model_optimization
 
   description: |

@@ -1,0 +1,23 @@
+hyperstack:
+  name: "Hyperstack"
+
+  image_url: hyperstack.jpg
+
+  tags:
+    - serving
+    - cloud
+
+  url: https://www.hyperstack.cloud/
+
+  description: |
+    Hyperstack provides access to NVIDIA GPUs, including H100s and A100s, for
+    accelerated AI, rendering, and data analytics. It offers managed Kubernetes
+    services, eco-friendly infrastructure, and efficient networking and storage
+    solutions. Hyperstack's cloud services are designed for high-demand workloads,
+    offering cost-effective and scalable solutions for diverse needs.
+
+  features:
+    - "Accelerated AI: VMs for fast inference in Generative AI and neural network training."
+    - "Rendering: SKUs for render-based workloads, ideal for 3D visuals and game development."
+    - "Data Analytics: Capabilities for handling large data sets and real-time anomaly detection."
+    - "Green Cloud: Infrastructure powered by 100% renewable energy in Europe and North America."

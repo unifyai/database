@@ -8,6 +8,7 @@ polyblocks:
     - mlir
     - proprietary
 
+  temperature: hot
   url: https://www.polymagelabs.com/technology/
 
   description: |

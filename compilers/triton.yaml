@@ -9,6 +9,7 @@ triton:
     - nvidia
     - mit
 
+  temperature: hot
   url: https://openai.com/research/triton
 
   description: |

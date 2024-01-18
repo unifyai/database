@@ -9,6 +9,7 @@ executorch:
     - edge
     - bsd-3-clause
 
+  temperature: hot
   url: https://pytorch.org/executorch-overview
 
   description: |

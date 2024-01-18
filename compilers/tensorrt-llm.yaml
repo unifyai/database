@@ -10,6 +10,7 @@ tensorrt-llm:
     - inference-optimizer
     - apache-2.0
 
+  temperature: hot
   url: https://github.com/NVIDIA/TensorRT-LLM
 
   description: |
