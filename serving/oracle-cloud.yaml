@@ -1,0 +1,12 @@
+oracle-cloud:
+  name: "Oracle Cloud"
+
+  image_url: oracle-cloud.png
+
+  tags:
+    - serving
+    - cloud
+
+  url: https://www.oracle.com/eg/cloud/compute/gpu/ 
+
+  temperature: neutral

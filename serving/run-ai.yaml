@@ -1,0 +1,14 @@
+run-ai:
+  name: "Run AI"
+
+  image_url: run-ai.png
+
+  tags:
+    - serving
+    - training
+    - inference
+    - cluster
+
+  url: https://www.run.ai/
+
+  temperature: neutral

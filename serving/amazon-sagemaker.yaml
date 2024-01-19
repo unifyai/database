@@ -1,0 +1,26 @@
+amazon-sagemaker:
+  name: "Amazon SageMaker"
+
+  image_url: amazon-sagemaker.png
+
+  tags:
+    - serving
+    - model-binary
+
+  url: https://aws.amazon.com/sagemaker/
+
+  description: |
+    Amazon SageMaker is a machine learning service by Amazon Web Services (AWS) that
+    offers a complete suite of tools for building, training, and deploying machine
+    learning models.
+
+    SageMaker simplifies the machine learning process by automating various tasks, such
+    as data preprocessing, model training, and hyperparameter tuning. Users can choose
+    from built-in algorithms or bring their own custom code to train models. Once models
+    are trained, SageMaker allows for easy deployment, scaling, and monitoring of
+    the models in production environments.
+
+  features:
+    - "Framework Flexibility."
+    - "Tools For Hyperparameter Optimization."
+    - "Seamless Workflow Integration."

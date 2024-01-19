@@ -11,6 +11,7 @@ llm-awq:
     - open-source
     - mit
 
+  temperature: hot
   url: https://github.com/mit-han-lab/llm-awq
 
   description: |

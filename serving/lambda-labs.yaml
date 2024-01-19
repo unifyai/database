@@ -1,0 +1,14 @@
+lambda-labs:
+  name: "Lambda Labs"
+
+  image_url: lambda-labs.png
+
+  tags:
+    - serving
+    - training
+    - inference
+    - cloud
+
+  url: https://lambdalabs.com/
+
+  temperature: neutral

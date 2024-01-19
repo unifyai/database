@@ -9,6 +9,7 @@ tensorrt:
     - inference-optimizer
     - apache-2.0
 
+  temperature: hot
   url: https://developer.nvidia.com/tensorrt
 
   description: |

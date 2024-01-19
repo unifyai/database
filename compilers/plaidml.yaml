@@ -9,6 +9,7 @@ plaidml:
     - mlir
     - apache-2.0
 
+  temperature: cold
   url: https://plaidml.github.io/plaidml/
 
   description: |

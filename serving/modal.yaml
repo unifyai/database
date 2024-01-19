@@ -1,0 +1,23 @@
+modal:
+  name: "Modal"
+
+  image_url: modal.svg
+
+  tags:
+    - serving
+    - container
+    - model-endpoint
+
+  url: https://modal.com/
+
+  description: |
+    Modal specializes in running generative AI models and large-scale batch jobs. It
+    offers a custom-built container system and infrastructure management, allowing
+    scaling to hundreds of GPUs. Modal emphasizes rapid deployment without YAML,
+    integrating container images and hardware specifications directly in code.
+
+  features:
+    - "Custom Container System: Built-in Rust for rapid scaling and quick cold-start times."
+    - "YAML-Free Deployment: Functions deploy quickly to the cloud with custom container images and hardware requirements."
+    - "Efficient Job Scheduling: Easily convert functions into cron jobs and handle compute-intensive jobs seamlessly."
+    - "Security and Compliance: Incorporates gVisor runtime for security and maintains SOC 2 compliance."

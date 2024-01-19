@@ -9,6 +9,7 @@ shark:
     - amd
     - apache-2.0
 
+  temperature: hot
   url: https://github.com/nod-ai/SHARK/tree/main
 
   description: |

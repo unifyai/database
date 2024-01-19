@@ -10,6 +10,7 @@ torchpruning:
     - pruning
     - mit
 
+  temperature: hot
   url: https://github.com/VainF/Torch-Pruning
 
   description: |

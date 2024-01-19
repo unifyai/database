@@ -1,0 +1,27 @@
+oneflow:
+  name: "Oneflow"
+
+  image_url: https://docs.oneflow.org/en/master/assets/product-layer.png
+
+  tags:
+    - compilers
+    - framework
+    - mlir
+    - apache-2.0
+
+  temperature: hot
+  url: https://docs.oneflow.org/en/master/index.html
+
+  description: |
+    OneFlow is a deep learning framework that offers a unified solution for both deep learning 
+    and traditional machine learning tasks. It stands out for its efficient approach to distributed 
+    training, leveraging advanced parallelism and resource management techniques to optimize hardware 
+    usage in large-scale environments. The framework supports both dynamic and static computation graphs, 
+    providing users with the flexibility to choose the most suitable approach for their specific project. 
+    Additionally, OneFlow utilizes MLIR for its codegen, with all modules being compiled to a Oneflow dialect 
+    before lowering to device code. 
+
+  features:
+    - "Advanced Distributed Training Efficiency"
+    - "Support for Both Dynamic and Static Graphs"
+    - "Intuitive and User-Friendly API"

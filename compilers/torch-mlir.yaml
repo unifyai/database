@@ -9,6 +9,7 @@ torch-mlir:
     - other-license
     - bsd-3-clause
 
+  temperature: hot
   url: https://github.com/llvm/torch-mlir
 
   description: |

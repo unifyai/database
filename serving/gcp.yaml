@@ -1,0 +1,12 @@
+gcp:
+  name: "Google Cloud Platform"
+
+  image_url: gcp.png
+
+  tags:
+    - serving
+    - cloud
+
+  url: https://cloud.google.com/?hl=en 
+
+  temperature: hot

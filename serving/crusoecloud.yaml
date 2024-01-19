@@ -1,0 +1,21 @@
+crusoecloud:
+  name: "CrusoeCloud"
+
+  image_url: crusoecloud.png
+
+  tags:
+    - serving
+    - cloud
+
+  url: https://crusoecloud.com/
+
+  description: |
+    Crusoe Cloud is a cloud computing platform that provides high performance, while
+    remaining Carbon negative, at a good price in comparison to other platforms.
+
+    It offers NVIDIA's GPUs and GPU enabled VMs for deploying your models. GPU VMs can
+    be created and setup on demand and are charged on that basis.
+
+  features:
+    - "Carbon negative cloud computing platform"
+    - "Good pricing of GPUs in comparison to other platforms"
