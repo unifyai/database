@@ -2,6 +2,7 @@
 # The tag group schema is:
 #   group-name:
 #     description: "Group description"
+#     visible: true # whether the group should be visible in the UI
 #     min: 1 # minimum number of tags from this group
 #     max: 1 # maximum number of tags from this group
 #     depends_on: # tags or groups that must be present for this group to be valid
@@ -9,9 +10,12 @@
 #         - tag1
 #       groups:
 #         - group1
+#     tags: # list of tags in this group
+#       - tag1
 tags:
   categories:
     description: "Categories specific tags"
+    visible: false
     min: 1
     tags:
       - compilers
@@ -26,6 +30,7 @@ tags:
       tags:
         - compilers
     tags:
+      - compilers
       - mlir
       - llvm
       - inference-optimizer
@@ -37,6 +42,7 @@ tags:
       tags:
         - compression
     tags:
+      - compression
       - distillation
       - quantization
       - tensorization
@@ -51,6 +57,7 @@ tags:
       tags:
         - hardware
     tags:
+      - hardware
       - custom-hardware
 
   serving:
@@ -60,6 +67,7 @@ tags:
       tags:
         - serving
     tags:
+      - serving
       - container
       - model-endpoint
       - inference
@@ -71,6 +79,7 @@ tags:
 
   modality:
     description: "Type of model specific tags"
+    visible: false
     tags:
       - llm
       - vision
@@ -104,18 +113,21 @@ tags:
 
   general:
     description: "General classification tags"
+    visible: false
     tags:
       - open-source
       - framework
 
   goals:
     description: "Goals specific tags"
+    visible: false
     tags:
       - high-throughput
       - low-latency
 
   license:
     description: "License specific tags"
+    visible: false
     min: 1
     depends_on:
       tags:
