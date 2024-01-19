@@ -1,8 +1,6 @@
 trailmet:
   name: "Trailmet"
 
-  image_url: trailmet.png
-
   tags:
     - compression
     - distillation

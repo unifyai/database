@@ -1,7 +1,7 @@
 tvm:
   name: "TVM"
 
-  image_url: tvm.svg
+  image_url: tvm.png
 
   tags:
     - compilers

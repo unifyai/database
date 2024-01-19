@@ -1,8 +1,6 @@
 stable-fast:
   name: "stable-fast"
 
-  image_url: none
-
   tags:
     - compilers
     - framework
