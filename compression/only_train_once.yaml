@@ -10,6 +10,7 @@ only_train_once:
 
   temperature: hot
   url: https://github.com/tianyic/only_train_once
+  release: "2021-10-19"
 
   description: |
     OTO is an automatic, architecture agnostic DNN training and compression

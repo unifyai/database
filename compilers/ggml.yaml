@@ -13,8 +13,9 @@ ggml:
     - mit
 
   temperature: hot
-  url: https://ggml.ai
-
+  url: https://github.com/ggerganov/ggml
+  release: "2022-09-18"
+  
   description: |
     GGML is a minimal, C-based tensor library focussed on providing efficient training
     and inference for popular models on commodity hardware, specifically Apple silicon.

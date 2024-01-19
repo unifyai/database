@@ -11,6 +11,7 @@ modelcompressiontoolkit.yaml:
 
   temperature: neutral
   url: https://github.com/sony/model_optimization
+  release: "2021-06-21"
 
   description: |
     SONY’s Model Compression Toolkit is a model compression tool that focuses on quantization

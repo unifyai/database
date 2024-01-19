@@ -10,6 +10,7 @@ bitsandbytes:
 
   temperature: hot
   url: https://github.com/TimDettmers/bitsandbytes
+  release: "2021-06-04"
 
   description: |
     The bitsandbytes is a lightweight wrapper around CUDA custom functions,

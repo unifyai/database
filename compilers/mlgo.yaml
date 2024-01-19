@@ -9,6 +9,7 @@ mlgo:
 
   temperature: neutral
   url: https://github.com/google/ml-compiler-opt
+  release: "2020-05-28"
 
   description: |
     MLGO is a framework designed to optimize compiler processes within LLVM using

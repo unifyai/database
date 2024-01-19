@@ -12,6 +12,7 @@ tensorrt-llm:
 
   temperature: hot
   url: https://github.com/NVIDIA/TensorRT-LLM
+  release: "2023-08-16"
 
   description: |
     TensorRT-LLM is an advanced library from NVIDIA designed to accelerate the inference

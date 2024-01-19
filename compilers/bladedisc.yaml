@@ -10,6 +10,7 @@ bladedisc:
 
   temperature: hot
   url: https://github.com/alibaba/BladeDISC
+  release: "2021-12-20"
 
   description: |
     BladeDISC, developed by Alibaba, is an open-sourced dynamic shape compiler designed

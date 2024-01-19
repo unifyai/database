@@ -11,7 +11,8 @@ trailmet:
     - binarization
     - mit
 
-  url: https://github.com/Nahush26/trailmet/
+  url: https://github.com/Nahush26/trailmet
+  release: "2023-03-02"
 
   description: |
     Transmute AI Model Efficiency Toolkit (Trailmet) is a model efficiency toolkit for compressing deep learning models. 

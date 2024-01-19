@@ -12,6 +12,7 @@ flexgen:
 
   temperature: hot
   url: https://github.com/FMInference/FlexGen
+  release: "2023-02-15"
 
   description: |
     FlexGen is a recently developed inference engine for LLMs designed to maximize

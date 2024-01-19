@@ -8,7 +8,8 @@ tvm:
     - apache-2.0
 
   temperature: hot
-  url: https://tvm.apache.org
+  url: https://github.com/apache/tvm
+  release: "2016-10-12"
 
   description: |
     TVM, which stands for Tensor Virtual Machine, is an end-to-end compiler stack for
