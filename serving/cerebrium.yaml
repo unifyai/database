@@ -1,0 +1,28 @@
+cerebrium:
+  name: "Cerebrium"
+
+  image_url: cerebrium.svg
+
+  tags:
+    - serving
+    - model-binary
+
+  url: https://www.cerebrium.ai/
+
+  description: |
+    Cerebrium simplifies the process of training, deploying, and monitoring machine
+    learning models using a minimal amount of code.
+
+    It offers seamless deployment with support for major ML frameworks, including
+    PyTorch, ONNX, and HuggingFace models, as well as prebuilt models optimized for
+    sub-second latency.
+
+    Additionally, it provides effortless model fine-tuning and monitoring capabilities
+    with integration into top ML observability platforms, enabling alerts about feature
+    or prediction drift, model version comparisons, and in-depth insights into model
+    performance.
+
+  features:
+    - "Serverless GPU Model Deployment."
+    - "Support for All Major Frameworks."
+    - "Automatic Versioning."

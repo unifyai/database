@@ -13,7 +13,8 @@ bigdl:
     - open-source
     - apache-2.0
 
-  url: https://github.com/intel/neural-compressor
+  temperature: hot
+  url: https://github.com/intel-analytics/BigDL
 
   description: |
     BigDL is a set of toolkits developed by Intel to seamlessly scales data analytics &

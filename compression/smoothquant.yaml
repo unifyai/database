@@ -10,6 +10,7 @@ smoothquant:
     - open-source
     - mit
 
+  temperature: hot
   url: https://github.com/mit-han-lab/smoothquant
 
   description: |

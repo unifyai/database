@@ -1,0 +1,12 @@
+fireworks-ai:
+  name: "Fireworks AI"
+
+  image_url: fireworks-ai.svg
+
+  tags:
+    - serving
+    - model-endpoint
+
+  url: https://app.fireworks.ai/
+
+  temperature: neutral

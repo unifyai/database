@@ -23,6 +23,15 @@ sample-name:
     - tag2
     - tag3
 
+  # Indicating if the entry is hot or cold, will be shown in the interface with a flaming emoji 🔥
+  # or a snowflake emoji ❄️.
+  # Available entries are:
+  # - "hot": A card is "hot" if a significant number of engineers would consider using the tool as part of the solutions team.
+  # - "cold": A card is "cold" if a significant number of engineers would never consider using the tool. Like abandoned projects.
+  # - "neutral": A card is "neutral" if the tool is actively maintained, and might be used in niche situations.
+  # The card is considered "neutral" if the entry is missing or misspelled.
+  temperature: hot
+
   # URL of the element. (Optional)
   url: https://unify.ai/
 

@@ -12,6 +12,7 @@ optimum:
     - open-source
     - apache-2.0
 
+  temperature: neutral
   url: https://github.com/huggingface/optimum
 
   description: |

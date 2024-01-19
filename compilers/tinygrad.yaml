@@ -8,6 +8,7 @@ tinygrad:
     - framework
     - mit
 
+  temperature: hot
   url: https://tinygrad.org
 
   description: |

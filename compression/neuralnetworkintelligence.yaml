@@ -10,7 +10,8 @@ neuralnetworkintelligence:
     - open-source
     - bsd-3-clause
 
-  url: https://github.com/quic/aimet
+  temperature: neutral
+  url: https://github.com/microsoft/nni
 
   description: |
     NNI automates feature engineering, neural architecture search, hyperparameter tuning,

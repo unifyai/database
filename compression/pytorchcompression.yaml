@@ -9,6 +9,7 @@ pytorchcompression:
     - pruning
     - bsd-3-clause
 
+  temperature: hot
   url: https://github.com/pytorch/pytorch
 
   description: |

@@ -1,0 +1,19 @@
+genesiscloud:
+  name: "Genesis Cloud"
+
+  image_url: genesiscloud.svg
+
+  tags:
+    - serving
+    - cloud
+
+  url: https://www.genesiscloud.com
+
+  description: |
+    Genesis Cloud is a platform that provides specialized GPUs and other compute
+    infrastructure. They provide a fast launch time of less than 2 minutes and autoscale
+    up and down for inference.
+
+  features:
+    - "Low GPU launch time"
+    - "Autoscaling"

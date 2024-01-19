@@ -1,0 +1,13 @@
+shadeform:
+  name: "Shadeform"
+
+  image_url: shadeform.png
+
+  tags:
+    - serving
+    - model-endpoint
+    - cloud
+
+  url: https://www.shadeform.ai/
+
+  temperature: neutral

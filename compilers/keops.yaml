@@ -7,6 +7,7 @@ keops:
     - compilers
     - mit
 
+  temperature: neutral
   url: https://www.kernel-operations.io/keops/index.html
 
   description: |

@@ -9,6 +9,7 @@ pi:
     - pytorch
     - apache-2.0
 
+  temperature: neutral
   url: https://github.com/nod-ai/PI#installing
 
   description: |
