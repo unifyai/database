@@ -4,7 +4,7 @@ paperspace:
   image_url: seldon.png
 
   tags:
-    - orchestration
+    - serving
     - ml-ops
     - cloud
 
