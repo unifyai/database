@@ -56,6 +56,7 @@ class DependencyRestriction:
 class TagGroup:
     name: str = ""
     description: str = ""
+    visible: bool = True
     tags: tuple[str] = tuple()
     min: int = 0
     max: int = math.inf
@@ -68,13 +69,16 @@ class TagGroup:
         for key, value in obj.items():
             name = key
             description = value.get("description", "")
+            visible = value.get("visible", True)
             tags = value.get("tags", [])
             min_items = value.get("min", 0)
             max_items = value.get("max", math.inf)
             depends_on = DependencyRestriction.from_yml(value.get("depends_on"))
 
             ret.append(
-                TagGroup(name, description, tags, min_items, max_items, depends_on)
+                TagGroup(
+                    name, description, visible, tags, min_items, max_items, depends_on
+                )
             )
 
         return ret
@@ -261,9 +265,10 @@ def generate_sitemap(database: dict[str, list[str]]):
     for entry in database.values():
         url = ET.SubElement(root, "url")
         ET.SubElement(url, "loc").text = entry[SITE_URL_ENTRY_NAME]
-        ET.SubElement(url, "lastmod").text = datetime.datetime.fromtimestamp(
-            int(entry[LAST_MOD_ENTRY_NAME])
-        ).isoformat() + "+00:00"
+        ET.SubElement(url, "lastmod").text = (
+            datetime.datetime.fromtimestamp(int(entry[LAST_MOD_ENTRY_NAME])).isoformat()
+            + "+00:00"
+        )
 
     tree = ET.ElementTree(root)
     tree.write("build/sitemap.xml", encoding="utf-8", xml_declaration=True)
@@ -282,6 +287,18 @@ def main():
         json.dump(database, f)
     with open("build/tags.json", "w", encoding="utf-8") as f:
         json.dump(tags, f)
+    with open("build/tag-groups.json", "w", encoding="utf-8") as f:
+        filtered_groups = [group for group in tag_groups if group.visible]
+
+        def default(o):
+            if isinstance(o, set):
+                return list(o)
+
+            allowed_keys = ["name", "description", "tags"]
+
+            return {k: v for k, v in o.__dict__.items() if k in allowed_keys}
+
+        json.dump(filtered_groups, f, default=default)
     generate_sitemap(database)
 
 

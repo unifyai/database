@@ -1,0 +1,12 @@
+microsoft-azure:
+  name: "Microsoft Azure"
+
+  image_url: microsoft-azure.png
+
+  tags:
+    - serving
+    - cloud
+
+  url: https://azure.microsoft.com/en-us 
+
+  temperature: neutral

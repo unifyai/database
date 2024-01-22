@@ -10,6 +10,7 @@ apex:
 
   temperature: hot
   url: https://github.com/NVIDIA/apex
+  release: "2018-04-23"
 
   description: |
     NVIDIA's Apex is a set of tools designed to simplify and optimize mixed precision

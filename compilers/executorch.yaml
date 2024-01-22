@@ -10,8 +10,9 @@ executorch:
     - bsd-3-clause
 
   temperature: hot
-  url: https://pytorch.org/executorch-overview
-
+  url: https://github.com/pytorch/executorch
+  release: "2022-02-25"
+  
   description: |
     ExecuTorch: ExecuTorch is an end-to-end solution that enables on-device inference
     capabilities across mobile and edge devices. At a high level, it is a more robust

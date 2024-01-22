@@ -8,7 +8,8 @@ tiramisu:
     - mit
 
   temperature: cold
-  url: https://tiramisu-compiler.org
+  url: https://github.com/Tiramisu-Compiler/tiramisu
+  release: "2016-05-09"
 
   description: |
     Tiramisu is a polyhedral compiler designed to handle both dense and sparse deep
