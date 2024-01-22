@@ -1,6 +1,6 @@
 immers-cloud:
   name: "immers.cloud"
-  image_url: https://media.licdn.com/dms/image/D560BAQEnSePchlWeBQ/company-logo_200_200/0/1699558089373/immerscloud_logo?e=2147483647&v=beta&t=sjLfRDc0AYvVNz-tbV3jgCc3XEzimdFSTr7U2ezDOsk
+  image_url: immers.png
 
   tags:
     - serving
