@@ -15,6 +15,7 @@ bigdl:
 
   temperature: hot
   url: https://github.com/intel-analytics/BigDL
+  release: "2016-08-29"
 
   description: |
     BigDL is a set of toolkits developed by Intel to seamlessly scales data analytics &

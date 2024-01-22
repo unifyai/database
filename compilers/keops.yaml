@@ -8,7 +8,8 @@ keops:
     - mit
 
   temperature: neutral
-  url: https://www.kernel-operations.io/keops/index.html
+  url: https://github.com/getkeops/keops
+  release: "2019-04-18"
 
   description: |
     KeOps (Kernel Operations) is a library designed to boost tensor computations by

@@ -8,7 +8,8 @@ taco:
     - mit
 
   temperature: cold
-  url: http://tensor-compiler.org
+  url: https://github.com/tensor-compiler/taco
+  release: "2016-09-25"
 
   description: |
     TACO, which stands for Tensor Algebra Compiler, is a library and compiler,

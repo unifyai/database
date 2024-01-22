@@ -10,8 +10,9 @@ plaidml:
     - apache-2.0
 
   temperature: cold
-  url: https://plaidml.github.io/plaidml/
-
+  url: https://github.com/plaidml/plaidml
+  release: "2017-08-15"
+  
   description: |
     PlaidML is a tensor compiler, developed by Intel, specializing in running deep
     learning models on devices which are not typically well supported for such

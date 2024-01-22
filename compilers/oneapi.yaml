@@ -11,6 +11,7 @@ oneapi:
 
   temperature: neutral
   url: https://www.oneapi.io
+  release: "2020-09-28"       # Source: https://www.oneapi.io/intel-oneapi-1-0-officially-released/
 
   description: |
     OneAPI is Intel's comprehensive toolkit for developing and optimizing applications

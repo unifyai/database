@@ -9,7 +9,8 @@ kernl:
     - apache-2.0
 
   temperature: neutral
-  url: https://www.kernl.ai
+  url: https://github.com/ELS-RD/kernl
+  release: "2022-08-05"
 
   description: |
     Kernl is an open source, PyTorch-based inference engine built using OpenAI Triton,

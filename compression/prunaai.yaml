@@ -13,6 +13,7 @@ pruna-ai:
 
   temperature: hot
   url: https://www.pruna.ai/
+  # release:
 
   description: |
     Pruna AI makes, in one line of code, any AI model faster, cheaper, smaller, greener on any hardware.

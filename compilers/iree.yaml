@@ -10,7 +10,8 @@ iree:
     - apache-2.0
 
   temperature: hot
-  url: https://iree.dev
+  url: https://github.com/openxla/iree
+  release: "2019-09-12"
 
   description: |
     IREE, which stands for Intermediate Representation Execution Environment, is an MLIR

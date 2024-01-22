@@ -1,0 +1,12 @@
+ibm-cloud:
+  name: "IBM Cloud"
+
+  image_url: ibm-cloud.png
+
+  tags:
+    - serving
+    - cloud
+
+  url: https://www.ibm.com/cloud 
+
+  temperature: neutral
