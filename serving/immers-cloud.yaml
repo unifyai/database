@@ -1,0 +1,22 @@
+immers-cloud:
+  name: "immers.cloud"
+  image_url: immers.png
+
+  tags:
+    - serving
+    - cloud
+
+  url: https://en.immers.cloud/
+
+  description: |
+    Immers.cloud offers GPU cloud servers for rent, 
+    providing high-performance computing solutions suitable 
+    for a variety of applications including games, rendering, 
+    streaming, 3D graphics, artificial intelligence, and blockchain. 
+    Their servers are equipped with modern RTX and Tesla graphics 
+    accelerators and offer flexible billing options.
+
+  features:
+    - "Versatile GPU Servers"
+    - "Per-second billing for isolated resources to ensure maximum performance."
+    - "Options for customizing servers with different GPU models and specifications."
