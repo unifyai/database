@@ -1,7 +1,7 @@
 arc-compute:
   name: "Arc Compute"
 
-  image_url: https://avatars.githubusercontent.com/u/91487685?s=200&v=4
+  image_url: arccompute.png
 
   tags:
     - serving
