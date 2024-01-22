@@ -10,7 +10,8 @@ triton:
     - mit
 
   temperature: hot
-  url: https://openai.com/research/triton
+  url: https://github.com/openai/triton
+  release: "2014-08-30"
 
   description: |
     Triton is an open-source programming language and compiler designed for the purpose

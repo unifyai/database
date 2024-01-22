@@ -11,6 +11,7 @@ squeezellm:
     - mit
 
   url: https://github.com/SqueezeAILab/SqueezeLLM
+  release: "2023-06-12"
 
   description: |
     SqueezeLLM is a post-training quantization framework that incorporates a new method called

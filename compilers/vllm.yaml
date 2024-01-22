@@ -11,7 +11,8 @@ vllm:
     - apache-2.0
 
   temperature: hot
-  url: https://vllm.ai
+  url: https://github.com/vllm-project/vllm
+  release: "2023-02-09"
 
   description: |
     vLLM is a recently released LLM inference engine which utilizes a new algorithm

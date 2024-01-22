@@ -16,6 +16,7 @@ tensorly:
 
   temperature: hot
   url: https://github.com/tensorly/tensorly
+  release: "2016-10-21"
 
   description: |
     TensorLy is a Python library that aims at making tensor learning simple and accessible.

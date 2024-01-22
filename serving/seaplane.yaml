@@ -1,0 +1,12 @@
+seaplane:
+  name: "SeaPlane"
+
+  image_url: seaplane.png
+
+  tags:
+    - serving
+    - ml-ops
+
+  url: https://seaplane.io/
+
+  temperature: neutral

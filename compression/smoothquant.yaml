@@ -12,6 +12,7 @@ smoothquant:
 
   temperature: hot
   url: https://github.com/mit-han-lab/smoothquant
+  release: "2022-11-17"
 
   description: |
     8 bit Weight and Activation Quantization for LLMs

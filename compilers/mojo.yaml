@@ -10,6 +10,7 @@ mojo:
 
   temperature: hot
   url: https://www.modular.com/mojo
+  # release
 
   description: |
     Mojo is not just a compiler, but rather an entirely new programming language

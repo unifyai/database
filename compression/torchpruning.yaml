@@ -12,6 +12,7 @@ torchpruning:
 
   temperature: hot
   url: https://github.com/VainF/Torch-Pruning
+  release: "2019-12-15"
 
   description: |
     Torch-Pruning(TP) is a library for sturtured pruning that works with a wide range of deep neural networks including LLMs, Diffusion Models,

@@ -1,8 +1,6 @@
 stable-fast:
   name: "stable-fast"
 
-  image_url: none
-
   tags:
     - compilers
     - framework
@@ -10,7 +8,8 @@ stable-fast:
 
   temperature: hot
   url: https://github.com/chengzeyi/stable-fast
-
+  release: "2023-10-17"
+  
   description: |
     StableFast is a cutting-edge, ultra-lightweight inference optimization framework designed 
     specifically for HuggingFace Diffusers on NVIDIA GPUs. It stands out for its exceptional 
