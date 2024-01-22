@@ -1,7 +1,7 @@
 cirrascale:
 name: "CirraScale Cloud Services"
 
-  image_url: https://s3-us-west-2.amazonaws.com/cbi-image-service-prd/modified/203a6320-a7ce-4342-b457-8d66b87a6a2b.png
+  image_url: cirrascale.png
 
   tags:
     - serving
