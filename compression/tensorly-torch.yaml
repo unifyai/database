@@ -11,6 +11,7 @@ tensorly-torch:
 
   temperature: hot
   url: https://github.com/tensorly/torch
+  release: "2020-12-10"
 
   description: |
     TensorLy-Torch is a Python library for deep tensor networks that builds on top of TensorLy and PyTorch.

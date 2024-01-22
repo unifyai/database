@@ -10,8 +10,9 @@ pi:
     - apache-2.0
 
   temperature: neutral
-  url: https://github.com/nod-ai/PI#installing
-
+  url: https://github.com/nod-ai/PI
+  release: "2022-11-14"
+  
   description: |
     PI is a lightweight Python frontend for MLIR, specializing in converting PyTorch
     modules into their corresponding Torch-MLIR format, without any having any

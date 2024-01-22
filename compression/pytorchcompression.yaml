@@ -11,6 +11,7 @@ pytorchcompression:
 
   temperature: hot
   url: https://github.com/pytorch/pytorch
+  # release:
 
   description: |
     Pytorch has built in support for quantization as well as pruning under it's model

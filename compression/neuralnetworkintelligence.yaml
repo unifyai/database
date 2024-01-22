@@ -12,6 +12,7 @@ neuralnetworkintelligence:
 
   temperature: neutral
   url: https://github.com/microsoft/nni
+  release: "2018-06-01"
 
   description: |
     NNI automates feature engineering, neural architecture search, hyperparameter tuning,

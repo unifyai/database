@@ -9,6 +9,7 @@ tiramisu:
 
   temperature: cold
   url: https://github.com/facebookresearch/TensorComprehensions
+  release: "2018-02-06"
 
   description: |
     Tensor Comprehensions (TC) is a C++ library, developed by Meta, that automates the
