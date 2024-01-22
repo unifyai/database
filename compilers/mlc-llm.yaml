@@ -9,7 +9,8 @@ mlc-llm:
     - apache-2.0
 
   temperature: hot
-  url: https://llm.mlc.ai
+  url: https://github.com/mlc-ai/mlc-llm
+  release: "2023-04-29"
 
   description: |
     MLC LLM, which stands for Machine Learning Compilation for Large Language Models, is

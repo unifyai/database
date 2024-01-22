@@ -10,7 +10,8 @@ tensorrt:
     - apache-2.0
 
   temperature: hot
-  url: https://developer.nvidia.com/tensorrt
+  url: https://github.com/NVIDIA/TensorRT
+  release: "2019-05-02"
 
   description: |
     TensorRT is a high-performance deep learning inference library developed by NVIDIA.

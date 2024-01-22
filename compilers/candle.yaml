@@ -12,7 +12,8 @@ candle:
 
   temperature: hot
   url: https://github.com/huggingface/candle
-
+  release: "2023-06-19"
+  
   description: |
     Candle is a Rust-based, minimalist machine learning framework maintained by
     HuggingFace and designed to offer efficient serverless inference. Though recently

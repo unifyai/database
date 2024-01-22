@@ -10,7 +10,8 @@ shark:
     - apache-2.0
 
   temperature: hot
-  url: https://github.com/nod-ai/SHARK/tree/main
+  url: https://github.com/nod-ai/SHARK
+  release: "2022-03-05"
 
   description: |
     SHARK is a high performance ML compiler and runtime, developed by Nod.ai, a

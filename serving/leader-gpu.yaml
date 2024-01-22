@@ -1,0 +1,23 @@
+leader-gpu:
+  name: "LeaderGPU"
+
+  image_url: leadergpu.png
+
+  tags:
+    - serving
+    - cloud
+
+  url: https://www.leadergpu.com/
+
+  description: |
+    LeaderGPU provides GPU server rentals for advanced computing tasks such as deep learning. 
+    With a range of server configurations and a selection of modern GPUs, they cater to various 
+    computational needs, focusing on delivering high-performance solutions for data-intensive tasks.
+
+
+  features:
+    - "Diverse GPU Selection."
+    - "Servers designed to scale with user requirements, offering flexibility for a range of projects."
+    - "Ensures rapid data transfer and communication for intensive computational tasks."
+    - "Advanced Security Measures."
+    - "24/7 Technical Support."

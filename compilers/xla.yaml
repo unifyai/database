@@ -10,6 +10,7 @@ xla:
 
   temperature: hot
   url: https://www.tensorflow.org/xla
+  # release:
 
   description: |
     XLA, which stands for Accelerated Linear Algebra, is a domain-specific compiler,

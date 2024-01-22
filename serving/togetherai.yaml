@@ -1,0 +1,14 @@
+together-ai:
+  name: "Together AI"
+
+  image_url: together-ai.png
+
+  tags:
+    - serving
+    - inference
+    - training
+    - model-endpoint
+
+  url: https://www.together.ai/
+
+  temperature: neutral

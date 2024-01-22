@@ -1,0 +1,33 @@
+trailmet:
+  name: "Trailmet"
+
+  tags:
+    - compression
+    - distillation
+    - quantization
+    - pytorch
+    - open-source
+    - pruning
+    - binarization
+    - mit
+
+  url: https://github.com/Nahush26/trailmet
+  release: "2023-03-02"
+
+  description: |
+    Transmute AI Model Efficiency Toolkit (Trailmet) is a model efficiency toolkit for compressing deep learning models. 
+    It supports a range of unique knowledge distillation, pruning, quantization and binarization algorithms.
+
+  features:
+    - "Response KD"
+    - "Factor Transfer"
+    - "Attention Transfer"
+    - "Chipnet"
+    - "Network Slimming"
+    - "Growth Regularization"
+    - "BitSplit"
+    - "BRECQ"
+    - "LAPQ"
+    - "BiRealNet"
+    - "ReActNet"
+    - "BNN-BN"
