@@ -9,7 +9,8 @@ tinygrad:
     - mit
 
   temperature: hot
-  url: https://tinygrad.org
+  url: https://github.com/tinygrad/tinygrad
+  release: "2020-10-18"
 
   description: |
     tinygrad is a complete, mini deep learning framework, with syntax very similar to

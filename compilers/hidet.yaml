@@ -10,6 +10,7 @@ hidet:
 
   temperature: hot
   url: https://github.com/hidet-org/hidet
+  release: "2022-01-04"
 
   description: |
     Hidet is an open-source deep learning compiler, primarily written in Python,
