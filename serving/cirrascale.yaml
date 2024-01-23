@@ -1,5 +1,5 @@
 cirrascale:
-name: "CirraScale Cloud Services"
+  name: "CirraScale"
 
   image_url: cirrascale.png
 
@@ -16,7 +16,6 @@ name: "CirraScale Cloud Services"
     ensuring high throughput and performance for various AI tasks. Their platform 
     is designed to cater to the specific needs of AI development, training, and 
     inference workloads.
-
 
   features:
     - "Supports a range of leading AI accelerators in one cloud."
