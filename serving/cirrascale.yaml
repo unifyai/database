@@ -1,0 +1,23 @@
+cirrascale:
+  name: "CirraScale"
+
+  image_url: cirrascale.png
+
+  tags:
+    - serving
+    - cloud
+
+  url: https://cirrascale.com/
+
+  description: |
+    Cirrascale provides cloud-based solutions tailored for high-performance AI
+    and machine learning applications. They offer a range of cloud services 
+    featuring advanced GPUs and AI accelerators from major manufacturers, 
+    ensuring high throughput and performance for various AI tasks. Their platform 
+    is designed to cater to the specific needs of AI development, training, and 
+    inference workloads.
+
+  features:
+    - "Supports a range of leading AI accelerators in one cloud."
+    - "Tailored for AI and machine learning applications."
+    - "Offers tailored multi-GPU server, storage, and GPU options to optimize performance."
