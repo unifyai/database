@@ -1,0 +1,23 @@
+bentoml:
+  name: "BentoML"
+
+  image_url: bentoml.png
+
+  tags:
+    - serving
+    - cloud
+    - open-source
+
+  url: https://www.bentoml.com/
+
+  description: |
+    BentoML is a platform designed to streamline the creation, deployment, and scaling of AI applications. 
+    It offers an efficient way to work with pre-trained models and deploy them quickly, focusing on both 
+    ease of use and performance optimization.
+
+
+  features:
+    - "Unified AI Application Framework."
+    - "Provides a system for managing and versioning models."
+    - "Supports various deployment options including HTTP, gRPC, and batch inference."
+    - "Enables quick and easy development of AI applications."
