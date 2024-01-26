@@ -1,0 +1,13 @@
+torchdistill:
+  name: "torchdistill"
+
+  image_url: https://raw.githubusercontent.com/yoshitomo-matsubara/torchdistill/main/docs/source/_static/images/logo-color.png
+
+  tags:
+    - compression
+    - distillation
+    - open-source
+    - mit
+
+  temperature: hot
+  url: https://github.com/yoshitomo-matsubara/torchdistill
