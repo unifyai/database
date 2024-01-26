@@ -4,9 +4,10 @@ ray:
   image_url: ray.png
 
   tags:
+    - compilers
     - framework
+    - apache-2.0
     - high-throughput
-    - apache-2.0 
 
   temperature: hot
   url: https://github.com/ray-project/ray
