@@ -1,0 +1,27 @@
+datacrunch:
+  name: "DataCrunch"
+
+  image_url: datacrunch.png
+
+  tags:
+    - serving
+    - cloud
+    - hardware
+    - cluster
+    - nvidia
+
+  url: https://datacrunch.io
+
+  description: |
+    DataCrunch offers high-performance GPU instances and serverless inference services, 
+    focusing on providing efficient and scalable solutions for machine learning and AI 
+    applications. Their offerings include custom-built GPU clusters, on-demand GPU 
+    instances, and serverless model deployment, all powered by renewable energy sources.
+
+
+  features:
+    - "Tailored GPU clusters with advanced software stacks."
+    - "On-Demand GPU Instances."
+    - "Serverless Inference."
+    - "Infrastructure powered entirely by renewable energy."
+    - "Emphasis on reliability with a high uptime record and ISO27001 certification."
