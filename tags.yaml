@@ -143,6 +143,7 @@ tags:
       tags:
         - compilers
         - compression
+        - profiler
     tags:
       - apache-2.0
       - mit
