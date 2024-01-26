@@ -1,0 +1,19 @@
+deepview:
+  name: "DeepView"
+
+  image_url: placeholder.png
+
+  # List of tags. (Optional)
+  # see https://github.com/unifyai/landscape/blob/main/tags.yaml for a complete list of tags.
+  # Make sure if you added a new tag to add in tags.yaml. Tags must follow kebab-case.
+  tags:
+    - profiler
+    - pytorch
+    - open-source
+    - apache-2.0
+
+  temperature: cold
+
+  url: https://centml.ai/deepview/
+
+  github_url: https://github.com/CentML/DeepView.Profile
