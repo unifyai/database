@@ -22,6 +22,7 @@ tags:
       - compression
       - hardware
       - serving
+      - profiler
 
   compilers:
     description: "Compilers specific tags"
@@ -76,6 +77,15 @@ tags:
       - cluster
       - cloud
       - ml-ops
+
+  profiler:
+    description: "Profiler specific tags"
+    min: 0
+    depends_on:
+      tags:
+        - profiler
+    tags:
+      - profiler
 
   modality:
     description: "Type of model specific tags"
