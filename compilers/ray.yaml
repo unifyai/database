@@ -1,0 +1,12 @@
+ray:
+  name: "Ray"
+
+  image_url: ray.png
+
+  tags:
+    - framework
+    - high-throughput
+    - apache-2.0 
+
+  temperature: hot
+  url: https://github.com/ray-project/ray
