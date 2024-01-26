@@ -1,0 +1,27 @@
+latitude:
+  name: "Latitude.sh"
+
+  image_url: latitude.png
+
+  tags:
+    - serving
+    - cloud
+    - hardware
+    - custom-hardware
+    - cluster
+
+  url: https://www.latitude.sh/
+
+  description: |
+    Latitude.sh is a cloud services provider specializing in high-performance, 
+    cost-effective infrastructure tailored for applications and AI workloads. 
+    They offer scalable solutions ranging from bare metal servers to dedicated 
+    GPU clusters for AI and HPC workloads, emphasizing developer-centric features 
+    and global reach.
+
+  features:
+    - "Rapidly deployable, high-performance bare metal servers."
+    - "Dedicated GPU clusters for machine learning and high-performance computing."
+    - "Container-based cloud services for model fine-tuning and inference."
+    - "Tailored solutions for specialized workloads."
+
