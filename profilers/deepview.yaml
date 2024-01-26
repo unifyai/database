@@ -9,7 +9,7 @@ deepview:
   tags:
     - profiler
     - pytorch
-    - opensource
+    - open-source
     - apache-2.0
 
   temperature: cold
