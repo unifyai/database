@@ -8,6 +8,7 @@ bentoml:
     - cloud
     - inference
     - open-source
+    - apache-2.0
 
   url: https://www.bentoml.com/
 
