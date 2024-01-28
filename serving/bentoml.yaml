@@ -6,6 +6,7 @@ bentoml:
   tags:
     - serving
     - cloud
+    - inference
     - open-source
 
   url: https://www.bentoml.com/
