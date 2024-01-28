@@ -1,0 +1,23 @@
+vultr:
+  name: "VULTR"
+
+  image_url: vultr.png
+
+  tags:
+    - serving
+    - cloud
+
+  url: https://www.vultr.com/
+
+  description: |
+    Vultr is a global cloud hosting provider, known for its simplicity and high performance. 
+    They specialize in offering a wide range of cloud services, including compute instances, 
+    bare metal, and block storage. Vultr aims to provide reliable and scalable cloud solutions 
+    that are easy to deploy and manage, making them suitable for a variety of applications.
+
+
+  features:
+    - "Wide Range of Cloud Services."
+    - "Features a broad network with numerous data centers worldwide."
+    - "User-friendly interface for quick setup and management."
+    - "Provides options to tailor services to specific needs."
