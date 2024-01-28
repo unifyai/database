@@ -4,7 +4,8 @@ ray:
   image_url: ray.png
 
   tags:
-    - compilers
+    - serving
+    - ml-ops
     - framework
     - apache-2.0
     - high-throughput
