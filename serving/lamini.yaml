@@ -7,5 +7,6 @@ lamini:
     - serving
     - inference
     - training
+    - llm
 
   url: https://www.lamini.ai/
