@@ -15,7 +15,8 @@ sparseml:
     - apache-2.0
 
   temperature: hot
-  url: https://docs.neuralmagic.com/sparseml/
+  url: https://github.com/neuralmagic/sparseml
+  release: "2020-12-11"
 
   description: |
     SparseML is an open source library developed and maintained by

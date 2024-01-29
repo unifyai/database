@@ -14,6 +14,7 @@ optimum:
 
   temperature: neutral
   url: https://github.com/huggingface/optimum
+  release: "2021-07-20"
 
   description: |
     🤗 Optimum is an extension of 🤗 Transformers and Diffusers, providing a set of optimization

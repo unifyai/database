@@ -8,7 +8,8 @@ glow:
     - apache-2.0
 
   temperature: cold
-  url: https://ai.meta.com/tools/glow/
+  url: https://github.com/pytorch/glow
+  release: "2017-09-29"
 
   description: |
     Glow, which is an abbreviation for Graph-Lowering, consists of a strongly typed,

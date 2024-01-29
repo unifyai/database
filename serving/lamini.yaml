@@ -1,0 +1,12 @@
+lamini:
+  name: "Lamini"
+
+  image_url: lamini.png
+
+  tags:
+    - serving
+    - inference
+    - training
+    - llm
+
+  url: https://www.lamini.ai/

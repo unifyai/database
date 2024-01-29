@@ -10,8 +10,9 @@ oneflow:
     - apache-2.0
 
   temperature: hot
-  url: https://docs.oneflow.org/en/master/index.html
-
+  url: https://github.com/OneFlow-Inc/oneflow
+  release: "2017-02-11"
+  
   description: |
     OneFlow is a deep learning framework that offers a unified solution for both deep learning 
     and traditional machine learning tasks. It stands out for its efficient approach to distributed 

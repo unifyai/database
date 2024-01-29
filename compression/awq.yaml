@@ -13,6 +13,7 @@ llm-awq:
 
   temperature: hot
   url: https://github.com/mit-han-lab/llm-awq
+  release: "2023-06-01"
 
   description: |
     Efficient and accurate low-bit weight quantization (INT3/4) for LLMs, supporting

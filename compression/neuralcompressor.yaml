@@ -18,6 +18,7 @@ neuralcompressor:
 
   temperature: hot
   url: https://github.com/intel/neural-compressor
+  release: "2020-07-21"
 
   description: |
     Intel® Neural Compressor aims to provide popular model compression techniques such

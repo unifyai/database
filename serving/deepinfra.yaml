@@ -1,0 +1,11 @@
+deepinfra:
+  name: "Deepinfra"
+
+  image_url: deepinfra.png
+
+  tags:
+    - serving
+    - inference
+    - model-endpoint
+
+  url: https://deepinfra.com/

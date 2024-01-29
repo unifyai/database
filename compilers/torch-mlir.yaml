@@ -11,6 +11,7 @@ torch-mlir:
 
   temperature: hot
   url: https://github.com/llvm/torch-mlir
+  release: "2020-07-30"
 
   description: |
     Torch-MLIR is a project that seeks to bridge PyTorch with the MLIR (Multi-Level

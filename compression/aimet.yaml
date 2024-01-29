@@ -16,6 +16,7 @@ aimet:
 
   temperature: neutral
   url: https://github.com/quic/aimet
+  release: "2020-04-21"
 
   description: |
     AIMET is a library that provides advanced model quantization and compression

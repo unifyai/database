@@ -1,0 +1,11 @@
+gooseai:
+  name: "GooseAI"
+
+  image_url: gooseai.png
+
+  tags:
+    - serving
+    - inference
+    - model-endpoint
+
+  url: https://goose.ai/

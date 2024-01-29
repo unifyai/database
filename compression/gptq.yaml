@@ -10,6 +10,7 @@ gptq:
 
   temperature: hot
   url: https://github.com/IST-DASLab/gptq
+  release: "2022-10-19"
 
   description: |
     GPTQ is a technique for post-training quantization, which is used to quantize large language models (LLMs) such as GPT.

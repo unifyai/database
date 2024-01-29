@@ -1,0 +1,14 @@
+ray:
+  name: "Ray"
+
+  image_url: ray.png
+
+  tags:
+    - serving
+    - ml-ops
+    - framework
+    - apache-2.0
+    - high-throughput
+
+  temperature: hot
+  url: https://github.com/ray-project/ray
