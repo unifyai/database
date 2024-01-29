@@ -1,7 +1,7 @@
 Cloud_AI_100:
   name: "Cloud AI 100"
 
-  image_url: placeholder.png
+  image_url: qualcomm_ai100.png
 
   tags:
     - hardware
