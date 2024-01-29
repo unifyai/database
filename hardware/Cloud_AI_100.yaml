@@ -1,0 +1,11 @@
+Cloud_AI_100:
+  name: "Cloud AI 100"
+
+  image_url: qualcomm_ai100.png
+
+  tags:
+    - hardware
+    - custom-hardware
+    - edge
+
+  url: https://www.qualcomm.com/products/technology/processors/cloud-artificial-intelligence/cloud-ai-100
