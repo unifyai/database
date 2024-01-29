@@ -1,0 +1,23 @@
+paperspace:
+  name: "Seldon"
+
+  image_url: seldon.png
+
+  tags:
+    - serving
+    - ml-ops
+    - cloud
+
+  url: https://www.seldon.io
+
+  description: |
+    Seldon is a product by Seldon Technologies Limited and is an MLOps platform that facilitates the deployment, scaling, and management of machine learning models at scale.
+    It is designed to streamline the operational aspects of deploying models in production, offering features such as model serving, monitoring, and scaling. 
+    Seldon enables users to deploy models on Kubernetes clusters, providing a robust and scalable infrastructure for machine learning applications. 
+    With its focus on supporting a variety of machine learning frameworks and languages, Seldon aims to simplify the complexities associated with deploying and managing machine learning models in real-world, production environments.
+
+
+  features:
+    - "Production-Ready Inference Servers"
+    - "Advanced Experimentation and Traffic Splitting"
+    - "Optimize Infrastructure Resource Allocation"
