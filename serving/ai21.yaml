@@ -1,0 +1,11 @@
+ai21studio:
+  name: "AI21studio"
+
+  image_url: ai21studio.png
+
+  tags:
+    - serving
+    - inference
+    - model-endpoint
+
+  url: https://www.ai21.com/studio
