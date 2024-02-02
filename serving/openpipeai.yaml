@@ -1,0 +1,16 @@
+openpipe:
+  name: "OpenPipe"
+
+  image_url: https://framerusercontent.com/images/JqGGfX6d2TDzlnNLJJmwDXWo.png?scale-down-to=512
+
+  tags:
+    - serving
+    - inference
+    - training
+    - llm
+
+  temperature: neutral
+
+  url: https://openpipe.ai/
+
+  github_url: https://github.com/openpipe/openpipe
