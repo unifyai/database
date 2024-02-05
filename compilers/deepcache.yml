@@ -1,0 +1,11 @@
+deepcache:
+  name: "Deepcache"
+
+  image_url: none
+
+  tags:
+    - diffusion
+    - inference
+    - caching
+    
+  url: https://horseee.github.io/Diffusion_DeepCache/
