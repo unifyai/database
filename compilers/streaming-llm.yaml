@@ -1,0 +1,14 @@
+streaming-llm:
+  name: "streaming-llm"
+
+  image_url: streaming-llm.png 
+
+  tags:
+    - compilers
+    - framework
+    - inference-optimizer
+    - mit
+
+  temperature: hot
+
+  url: https://github.com/mit-han-lab/streaming-llm
