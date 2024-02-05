@@ -1,0 +1,16 @@
+pynetspresso:
+  name: "PyNetsPresso"
+
+  image_url: https://py.netspresso.ai/wp-content/uploads/2023/08/pynp_og_img.png
+
+  tags:
+    - compression
+    - pruning
+    - tensorization
+    - pytorch
+    - onnx
+    - open-source
+    - apache-2.0
+
+  temperature: hot
+  url: https://github.com/Nota-NetsPresso/PyNetsPresso
