@@ -1,0 +1,16 @@
+dstack:
+  name: "dstack"
+
+  image_url: dstack.png
+
+  tags:
+    - serving
+    - ml-ops
+    - cloud
+    - nvidia
+    - open-source
+    - other-license
+    - high-throughput
+
+  temperature: hot
+  url: https://dstack.ai/
