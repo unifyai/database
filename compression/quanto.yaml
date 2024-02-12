@@ -1,0 +1,12 @@
+quanto:
+  name: "quanto"
+
+  image_url: https://emojiisland.com/cdn/shop/products/Hugging_Face_Emoji_2028ce8b-c213-4d45-94aa-21e1a0842b4d_grande.png?v=1571606036
+
+  tags:
+    - compression
+    - quantization
+    - apache-2.0
+
+  temperature: hot
+  url: https://github.com/huggingface/quanto
