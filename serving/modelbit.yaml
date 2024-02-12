@@ -1,0 +1,14 @@
+modelbit:
+  name: "modelbit"
+
+  image_url: https://assets-global.website-files.com/61ddc75d84e094baf5b1bc86/61ddc79c36d55725e1b05f9e_logodarkbackground.svg
+
+  tags:
+    - serving
+    - model-endpoint
+    - inference
+    - training
+
+  temperature: neutral
+
+  url: https://www.modelbit.com/
