@@ -262,13 +262,13 @@ def generate_sitemap(database: dict[str, list[str]]):
     url = ET.SubElement(root, "url")
     ET.SubElement(url, "loc").text = SITE_URL_PREFIX
 
-    for entry in database.values():
-        url = ET.SubElement(root, "url")
-        ET.SubElement(url, "loc").text = entry[SITE_URL_ENTRY_NAME]
-        ET.SubElement(url, "lastmod").text = (
-            datetime.datetime.fromtimestamp(int(entry[LAST_MOD_ENTRY_NAME])).isoformat()
-            + "+00:00"
-        )
+    # for entry in database.values():
+    #     url = ET.SubElement(root, "url")
+    #     ET.SubElement(url, "loc").text = entry[SITE_URL_ENTRY_NAME]
+    #     ET.SubElement(url, "lastmod").text = (
+    #         datetime.datetime.fromtimestamp(int(entry[LAST_MOD_ENTRY_NAME])).isoformat()
+    #         + "+00:00"
+    #     )
 
     tree = ET.ElementTree(root)
     tree.write("build/sitemap.xml", encoding="utf-8", xml_declaration=True)
