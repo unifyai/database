@@ -1,0 +1,14 @@
+flashinfer:
+  name: "flashinfer"
+
+  image_url: image.png
+
+  tags:
+    - compilers
+    - framework
+    - apache-2.0
+
+  temperature: hot
+
+  url: https://flashinfer.ai/2024/02/02/introduce-flashinfer.html
+  
