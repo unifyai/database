@@ -1,0 +1,13 @@
+pallas:
+  name: "Pallas"
+  
+  image_url: none
+
+  tags:
+    - jax
+    - triton
+    - kernels
+    - tpu
+
+  url: https://jax.readthedocs.io/en/latest/pallas/index.html
+  
